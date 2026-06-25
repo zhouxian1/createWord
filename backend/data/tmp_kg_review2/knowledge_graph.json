@@ -1,0 +1,2893 @@
+{
+  "entities": {
+    "document_软件需求规格说明_9921": {
+      "type": "document",
+      "name": "软件需求规格说明",
+      "properties": {
+        "code": "SRS",
+        "category": "development",
+        "complexity": "high",
+        "description": "描述软件系统的功能需求、性能需求、接口需求等"
+      }
+    },
+    "chapter_范围_8101": {
+      "type": "chapter",
+      "name": "范围",
+      "properties": {
+        "number": "1",
+        "level": 1,
+        "doc_code": "SDL"
+      }
+    },
+    "chapter_标识_4355": {
+      "type": "chapter",
+      "name": "标识",
+      "properties": {
+        "number": "1.1",
+        "level": 2,
+        "doc_code": "SDL"
+      }
+    },
+    "chapter_系统概述_9392": {
+      "type": "chapter",
+      "name": "系统概述",
+      "properties": {
+        "number": "1.2",
+        "level": 2,
+        "doc_code": "SDL"
+      }
+    },
+    "chapter_文档概述_3208": {
+      "type": "chapter",
+      "name": "文档概述",
+      "properties": {
+        "number": "1.3",
+        "level": 2,
+        "doc_code": "STRP"
+      }
+    },
+    "chapter_引用文件_8861": {
+      "type": "chapter",
+      "name": "引用文件",
+      "properties": {
+        "number": "2",
+        "level": 1,
+        "doc_code": "STRP"
+      }
+    },
+    "chapter_需求_3191": {
+      "type": "chapter",
+      "name": "需求",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "SRS"
+      }
+    },
+    "chapter_要求状态和方法_8508": {
+      "type": "chapter",
+      "name": "要求状态和方法",
+      "properties": {
+        "number": "3.1",
+        "level": 2,
+        "doc_code": "SRS"
+      }
+    },
+    "chapter_软件需求_1171": {
+      "type": "chapter",
+      "name": "软件需求",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "SRS"
+      }
+    },
+    "chapter_合格性规定_3788": {
+      "type": "chapter",
+      "name": "合格性规定",
+      "properties": {
+        "number": "3.3",
+        "level": 2,
+        "doc_code": "SRS"
+      }
+    },
+    "chapter_需求可追踪性_9099": {
+      "type": "chapter",
+      "name": "需求可追踪性",
+      "properties": {
+        "number": "6",
+        "level": 1,
+        "doc_code": "SDD"
+      }
+    },
+    "chapter_合格性验证_2697": {
+      "type": "chapter",
+      "name": "合格性验证",
+      "properties": {
+        "number": "4",
+        "level": 1,
+        "doc_code": "SRS"
+      }
+    },
+    "chapter_注_4202": {
+      "type": "chapter",
+      "name": "注",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "SDL"
+      }
+    },
+    "document_软件设计说明_3911": {
+      "type": "document",
+      "name": "软件设计说明",
+      "properties": {
+        "code": "SDD",
+        "category": "development",
+        "complexity": "high",
+        "description": "描述软件系统的体系结构设计和详细设计"
+      }
+    },
+    "chapter_系统级设计决策_1363": {
+      "type": "chapter",
+      "name": "系统级设计决策",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "SDD"
+      }
+    },
+    "chapter_体系结构设计_7324": {
+      "type": "chapter",
+      "name": "体系结构设计",
+      "properties": {
+        "number": "4.1",
+        "level": 2,
+        "doc_code": "SPS"
+      }
+    },
+    "chapter_体系结构_2285": {
+      "type": "chapter",
+      "name": "体系结构",
+      "properties": {
+        "number": "4.1",
+        "level": 2,
+        "doc_code": "SDD"
+      }
+    },
+    "chapter_全局数据结构_5701": {
+      "type": "chapter",
+      "name": "全局数据结构",
+      "properties": {
+        "number": "4.2",
+        "level": 2,
+        "doc_code": "SDD"
+      }
+    },
+    "chapter_接口设计_8024": {
+      "type": "chapter",
+      "name": "接口设计",
+      "properties": {
+        "number": "4.3",
+        "level": 2,
+        "doc_code": "SDD"
+      }
+    },
+    "chapter_详细设计_880": {
+      "type": "chapter",
+      "name": "详细设计",
+      "properties": {
+        "number": "4.2",
+        "level": 2,
+        "doc_code": "SPS"
+      }
+    },
+    "chapter_模块详细设计_7247": {
+      "type": "chapter",
+      "name": "模块详细设计",
+      "properties": {
+        "number": "5.1",
+        "level": 2,
+        "doc_code": "SDD"
+      }
+    },
+    "document_软件开发计划_3291": {
+      "type": "document",
+      "name": "软件开发计划",
+      "properties": {
+        "code": "SVP",
+        "category": "management",
+        "complexity": "high",
+        "description": "描述软件开发活动的计划安排"
+      }
+    },
+    "chapter_软件开发过程_6308": {
+      "type": "chapter",
+      "name": "软件开发过程",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "SVP"
+      }
+    },
+    "chapter_软件开发模型_4770": {
+      "type": "chapter",
+      "name": "软件开发模型",
+      "properties": {
+        "number": "3.1",
+        "level": 2,
+        "doc_code": "SVP"
+      }
+    },
+    "chapter_软件开发方法_3462": {
+      "type": "chapter",
+      "name": "软件开发方法",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "SVP"
+      }
+    },
+    "chapter_软件开发标准_9137": {
+      "type": "chapter",
+      "name": "软件开发标准",
+      "properties": {
+        "number": "3.3",
+        "level": 2,
+        "doc_code": "SVP"
+      }
+    },
+    "chapter_软件开发计划_3291": {
+      "type": "chapter",
+      "name": "软件开发计划",
+      "properties": {
+        "number": "4",
+        "level": 1,
+        "doc_code": "SVP"
+      }
+    },
+    "chapter_活动与里程碑_7875": {
+      "type": "chapter",
+      "name": "活动与里程碑",
+      "properties": {
+        "number": "4.1",
+        "level": 2,
+        "doc_code": "SVP"
+      }
+    },
+    "chapter_进度_8843": {
+      "type": "chapter",
+      "name": "进度",
+      "properties": {
+        "number": "4",
+        "level": 1,
+        "doc_code": "SVVP"
+      }
+    },
+    "chapter_资源估计_6272": {
+      "type": "chapter",
+      "name": "资源估计",
+      "properties": {
+        "number": "4.3",
+        "level": 2,
+        "doc_code": "SVP"
+      }
+    },
+    "chapter_项目管理_7637": {
+      "type": "chapter",
+      "name": "项目管理",
+      "properties": {
+        "number": "5",
+        "level": 1,
+        "doc_code": "SVP"
+      }
+    },
+    "chapter_组织与职责_4032": {
+      "type": "chapter",
+      "name": "组织与职责",
+      "properties": {
+        "number": "3.1",
+        "level": 2,
+        "doc_code": "SQAP"
+      }
+    },
+    "chapter_风险管理_8933": {
+      "type": "chapter",
+      "name": "风险管理",
+      "properties": {
+        "number": "5.2",
+        "level": 2,
+        "doc_code": "SVP"
+      }
+    },
+    "chapter_配置管理_8788": {
+      "type": "chapter",
+      "name": "配置管理",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "SCS"
+      }
+    },
+    "chapter_质量保证_4205": {
+      "type": "chapter",
+      "name": "质量保证",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "SQAP"
+      }
+    },
+    "document_软件验证与确认计划_442": {
+      "type": "document",
+      "name": "软件验证与确认计划",
+      "properties": {
+        "code": "SVVP",
+        "category": "verification",
+        "complexity": "high",
+        "description": "描述软件验证与确认活动的计划"
+      }
+    },
+    "chapter_验证与确认_9854": {
+      "type": "chapter",
+      "name": "验证与确认",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "SVVP"
+      }
+    },
+    "chapter_验证与确认活动_2711": {
+      "type": "chapter",
+      "name": "验证与确认活动",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "SVVP"
+      }
+    },
+    "chapter_工具与技术_7479": {
+      "type": "chapter",
+      "name": "工具与技术",
+      "properties": {
+        "number": "3.3",
+        "level": 2,
+        "doc_code": "SQAP"
+      }
+    },
+    "chapter_记录_1505": {
+      "type": "chapter",
+      "name": "记录",
+      "properties": {
+        "number": "3.4",
+        "level": 2,
+        "doc_code": "SQAP"
+      }
+    },
+    "document_软件测试报告_2232": {
+      "type": "document",
+      "name": "软件测试报告",
+      "properties": {
+        "code": "STR",
+        "category": "testing",
+        "complexity": "high",
+        "description": "描述软件测试的执行情况和结果"
+      }
+    },
+    "chapter_测试概述_9676": {
+      "type": "chapter",
+      "name": "测试概述",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "STR"
+      }
+    },
+    "chapter_测试环境_745": {
+      "type": "chapter",
+      "name": "测试环境",
+      "properties": {
+        "number": "3.1",
+        "level": 2,
+        "doc_code": "STP"
+      }
+    },
+    "chapter_测试结果概述_7868": {
+      "type": "chapter",
+      "name": "测试结果概述",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "STR"
+      }
+    },
+    "chapter_测试完整性与充分性_1605": {
+      "type": "chapter",
+      "name": "测试完整性与充分性",
+      "properties": {
+        "number": "3.3",
+        "level": 2,
+        "doc_code": "STR"
+      }
+    },
+    "chapter_测试结果_4065": {
+      "type": "chapter",
+      "name": "测试结果",
+      "properties": {
+        "number": "4",
+        "level": 1,
+        "doc_code": "STR"
+      }
+    },
+    "chapter_测试用例执行结果_13": {
+      "type": "chapter",
+      "name": "测试用例执行结果",
+      "properties": {
+        "number": "4.1",
+        "level": 2,
+        "doc_code": "STR"
+      }
+    },
+    "chapter_需求覆盖分析_2381": {
+      "type": "chapter",
+      "name": "需求覆盖分析",
+      "properties": {
+        "number": "4.2",
+        "level": 2,
+        "doc_code": "STR"
+      }
+    },
+    "chapter_偏差与异常_5650": {
+      "type": "chapter",
+      "name": "偏差与异常",
+      "properties": {
+        "number": "4.3",
+        "level": 2,
+        "doc_code": "STR"
+      }
+    },
+    "chapter_测试评价_9252": {
+      "type": "chapter",
+      "name": "测试评价",
+      "properties": {
+        "number": "5",
+        "level": 1,
+        "doc_code": "STR"
+      }
+    },
+    "chapter_测试结论_1775": {
+      "type": "chapter",
+      "name": "测试结论",
+      "properties": {
+        "number": "5.1",
+        "level": 2,
+        "doc_code": "STR"
+      }
+    },
+    "chapter_改进建议_7105": {
+      "type": "chapter",
+      "name": "改进建议",
+      "properties": {
+        "number": "5.2",
+        "level": 2,
+        "doc_code": "STR"
+      }
+    },
+    "document_软件测试计划_6987": {
+      "type": "document",
+      "name": "软件测试计划",
+      "properties": {
+        "code": "STP",
+        "category": "testing",
+        "complexity": "medium",
+        "description": "描述软件测试活动的计划安排"
+      }
+    },
+    "chapter_测试_1693": {
+      "type": "chapter",
+      "name": "测试",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "STP"
+      }
+    },
+    "chapter_测试类型_4781": {
+      "type": "chapter",
+      "name": "测试类型",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "STP"
+      }
+    },
+    "chapter_测试项_5818": {
+      "type": "chapter",
+      "name": "测试项",
+      "properties": {
+        "number": "3.3",
+        "level": 2,
+        "doc_code": "STP"
+      }
+    },
+    "chapter_测试进度_3191": {
+      "type": "chapter",
+      "name": "测试进度",
+      "properties": {
+        "number": "3.4",
+        "level": 2,
+        "doc_code": "STP"
+      }
+    },
+    "document_软件配置管理计划_1958": {
+      "type": "document",
+      "name": "软件配置管理计划",
+      "properties": {
+        "code": "SCS",
+        "category": "management",
+        "complexity": "medium",
+        "description": "描述软件配置管理的计划安排"
+      }
+    },
+    "chapter_配置标识_1651": {
+      "type": "chapter",
+      "name": "配置标识",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "SCS"
+      }
+    },
+    "chapter_配置控制_5624": {
+      "type": "chapter",
+      "name": "配置控制",
+      "properties": {
+        "number": "3.3",
+        "level": 2,
+        "doc_code": "SCS"
+      }
+    },
+    "chapter_配置状态记录_221": {
+      "type": "chapter",
+      "name": "配置状态记录",
+      "properties": {
+        "number": "3.4",
+        "level": 2,
+        "doc_code": "SCS"
+      }
+    },
+    "chapter_配置审核_9002": {
+      "type": "chapter",
+      "name": "配置审核",
+      "properties": {
+        "number": "3.5",
+        "level": 2,
+        "doc_code": "SCS"
+      }
+    },
+    "document_软件质量保证计划_9371": {
+      "type": "document",
+      "name": "软件质量保证计划",
+      "properties": {
+        "code": "SQAP",
+        "category": "management",
+        "complexity": "medium",
+        "description": "描述软件质量保证的计划安排"
+      }
+    },
+    "chapter_质量保证活动_6885": {
+      "type": "chapter",
+      "name": "质量保证活动",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "SQAP"
+      }
+    },
+    "document_软件开发文件_1613": {
+      "type": "document",
+      "name": "软件开发文件",
+      "properties": {
+        "code": "SDF",
+        "category": "development",
+        "complexity": "medium",
+        "description": "记录软件开发过程中的设计决策和技术细节"
+      }
+    },
+    "chapter_开发过程记录_5622": {
+      "type": "chapter",
+      "name": "开发过程记录",
+      "properties": {
+        "number": "2",
+        "level": 1,
+        "doc_code": "SDF"
+      }
+    },
+    "chapter_设计决策_148": {
+      "type": "chapter",
+      "name": "设计决策",
+      "properties": {
+        "number": "2.1",
+        "level": 2,
+        "doc_code": "SDF"
+      }
+    },
+    "chapter_技术方案_5010": {
+      "type": "chapter",
+      "name": "技术方案",
+      "properties": {
+        "number": "2.2",
+        "level": 2,
+        "doc_code": "SDF"
+      }
+    },
+    "chapter_问题与解决_1800": {
+      "type": "chapter",
+      "name": "问题与解决",
+      "properties": {
+        "number": "2.3",
+        "level": 2,
+        "doc_code": "SDF"
+      }
+    },
+    "document_软件产品规格说明_3542": {
+      "type": "document",
+      "name": "软件产品规格说明",
+      "properties": {
+        "code": "SPS",
+        "category": "development",
+        "complexity": "high",
+        "description": "描述软件产品的完整规格"
+      }
+    },
+    "chapter_需求规格_9231": {
+      "type": "chapter",
+      "name": "需求规格",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "SPS"
+      }
+    },
+    "chapter_功能需求_4358": {
+      "type": "chapter",
+      "name": "功能需求",
+      "properties": {
+        "number": "3.1",
+        "level": 2,
+        "doc_code": "SPS"
+      }
+    },
+    "chapter_性能需求_156": {
+      "type": "chapter",
+      "name": "性能需求",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "SPS"
+      }
+    },
+    "chapter_接口需求_1420": {
+      "type": "chapter",
+      "name": "接口需求",
+      "properties": {
+        "number": "3.3",
+        "level": 2,
+        "doc_code": "SPS"
+      }
+    },
+    "chapter_设计规格_2002": {
+      "type": "chapter",
+      "name": "设计规格",
+      "properties": {
+        "number": "4",
+        "level": 1,
+        "doc_code": "SPS"
+      }
+    },
+    "chapter_源代码_5893": {
+      "type": "chapter",
+      "name": "源代码",
+      "properties": {
+        "number": "5",
+        "level": 1,
+        "doc_code": "SPS"
+      }
+    },
+    "document_软件版本说明_7561": {
+      "type": "document",
+      "name": "软件版本说明",
+      "properties": {
+        "code": "SVD",
+        "category": "configuration",
+        "complexity": "medium",
+        "description": "描述软件版本的变更内容"
+      }
+    },
+    "chapter_版本说明_3793": {
+      "type": "chapter",
+      "name": "版本说明",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "SVD"
+      }
+    },
+    "chapter_版本标识_7595": {
+      "type": "chapter",
+      "name": "版本标识",
+      "properties": {
+        "number": "3.1",
+        "level": 2,
+        "doc_code": "SVD"
+      }
+    },
+    "chapter_变更内容_726": {
+      "type": "chapter",
+      "name": "变更内容",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "SVD"
+      }
+    },
+    "chapter_已知问题_9185": {
+      "type": "chapter",
+      "name": "已知问题",
+      "properties": {
+        "number": "3.3",
+        "level": 2,
+        "doc_code": "SVD"
+      }
+    },
+    "document_软件安装计划_7019": {
+      "type": "document",
+      "name": "软件安装计划",
+      "properties": {
+        "code": "SIP",
+        "category": "deployment",
+        "complexity": "medium",
+        "description": "描述软件安装的计划安排"
+      }
+    },
+    "chapter_安装_5203": {
+      "type": "chapter",
+      "name": "安装",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "SIP"
+      }
+    },
+    "chapter_安装环境_3853": {
+      "type": "chapter",
+      "name": "安装环境",
+      "properties": {
+        "number": "3.1",
+        "level": 2,
+        "doc_code": "SIP"
+      }
+    },
+    "chapter_安装步骤_287": {
+      "type": "chapter",
+      "name": "安装步骤",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "SIS"
+      }
+    },
+    "chapter_安装验证_4973": {
+      "type": "chapter",
+      "name": "安装验证",
+      "properties": {
+        "number": "3.3",
+        "level": 2,
+        "doc_code": "SIS"
+      }
+    },
+    "document_软件安装说明_263": {
+      "type": "document",
+      "name": "软件安装说明",
+      "properties": {
+        "code": "SIS",
+        "category": "deployment",
+        "complexity": "medium",
+        "description": "描述软件安装的详细步骤"
+      }
+    },
+    "chapter_安装说明_2709": {
+      "type": "chapter",
+      "name": "安装说明",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "SIS"
+      }
+    },
+    "chapter_安装准备_431": {
+      "type": "chapter",
+      "name": "安装准备",
+      "properties": {
+        "number": "3.1",
+        "level": 2,
+        "doc_code": "SIS"
+      }
+    },
+    "chapter_回退步骤_5553": {
+      "type": "chapter",
+      "name": "回退步骤",
+      "properties": {
+        "number": "3.4",
+        "level": 2,
+        "doc_code": "SIS"
+      }
+    },
+    "document_软件用户手册_709": {
+      "type": "document",
+      "name": "软件用户手册",
+      "properties": {
+        "code": "SUM",
+        "category": "user",
+        "complexity": "high",
+        "description": "描述软件的使用方法"
+      }
+    },
+    "chapter_操作规程_278": {
+      "type": "chapter",
+      "name": "操作规程",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "SCOM"
+      }
+    },
+    "chapter_安装与初始化_1350": {
+      "type": "chapter",
+      "name": "安装与初始化",
+      "properties": {
+        "number": "3.1",
+        "level": 2,
+        "doc_code": "SUM"
+      }
+    },
+    "chapter_操作说明_1370": {
+      "type": "chapter",
+      "name": "操作说明",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "SUM"
+      }
+    },
+    "chapter_错误处理_2386": {
+      "type": "chapter",
+      "name": "错误处理",
+      "properties": {
+        "number": "3.3",
+        "level": 2,
+        "doc_code": "SUM"
+      }
+    },
+    "chapter_帮助信息_7649": {
+      "type": "chapter",
+      "name": "帮助信息",
+      "properties": {
+        "number": "3.4",
+        "level": 2,
+        "doc_code": "SUM"
+      }
+    },
+    "document_软件操作员手册_1530": {
+      "type": "document",
+      "name": "软件操作员手册",
+      "properties": {
+        "code": "SCOM",
+        "category": "user",
+        "complexity": "medium",
+        "description": "描述软件操作员的操作规程"
+      }
+    },
+    "chapter_系统启动与关闭_730": {
+      "type": "chapter",
+      "name": "系统启动与关闭",
+      "properties": {
+        "number": "3.1",
+        "level": 2,
+        "doc_code": "SCOM"
+      }
+    },
+    "chapter_操作流程_4973": {
+      "type": "chapter",
+      "name": "操作流程",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "SCOM"
+      }
+    },
+    "chapter_故障处理_6205": {
+      "type": "chapter",
+      "name": "故障处理",
+      "properties": {
+        "number": "3.3",
+        "level": 2,
+        "doc_code": "SCOM"
+      }
+    },
+    "document_软件编程手册_8073": {
+      "type": "document",
+      "name": "软件编程手册",
+      "properties": {
+        "code": "SPMP",
+        "category": "development",
+        "complexity": "medium",
+        "description": "描述软件编程的规范和方法"
+      }
+    },
+    "chapter_编程环境_6111": {
+      "type": "chapter",
+      "name": "编程环境",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "SPMP"
+      }
+    },
+    "chapter_开发环境_869": {
+      "type": "chapter",
+      "name": "开发环境",
+      "properties": {
+        "number": "3.1",
+        "level": 2,
+        "doc_code": "SPMP"
+      }
+    },
+    "chapter_编程规范_5448": {
+      "type": "chapter",
+      "name": "编程规范",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "SPMP"
+      }
+    },
+    "chapter_编译与构建_2182": {
+      "type": "chapter",
+      "name": "编译与构建",
+      "properties": {
+        "number": "3.3",
+        "level": 2,
+        "doc_code": "SPMP"
+      }
+    },
+    "document_软件配置状态报告_2395": {
+      "type": "document",
+      "name": "软件配置状态报告",
+      "properties": {
+        "code": "SCSR",
+        "category": "configuration",
+        "complexity": "medium",
+        "description": "描述软件配置的状态报告"
+      }
+    },
+    "chapter_配置状态_6840": {
+      "type": "chapter",
+      "name": "配置状态",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "SCSR"
+      }
+    },
+    "chapter_配置项清单_9457": {
+      "type": "chapter",
+      "name": "配置项清单",
+      "properties": {
+        "number": "3.1",
+        "level": 2,
+        "doc_code": "SCSR"
+      }
+    },
+    "chapter_变更记录_1849": {
+      "type": "chapter",
+      "name": "变更记录",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "SCSR"
+      }
+    },
+    "chapter_基线状态_7329": {
+      "type": "chapter",
+      "name": "基线状态",
+      "properties": {
+        "number": "3.3",
+        "level": 2,
+        "doc_code": "SCSR"
+      }
+    },
+    "document_软件移交计划_4180": {
+      "type": "document",
+      "name": "软件移交计划",
+      "properties": {
+        "code": "STRP",
+        "category": "deployment",
+        "complexity": "medium",
+        "description": "描述软件移交的计划安排"
+      }
+    },
+    "chapter_移交_674": {
+      "type": "chapter",
+      "name": "移交",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "STRP"
+      }
+    },
+    "chapter_移交准备_8102": {
+      "type": "chapter",
+      "name": "移交准备",
+      "properties": {
+        "number": "3.1",
+        "level": 2,
+        "doc_code": "STRP"
+      }
+    },
+    "chapter_移交内容_7684": {
+      "type": "chapter",
+      "name": "移交内容",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "STRP"
+      }
+    },
+    "chapter_移交验证_4317": {
+      "type": "chapter",
+      "name": "移交验证",
+      "properties": {
+        "number": "3.3",
+        "level": 2,
+        "doc_code": "STRP"
+      }
+    },
+    "document_软件设计日志_6266": {
+      "type": "document",
+      "name": "软件设计日志",
+      "properties": {
+        "code": "SDL",
+        "category": "development",
+        "complexity": "low",
+        "description": "记录软件设计过程中的日志"
+      }
+    },
+    "chapter_设计日志_3982": {
+      "type": "chapter",
+      "name": "设计日志",
+      "properties": {
+        "number": "2",
+        "level": 1,
+        "doc_code": "SDL"
+      }
+    },
+    "chapter_设计活动记录_351": {
+      "type": "chapter",
+      "name": "设计活动记录",
+      "properties": {
+        "number": "2.1",
+        "level": 2,
+        "doc_code": "SDL"
+      }
+    },
+    "chapter_设计评审记录_2117": {
+      "type": "chapter",
+      "name": "设计评审记录",
+      "properties": {
+        "number": "2.2",
+        "level": 2,
+        "doc_code": "SDL"
+      }
+    }
+  },
+  "relations": [
+    {
+      "source": "document_软件需求规格说明_9921",
+      "type": "contains_chapter",
+      "target": "chapter_范围_8101",
+      "properties": {}
+    },
+    {
+      "source": "chapter_范围_8101",
+      "type": "contains_subchapter",
+      "target": "chapter_标识_4355",
+      "properties": {}
+    },
+    {
+      "source": "document_软件需求规格说明_9921",
+      "type": "contains_chapter",
+      "target": "chapter_标识_4355",
+      "properties": {}
+    },
+    {
+      "source": "chapter_范围_8101",
+      "type": "contains_subchapter",
+      "target": "chapter_系统概述_9392",
+      "properties": {}
+    },
+    {
+      "source": "document_软件需求规格说明_9921",
+      "type": "contains_chapter",
+      "target": "chapter_系统概述_9392",
+      "properties": {}
+    },
+    {
+      "source": "chapter_范围_8101",
+      "type": "contains_subchapter",
+      "target": "chapter_文档概述_3208",
+      "properties": {}
+    },
+    {
+      "source": "document_软件需求规格说明_9921",
+      "type": "contains_chapter",
+      "target": "chapter_文档概述_3208",
+      "properties": {}
+    },
+    {
+      "source": "document_软件需求规格说明_9921",
+      "type": "contains_chapter",
+      "target": "chapter_引用文件_8861",
+      "properties": {}
+    },
+    {
+      "source": "document_软件需求规格说明_9921",
+      "type": "contains_chapter",
+      "target": "chapter_需求_3191",
+      "properties": {}
+    },
+    {
+      "source": "chapter_需求_3191",
+      "type": "contains_subchapter",
+      "target": "chapter_要求状态和方法_8508",
+      "properties": {}
+    },
+    {
+      "source": "document_软件需求规格说明_9921",
+      "type": "contains_chapter",
+      "target": "chapter_要求状态和方法_8508",
+      "properties": {}
+    },
+    {
+      "source": "chapter_需求_3191",
+      "type": "contains_subchapter",
+      "target": "chapter_软件需求_1171",
+      "properties": {}
+    },
+    {
+      "source": "document_软件需求规格说明_9921",
+      "type": "contains_chapter",
+      "target": "chapter_软件需求_1171",
+      "properties": {}
+    },
+    {
+      "source": "chapter_需求_3191",
+      "type": "contains_subchapter",
+      "target": "chapter_合格性规定_3788",
+      "properties": {}
+    },
+    {
+      "source": "document_软件需求规格说明_9921",
+      "type": "contains_chapter",
+      "target": "chapter_合格性规定_3788",
+      "properties": {}
+    },
+    {
+      "source": "chapter_需求_3191",
+      "type": "contains_subchapter",
+      "target": "chapter_需求可追踪性_9099",
+      "properties": {}
+    },
+    {
+      "source": "document_软件需求规格说明_9921",
+      "type": "contains_chapter",
+      "target": "chapter_需求可追踪性_9099",
+      "properties": {}
+    },
+    {
+      "source": "document_软件需求规格说明_9921",
+      "type": "contains_chapter",
+      "target": "chapter_合格性验证_2697",
+      "properties": {}
+    },
+    {
+      "source": "document_软件需求规格说明_9921",
+      "type": "contains_chapter",
+      "target": "chapter_注_4202",
+      "properties": {}
+    },
+    {
+      "source": "document_软件设计说明_3911",
+      "type": "contains_chapter",
+      "target": "chapter_范围_8101",
+      "properties": {}
+    },
+    {
+      "source": "document_软件设计说明_3911",
+      "type": "contains_chapter",
+      "target": "chapter_标识_4355",
+      "properties": {}
+    },
+    {
+      "source": "document_软件设计说明_3911",
+      "type": "contains_chapter",
+      "target": "chapter_系统概述_9392",
+      "properties": {}
+    },
+    {
+      "source": "document_软件设计说明_3911",
+      "type": "contains_chapter",
+      "target": "chapter_文档概述_3208",
+      "properties": {}
+    },
+    {
+      "source": "document_软件设计说明_3911",
+      "type": "contains_chapter",
+      "target": "chapter_引用文件_8861",
+      "properties": {}
+    },
+    {
+      "source": "document_软件设计说明_3911",
+      "type": "contains_chapter",
+      "target": "chapter_系统级设计决策_1363",
+      "properties": {}
+    },
+    {
+      "source": "document_软件设计说明_3911",
+      "type": "contains_chapter",
+      "target": "chapter_体系结构设计_7324",
+      "properties": {}
+    },
+    {
+      "source": "chapter_体系结构设计_7324",
+      "type": "contains_subchapter",
+      "target": "chapter_体系结构_2285",
+      "properties": {}
+    },
+    {
+      "source": "document_软件设计说明_3911",
+      "type": "contains_chapter",
+      "target": "chapter_体系结构_2285",
+      "properties": {}
+    },
+    {
+      "source": "chapter_体系结构设计_7324",
+      "type": "contains_subchapter",
+      "target": "chapter_全局数据结构_5701",
+      "properties": {}
+    },
+    {
+      "source": "document_软件设计说明_3911",
+      "type": "contains_chapter",
+      "target": "chapter_全局数据结构_5701",
+      "properties": {}
+    },
+    {
+      "source": "chapter_体系结构设计_7324",
+      "type": "contains_subchapter",
+      "target": "chapter_接口设计_8024",
+      "properties": {}
+    },
+    {
+      "source": "document_软件设计说明_3911",
+      "type": "contains_chapter",
+      "target": "chapter_接口设计_8024",
+      "properties": {}
+    },
+    {
+      "source": "document_软件设计说明_3911",
+      "type": "contains_chapter",
+      "target": "chapter_详细设计_880",
+      "properties": {}
+    },
+    {
+      "source": "chapter_详细设计_880",
+      "type": "contains_subchapter",
+      "target": "chapter_模块详细设计_7247",
+      "properties": {}
+    },
+    {
+      "source": "document_软件设计说明_3911",
+      "type": "contains_chapter",
+      "target": "chapter_模块详细设计_7247",
+      "properties": {}
+    },
+    {
+      "source": "document_软件设计说明_3911",
+      "type": "contains_chapter",
+      "target": "chapter_需求可追踪性_9099",
+      "properties": {}
+    },
+    {
+      "source": "document_软件设计说明_3911",
+      "type": "contains_chapter",
+      "target": "chapter_注_4202",
+      "properties": {}
+    },
+    {
+      "source": "document_软件开发计划_3291",
+      "type": "contains_chapter",
+      "target": "chapter_范围_8101",
+      "properties": {}
+    },
+    {
+      "source": "document_软件开发计划_3291",
+      "type": "contains_chapter",
+      "target": "chapter_标识_4355",
+      "properties": {}
+    },
+    {
+      "source": "document_软件开发计划_3291",
+      "type": "contains_chapter",
+      "target": "chapter_系统概述_9392",
+      "properties": {}
+    },
+    {
+      "source": "document_软件开发计划_3291",
+      "type": "contains_chapter",
+      "target": "chapter_文档概述_3208",
+      "properties": {}
+    },
+    {
+      "source": "document_软件开发计划_3291",
+      "type": "contains_chapter",
+      "target": "chapter_引用文件_8861",
+      "properties": {}
+    },
+    {
+      "source": "document_软件开发计划_3291",
+      "type": "contains_chapter",
+      "target": "chapter_软件开发过程_6308",
+      "properties": {}
+    },
+    {
+      "source": "chapter_软件开发过程_6308",
+      "type": "contains_subchapter",
+      "target": "chapter_软件开发模型_4770",
+      "properties": {}
+    },
+    {
+      "source": "document_软件开发计划_3291",
+      "type": "contains_chapter",
+      "target": "chapter_软件开发模型_4770",
+      "properties": {}
+    },
+    {
+      "source": "chapter_软件开发过程_6308",
+      "type": "contains_subchapter",
+      "target": "chapter_软件开发方法_3462",
+      "properties": {}
+    },
+    {
+      "source": "document_软件开发计划_3291",
+      "type": "contains_chapter",
+      "target": "chapter_软件开发方法_3462",
+      "properties": {}
+    },
+    {
+      "source": "chapter_软件开发过程_6308",
+      "type": "contains_subchapter",
+      "target": "chapter_软件开发标准_9137",
+      "properties": {}
+    },
+    {
+      "source": "document_软件开发计划_3291",
+      "type": "contains_chapter",
+      "target": "chapter_软件开发标准_9137",
+      "properties": {}
+    },
+    {
+      "source": "document_软件开发计划_3291",
+      "type": "contains_chapter",
+      "target": "chapter_软件开发计划_3291",
+      "properties": {}
+    },
+    {
+      "source": "chapter_软件开发计划_3291",
+      "type": "contains_subchapter",
+      "target": "chapter_活动与里程碑_7875",
+      "properties": {}
+    },
+    {
+      "source": "document_软件开发计划_3291",
+      "type": "contains_chapter",
+      "target": "chapter_活动与里程碑_7875",
+      "properties": {}
+    },
+    {
+      "source": "chapter_软件开发计划_3291",
+      "type": "contains_subchapter",
+      "target": "chapter_进度_8843",
+      "properties": {}
+    },
+    {
+      "source": "document_软件开发计划_3291",
+      "type": "contains_chapter",
+      "target": "chapter_进度_8843",
+      "properties": {}
+    },
+    {
+      "source": "chapter_软件开发计划_3291",
+      "type": "contains_subchapter",
+      "target": "chapter_资源估计_6272",
+      "properties": {}
+    },
+    {
+      "source": "document_软件开发计划_3291",
+      "type": "contains_chapter",
+      "target": "chapter_资源估计_6272",
+      "properties": {}
+    },
+    {
+      "source": "document_软件开发计划_3291",
+      "type": "contains_chapter",
+      "target": "chapter_项目管理_7637",
+      "properties": {}
+    },
+    {
+      "source": "chapter_项目管理_7637",
+      "type": "contains_subchapter",
+      "target": "chapter_组织与职责_4032",
+      "properties": {}
+    },
+    {
+      "source": "document_软件开发计划_3291",
+      "type": "contains_chapter",
+      "target": "chapter_组织与职责_4032",
+      "properties": {}
+    },
+    {
+      "source": "chapter_项目管理_7637",
+      "type": "contains_subchapter",
+      "target": "chapter_风险管理_8933",
+      "properties": {}
+    },
+    {
+      "source": "document_软件开发计划_3291",
+      "type": "contains_chapter",
+      "target": "chapter_风险管理_8933",
+      "properties": {}
+    },
+    {
+      "source": "chapter_项目管理_7637",
+      "type": "contains_subchapter",
+      "target": "chapter_配置管理_8788",
+      "properties": {}
+    },
+    {
+      "source": "document_软件开发计划_3291",
+      "type": "contains_chapter",
+      "target": "chapter_配置管理_8788",
+      "properties": {}
+    },
+    {
+      "source": "chapter_项目管理_7637",
+      "type": "contains_subchapter",
+      "target": "chapter_质量保证_4205",
+      "properties": {}
+    },
+    {
+      "source": "document_软件开发计划_3291",
+      "type": "contains_chapter",
+      "target": "chapter_质量保证_4205",
+      "properties": {}
+    },
+    {
+      "source": "document_软件开发计划_3291",
+      "type": "contains_chapter",
+      "target": "chapter_注_4202",
+      "properties": {}
+    },
+    {
+      "source": "document_软件验证与确认计划_442",
+      "type": "contains_chapter",
+      "target": "chapter_范围_8101",
+      "properties": {}
+    },
+    {
+      "source": "document_软件验证与确认计划_442",
+      "type": "contains_chapter",
+      "target": "chapter_标识_4355",
+      "properties": {}
+    },
+    {
+      "source": "document_软件验证与确认计划_442",
+      "type": "contains_chapter",
+      "target": "chapter_系统概述_9392",
+      "properties": {}
+    },
+    {
+      "source": "document_软件验证与确认计划_442",
+      "type": "contains_chapter",
+      "target": "chapter_文档概述_3208",
+      "properties": {}
+    },
+    {
+      "source": "document_软件验证与确认计划_442",
+      "type": "contains_chapter",
+      "target": "chapter_引用文件_8861",
+      "properties": {}
+    },
+    {
+      "source": "document_软件验证与确认计划_442",
+      "type": "contains_chapter",
+      "target": "chapter_验证与确认_9854",
+      "properties": {}
+    },
+    {
+      "source": "chapter_验证与确认_9854",
+      "type": "contains_subchapter",
+      "target": "chapter_组织与职责_4032",
+      "properties": {}
+    },
+    {
+      "source": "document_软件验证与确认计划_442",
+      "type": "contains_chapter",
+      "target": "chapter_组织与职责_4032",
+      "properties": {}
+    },
+    {
+      "source": "chapter_验证与确认_9854",
+      "type": "contains_subchapter",
+      "target": "chapter_验证与确认活动_2711",
+      "properties": {}
+    },
+    {
+      "source": "document_软件验证与确认计划_442",
+      "type": "contains_chapter",
+      "target": "chapter_验证与确认活动_2711",
+      "properties": {}
+    },
+    {
+      "source": "chapter_验证与确认_9854",
+      "type": "contains_subchapter",
+      "target": "chapter_工具与技术_7479",
+      "properties": {}
+    },
+    {
+      "source": "document_软件验证与确认计划_442",
+      "type": "contains_chapter",
+      "target": "chapter_工具与技术_7479",
+      "properties": {}
+    },
+    {
+      "source": "chapter_验证与确认_9854",
+      "type": "contains_subchapter",
+      "target": "chapter_记录_1505",
+      "properties": {}
+    },
+    {
+      "source": "document_软件验证与确认计划_442",
+      "type": "contains_chapter",
+      "target": "chapter_记录_1505",
+      "properties": {}
+    },
+    {
+      "source": "document_软件验证与确认计划_442",
+      "type": "contains_chapter",
+      "target": "chapter_进度_8843",
+      "properties": {}
+    },
+    {
+      "source": "document_软件验证与确认计划_442",
+      "type": "contains_chapter",
+      "target": "chapter_注_4202",
+      "properties": {}
+    },
+    {
+      "source": "document_软件测试报告_2232",
+      "type": "contains_chapter",
+      "target": "chapter_范围_8101",
+      "properties": {}
+    },
+    {
+      "source": "document_软件测试报告_2232",
+      "type": "contains_chapter",
+      "target": "chapter_标识_4355",
+      "properties": {}
+    },
+    {
+      "source": "document_软件测试报告_2232",
+      "type": "contains_chapter",
+      "target": "chapter_系统概述_9392",
+      "properties": {}
+    },
+    {
+      "source": "document_软件测试报告_2232",
+      "type": "contains_chapter",
+      "target": "chapter_文档概述_3208",
+      "properties": {}
+    },
+    {
+      "source": "document_软件测试报告_2232",
+      "type": "contains_chapter",
+      "target": "chapter_引用文件_8861",
+      "properties": {}
+    },
+    {
+      "source": "document_软件测试报告_2232",
+      "type": "contains_chapter",
+      "target": "chapter_测试概述_9676",
+      "properties": {}
+    },
+    {
+      "source": "chapter_测试概述_9676",
+      "type": "contains_subchapter",
+      "target": "chapter_测试环境_745",
+      "properties": {}
+    },
+    {
+      "source": "document_软件测试报告_2232",
+      "type": "contains_chapter",
+      "target": "chapter_测试环境_745",
+      "properties": {}
+    },
+    {
+      "source": "chapter_测试概述_9676",
+      "type": "contains_subchapter",
+      "target": "chapter_测试结果概述_7868",
+      "properties": {}
+    },
+    {
+      "source": "document_软件测试报告_2232",
+      "type": "contains_chapter",
+      "target": "chapter_测试结果概述_7868",
+      "properties": {}
+    },
+    {
+      "source": "chapter_测试概述_9676",
+      "type": "contains_subchapter",
+      "target": "chapter_测试完整性与充分性_1605",
+      "properties": {}
+    },
+    {
+      "source": "document_软件测试报告_2232",
+      "type": "contains_chapter",
+      "target": "chapter_测试完整性与充分性_1605",
+      "properties": {}
+    },
+    {
+      "source": "document_软件测试报告_2232",
+      "type": "contains_chapter",
+      "target": "chapter_测试结果_4065",
+      "properties": {}
+    },
+    {
+      "source": "chapter_测试结果_4065",
+      "type": "contains_subchapter",
+      "target": "chapter_测试用例执行结果_13",
+      "properties": {}
+    },
+    {
+      "source": "document_软件测试报告_2232",
+      "type": "contains_chapter",
+      "target": "chapter_测试用例执行结果_13",
+      "properties": {}
+    },
+    {
+      "source": "chapter_测试结果_4065",
+      "type": "contains_subchapter",
+      "target": "chapter_需求覆盖分析_2381",
+      "properties": {}
+    },
+    {
+      "source": "document_软件测试报告_2232",
+      "type": "contains_chapter",
+      "target": "chapter_需求覆盖分析_2381",
+      "properties": {}
+    },
+    {
+      "source": "chapter_测试结果_4065",
+      "type": "contains_subchapter",
+      "target": "chapter_偏差与异常_5650",
+      "properties": {}
+    },
+    {
+      "source": "document_软件测试报告_2232",
+      "type": "contains_chapter",
+      "target": "chapter_偏差与异常_5650",
+      "properties": {}
+    },
+    {
+      "source": "document_软件测试报告_2232",
+      "type": "contains_chapter",
+      "target": "chapter_测试评价_9252",
+      "properties": {}
+    },
+    {
+      "source": "chapter_测试评价_9252",
+      "type": "contains_subchapter",
+      "target": "chapter_测试结论_1775",
+      "properties": {}
+    },
+    {
+      "source": "document_软件测试报告_2232",
+      "type": "contains_chapter",
+      "target": "chapter_测试结论_1775",
+      "properties": {}
+    },
+    {
+      "source": "chapter_测试评价_9252",
+      "type": "contains_subchapter",
+      "target": "chapter_改进建议_7105",
+      "properties": {}
+    },
+    {
+      "source": "document_软件测试报告_2232",
+      "type": "contains_chapter",
+      "target": "chapter_改进建议_7105",
+      "properties": {}
+    },
+    {
+      "source": "document_软件测试报告_2232",
+      "type": "contains_chapter",
+      "target": "chapter_注_4202",
+      "properties": {}
+    },
+    {
+      "source": "document_软件测试计划_6987",
+      "type": "contains_chapter",
+      "target": "chapter_范围_8101",
+      "properties": {}
+    },
+    {
+      "source": "document_软件测试计划_6987",
+      "type": "contains_chapter",
+      "target": "chapter_标识_4355",
+      "properties": {}
+    },
+    {
+      "source": "document_软件测试计划_6987",
+      "type": "contains_chapter",
+      "target": "chapter_系统概述_9392",
+      "properties": {}
+    },
+    {
+      "source": "document_软件测试计划_6987",
+      "type": "contains_chapter",
+      "target": "chapter_文档概述_3208",
+      "properties": {}
+    },
+    {
+      "source": "document_软件测试计划_6987",
+      "type": "contains_chapter",
+      "target": "chapter_引用文件_8861",
+      "properties": {}
+    },
+    {
+      "source": "document_软件测试计划_6987",
+      "type": "contains_chapter",
+      "target": "chapter_测试_1693",
+      "properties": {}
+    },
+    {
+      "source": "chapter_测试_1693",
+      "type": "contains_subchapter",
+      "target": "chapter_测试环境_745",
+      "properties": {}
+    },
+    {
+      "source": "document_软件测试计划_6987",
+      "type": "contains_chapter",
+      "target": "chapter_测试环境_745",
+      "properties": {}
+    },
+    {
+      "source": "chapter_测试_1693",
+      "type": "contains_subchapter",
+      "target": "chapter_测试类型_4781",
+      "properties": {}
+    },
+    {
+      "source": "document_软件测试计划_6987",
+      "type": "contains_chapter",
+      "target": "chapter_测试类型_4781",
+      "properties": {}
+    },
+    {
+      "source": "chapter_测试_1693",
+      "type": "contains_subchapter",
+      "target": "chapter_测试项_5818",
+      "properties": {}
+    },
+    {
+      "source": "document_软件测试计划_6987",
+      "type": "contains_chapter",
+      "target": "chapter_测试项_5818",
+      "properties": {}
+    },
+    {
+      "source": "chapter_测试_1693",
+      "type": "contains_subchapter",
+      "target": "chapter_测试进度_3191",
+      "properties": {}
+    },
+    {
+      "source": "document_软件测试计划_6987",
+      "type": "contains_chapter",
+      "target": "chapter_测试进度_3191",
+      "properties": {}
+    },
+    {
+      "source": "document_软件测试计划_6987",
+      "type": "contains_chapter",
+      "target": "chapter_注_4202",
+      "properties": {}
+    },
+    {
+      "source": "document_软件配置管理计划_1958",
+      "type": "contains_chapter",
+      "target": "chapter_范围_8101",
+      "properties": {}
+    },
+    {
+      "source": "document_软件配置管理计划_1958",
+      "type": "contains_chapter",
+      "target": "chapter_标识_4355",
+      "properties": {}
+    },
+    {
+      "source": "document_软件配置管理计划_1958",
+      "type": "contains_chapter",
+      "target": "chapter_系统概述_9392",
+      "properties": {}
+    },
+    {
+      "source": "document_软件配置管理计划_1958",
+      "type": "contains_chapter",
+      "target": "chapter_文档概述_3208",
+      "properties": {}
+    },
+    {
+      "source": "document_软件配置管理计划_1958",
+      "type": "contains_chapter",
+      "target": "chapter_引用文件_8861",
+      "properties": {}
+    },
+    {
+      "source": "document_软件配置管理计划_1958",
+      "type": "contains_chapter",
+      "target": "chapter_配置管理_8788",
+      "properties": {}
+    },
+    {
+      "source": "chapter_配置管理_8788",
+      "type": "contains_subchapter",
+      "target": "chapter_组织与职责_4032",
+      "properties": {}
+    },
+    {
+      "source": "document_软件配置管理计划_1958",
+      "type": "contains_chapter",
+      "target": "chapter_组织与职责_4032",
+      "properties": {}
+    },
+    {
+      "source": "chapter_配置管理_8788",
+      "type": "contains_subchapter",
+      "target": "chapter_配置标识_1651",
+      "properties": {}
+    },
+    {
+      "source": "document_软件配置管理计划_1958",
+      "type": "contains_chapter",
+      "target": "chapter_配置标识_1651",
+      "properties": {}
+    },
+    {
+      "source": "chapter_配置管理_8788",
+      "type": "contains_subchapter",
+      "target": "chapter_配置控制_5624",
+      "properties": {}
+    },
+    {
+      "source": "document_软件配置管理计划_1958",
+      "type": "contains_chapter",
+      "target": "chapter_配置控制_5624",
+      "properties": {}
+    },
+    {
+      "source": "chapter_配置管理_8788",
+      "type": "contains_subchapter",
+      "target": "chapter_配置状态记录_221",
+      "properties": {}
+    },
+    {
+      "source": "document_软件配置管理计划_1958",
+      "type": "contains_chapter",
+      "target": "chapter_配置状态记录_221",
+      "properties": {}
+    },
+    {
+      "source": "chapter_配置管理_8788",
+      "type": "contains_subchapter",
+      "target": "chapter_配置审核_9002",
+      "properties": {}
+    },
+    {
+      "source": "document_软件配置管理计划_1958",
+      "type": "contains_chapter",
+      "target": "chapter_配置审核_9002",
+      "properties": {}
+    },
+    {
+      "source": "document_软件配置管理计划_1958",
+      "type": "contains_chapter",
+      "target": "chapter_注_4202",
+      "properties": {}
+    },
+    {
+      "source": "document_软件质量保证计划_9371",
+      "type": "contains_chapter",
+      "target": "chapter_范围_8101",
+      "properties": {}
+    },
+    {
+      "source": "document_软件质量保证计划_9371",
+      "type": "contains_chapter",
+      "target": "chapter_标识_4355",
+      "properties": {}
+    },
+    {
+      "source": "document_软件质量保证计划_9371",
+      "type": "contains_chapter",
+      "target": "chapter_系统概述_9392",
+      "properties": {}
+    },
+    {
+      "source": "document_软件质量保证计划_9371",
+      "type": "contains_chapter",
+      "target": "chapter_文档概述_3208",
+      "properties": {}
+    },
+    {
+      "source": "document_软件质量保证计划_9371",
+      "type": "contains_chapter",
+      "target": "chapter_引用文件_8861",
+      "properties": {}
+    },
+    {
+      "source": "document_软件质量保证计划_9371",
+      "type": "contains_chapter",
+      "target": "chapter_质量保证_4205",
+      "properties": {}
+    },
+    {
+      "source": "chapter_质量保证_4205",
+      "type": "contains_subchapter",
+      "target": "chapter_组织与职责_4032",
+      "properties": {}
+    },
+    {
+      "source": "document_软件质量保证计划_9371",
+      "type": "contains_chapter",
+      "target": "chapter_组织与职责_4032",
+      "properties": {}
+    },
+    {
+      "source": "chapter_质量保证_4205",
+      "type": "contains_subchapter",
+      "target": "chapter_质量保证活动_6885",
+      "properties": {}
+    },
+    {
+      "source": "document_软件质量保证计划_9371",
+      "type": "contains_chapter",
+      "target": "chapter_质量保证活动_6885",
+      "properties": {}
+    },
+    {
+      "source": "chapter_质量保证_4205",
+      "type": "contains_subchapter",
+      "target": "chapter_工具与技术_7479",
+      "properties": {}
+    },
+    {
+      "source": "document_软件质量保证计划_9371",
+      "type": "contains_chapter",
+      "target": "chapter_工具与技术_7479",
+      "properties": {}
+    },
+    {
+      "source": "chapter_质量保证_4205",
+      "type": "contains_subchapter",
+      "target": "chapter_记录_1505",
+      "properties": {}
+    },
+    {
+      "source": "document_软件质量保证计划_9371",
+      "type": "contains_chapter",
+      "target": "chapter_记录_1505",
+      "properties": {}
+    },
+    {
+      "source": "document_软件质量保证计划_9371",
+      "type": "contains_chapter",
+      "target": "chapter_注_4202",
+      "properties": {}
+    },
+    {
+      "source": "document_软件开发文件_1613",
+      "type": "contains_chapter",
+      "target": "chapter_范围_8101",
+      "properties": {}
+    },
+    {
+      "source": "document_软件开发文件_1613",
+      "type": "contains_chapter",
+      "target": "chapter_标识_4355",
+      "properties": {}
+    },
+    {
+      "source": "document_软件开发文件_1613",
+      "type": "contains_chapter",
+      "target": "chapter_系统概述_9392",
+      "properties": {}
+    },
+    {
+      "source": "document_软件开发文件_1613",
+      "type": "contains_chapter",
+      "target": "chapter_开发过程记录_5622",
+      "properties": {}
+    },
+    {
+      "source": "chapter_开发过程记录_5622",
+      "type": "contains_subchapter",
+      "target": "chapter_设计决策_148",
+      "properties": {}
+    },
+    {
+      "source": "document_软件开发文件_1613",
+      "type": "contains_chapter",
+      "target": "chapter_设计决策_148",
+      "properties": {}
+    },
+    {
+      "source": "chapter_开发过程记录_5622",
+      "type": "contains_subchapter",
+      "target": "chapter_技术方案_5010",
+      "properties": {}
+    },
+    {
+      "source": "document_软件开发文件_1613",
+      "type": "contains_chapter",
+      "target": "chapter_技术方案_5010",
+      "properties": {}
+    },
+    {
+      "source": "chapter_开发过程记录_5622",
+      "type": "contains_subchapter",
+      "target": "chapter_问题与解决_1800",
+      "properties": {}
+    },
+    {
+      "source": "document_软件开发文件_1613",
+      "type": "contains_chapter",
+      "target": "chapter_问题与解决_1800",
+      "properties": {}
+    },
+    {
+      "source": "document_软件开发文件_1613",
+      "type": "contains_chapter",
+      "target": "chapter_注_4202",
+      "properties": {}
+    },
+    {
+      "source": "document_软件产品规格说明_3542",
+      "type": "contains_chapter",
+      "target": "chapter_范围_8101",
+      "properties": {}
+    },
+    {
+      "source": "document_软件产品规格说明_3542",
+      "type": "contains_chapter",
+      "target": "chapter_标识_4355",
+      "properties": {}
+    },
+    {
+      "source": "document_软件产品规格说明_3542",
+      "type": "contains_chapter",
+      "target": "chapter_系统概述_9392",
+      "properties": {}
+    },
+    {
+      "source": "document_软件产品规格说明_3542",
+      "type": "contains_chapter",
+      "target": "chapter_文档概述_3208",
+      "properties": {}
+    },
+    {
+      "source": "document_软件产品规格说明_3542",
+      "type": "contains_chapter",
+      "target": "chapter_引用文件_8861",
+      "properties": {}
+    },
+    {
+      "source": "document_软件产品规格说明_3542",
+      "type": "contains_chapter",
+      "target": "chapter_需求规格_9231",
+      "properties": {}
+    },
+    {
+      "source": "chapter_需求规格_9231",
+      "type": "contains_subchapter",
+      "target": "chapter_功能需求_4358",
+      "properties": {}
+    },
+    {
+      "source": "document_软件产品规格说明_3542",
+      "type": "contains_chapter",
+      "target": "chapter_功能需求_4358",
+      "properties": {}
+    },
+    {
+      "source": "chapter_需求规格_9231",
+      "type": "contains_subchapter",
+      "target": "chapter_性能需求_156",
+      "properties": {}
+    },
+    {
+      "source": "document_软件产品规格说明_3542",
+      "type": "contains_chapter",
+      "target": "chapter_性能需求_156",
+      "properties": {}
+    },
+    {
+      "source": "chapter_需求规格_9231",
+      "type": "contains_subchapter",
+      "target": "chapter_接口需求_1420",
+      "properties": {}
+    },
+    {
+      "source": "document_软件产品规格说明_3542",
+      "type": "contains_chapter",
+      "target": "chapter_接口需求_1420",
+      "properties": {}
+    },
+    {
+      "source": "document_软件产品规格说明_3542",
+      "type": "contains_chapter",
+      "target": "chapter_设计规格_2002",
+      "properties": {}
+    },
+    {
+      "source": "chapter_设计规格_2002",
+      "type": "contains_subchapter",
+      "target": "chapter_体系结构设计_7324",
+      "properties": {}
+    },
+    {
+      "source": "document_软件产品规格说明_3542",
+      "type": "contains_chapter",
+      "target": "chapter_体系结构设计_7324",
+      "properties": {}
+    },
+    {
+      "source": "chapter_设计规格_2002",
+      "type": "contains_subchapter",
+      "target": "chapter_详细设计_880",
+      "properties": {}
+    },
+    {
+      "source": "document_软件产品规格说明_3542",
+      "type": "contains_chapter",
+      "target": "chapter_详细设计_880",
+      "properties": {}
+    },
+    {
+      "source": "document_软件产品规格说明_3542",
+      "type": "contains_chapter",
+      "target": "chapter_源代码_5893",
+      "properties": {}
+    },
+    {
+      "source": "document_软件产品规格说明_3542",
+      "type": "contains_chapter",
+      "target": "chapter_注_4202",
+      "properties": {}
+    },
+    {
+      "source": "document_软件版本说明_7561",
+      "type": "contains_chapter",
+      "target": "chapter_范围_8101",
+      "properties": {}
+    },
+    {
+      "source": "document_软件版本说明_7561",
+      "type": "contains_chapter",
+      "target": "chapter_标识_4355",
+      "properties": {}
+    },
+    {
+      "source": "document_软件版本说明_7561",
+      "type": "contains_chapter",
+      "target": "chapter_系统概述_9392",
+      "properties": {}
+    },
+    {
+      "source": "document_软件版本说明_7561",
+      "type": "contains_chapter",
+      "target": "chapter_文档概述_3208",
+      "properties": {}
+    },
+    {
+      "source": "document_软件版本说明_7561",
+      "type": "contains_chapter",
+      "target": "chapter_引用文件_8861",
+      "properties": {}
+    },
+    {
+      "source": "document_软件版本说明_7561",
+      "type": "contains_chapter",
+      "target": "chapter_版本说明_3793",
+      "properties": {}
+    },
+    {
+      "source": "chapter_版本说明_3793",
+      "type": "contains_subchapter",
+      "target": "chapter_版本标识_7595",
+      "properties": {}
+    },
+    {
+      "source": "document_软件版本说明_7561",
+      "type": "contains_chapter",
+      "target": "chapter_版本标识_7595",
+      "properties": {}
+    },
+    {
+      "source": "chapter_版本说明_3793",
+      "type": "contains_subchapter",
+      "target": "chapter_变更内容_726",
+      "properties": {}
+    },
+    {
+      "source": "document_软件版本说明_7561",
+      "type": "contains_chapter",
+      "target": "chapter_变更内容_726",
+      "properties": {}
+    },
+    {
+      "source": "chapter_版本说明_3793",
+      "type": "contains_subchapter",
+      "target": "chapter_已知问题_9185",
+      "properties": {}
+    },
+    {
+      "source": "document_软件版本说明_7561",
+      "type": "contains_chapter",
+      "target": "chapter_已知问题_9185",
+      "properties": {}
+    },
+    {
+      "source": "document_软件版本说明_7561",
+      "type": "contains_chapter",
+      "target": "chapter_注_4202",
+      "properties": {}
+    },
+    {
+      "source": "document_软件安装计划_7019",
+      "type": "contains_chapter",
+      "target": "chapter_范围_8101",
+      "properties": {}
+    },
+    {
+      "source": "document_软件安装计划_7019",
+      "type": "contains_chapter",
+      "target": "chapter_标识_4355",
+      "properties": {}
+    },
+    {
+      "source": "document_软件安装计划_7019",
+      "type": "contains_chapter",
+      "target": "chapter_系统概述_9392",
+      "properties": {}
+    },
+    {
+      "source": "document_软件安装计划_7019",
+      "type": "contains_chapter",
+      "target": "chapter_文档概述_3208",
+      "properties": {}
+    },
+    {
+      "source": "document_软件安装计划_7019",
+      "type": "contains_chapter",
+      "target": "chapter_引用文件_8861",
+      "properties": {}
+    },
+    {
+      "source": "document_软件安装计划_7019",
+      "type": "contains_chapter",
+      "target": "chapter_安装_5203",
+      "properties": {}
+    },
+    {
+      "source": "chapter_安装_5203",
+      "type": "contains_subchapter",
+      "target": "chapter_安装环境_3853",
+      "properties": {}
+    },
+    {
+      "source": "document_软件安装计划_7019",
+      "type": "contains_chapter",
+      "target": "chapter_安装环境_3853",
+      "properties": {}
+    },
+    {
+      "source": "chapter_安装_5203",
+      "type": "contains_subchapter",
+      "target": "chapter_安装步骤_287",
+      "properties": {}
+    },
+    {
+      "source": "document_软件安装计划_7019",
+      "type": "contains_chapter",
+      "target": "chapter_安装步骤_287",
+      "properties": {}
+    },
+    {
+      "source": "chapter_安装_5203",
+      "type": "contains_subchapter",
+      "target": "chapter_安装验证_4973",
+      "properties": {}
+    },
+    {
+      "source": "document_软件安装计划_7019",
+      "type": "contains_chapter",
+      "target": "chapter_安装验证_4973",
+      "properties": {}
+    },
+    {
+      "source": "document_软件安装计划_7019",
+      "type": "contains_chapter",
+      "target": "chapter_注_4202",
+      "properties": {}
+    },
+    {
+      "source": "document_软件安装说明_263",
+      "type": "contains_chapter",
+      "target": "chapter_范围_8101",
+      "properties": {}
+    },
+    {
+      "source": "document_软件安装说明_263",
+      "type": "contains_chapter",
+      "target": "chapter_标识_4355",
+      "properties": {}
+    },
+    {
+      "source": "document_软件安装说明_263",
+      "type": "contains_chapter",
+      "target": "chapter_系统概述_9392",
+      "properties": {}
+    },
+    {
+      "source": "document_软件安装说明_263",
+      "type": "contains_chapter",
+      "target": "chapter_引用文件_8861",
+      "properties": {}
+    },
+    {
+      "source": "document_软件安装说明_263",
+      "type": "contains_chapter",
+      "target": "chapter_安装说明_2709",
+      "properties": {}
+    },
+    {
+      "source": "chapter_安装说明_2709",
+      "type": "contains_subchapter",
+      "target": "chapter_安装准备_431",
+      "properties": {}
+    },
+    {
+      "source": "document_软件安装说明_263",
+      "type": "contains_chapter",
+      "target": "chapter_安装准备_431",
+      "properties": {}
+    },
+    {
+      "source": "chapter_安装说明_2709",
+      "type": "contains_subchapter",
+      "target": "chapter_安装步骤_287",
+      "properties": {}
+    },
+    {
+      "source": "document_软件安装说明_263",
+      "type": "contains_chapter",
+      "target": "chapter_安装步骤_287",
+      "properties": {}
+    },
+    {
+      "source": "chapter_安装说明_2709",
+      "type": "contains_subchapter",
+      "target": "chapter_安装验证_4973",
+      "properties": {}
+    },
+    {
+      "source": "document_软件安装说明_263",
+      "type": "contains_chapter",
+      "target": "chapter_安装验证_4973",
+      "properties": {}
+    },
+    {
+      "source": "chapter_安装说明_2709",
+      "type": "contains_subchapter",
+      "target": "chapter_回退步骤_5553",
+      "properties": {}
+    },
+    {
+      "source": "document_软件安装说明_263",
+      "type": "contains_chapter",
+      "target": "chapter_回退步骤_5553",
+      "properties": {}
+    },
+    {
+      "source": "document_软件安装说明_263",
+      "type": "contains_chapter",
+      "target": "chapter_注_4202",
+      "properties": {}
+    },
+    {
+      "source": "document_软件用户手册_709",
+      "type": "contains_chapter",
+      "target": "chapter_范围_8101",
+      "properties": {}
+    },
+    {
+      "source": "document_软件用户手册_709",
+      "type": "contains_chapter",
+      "target": "chapter_标识_4355",
+      "properties": {}
+    },
+    {
+      "source": "document_软件用户手册_709",
+      "type": "contains_chapter",
+      "target": "chapter_系统概述_9392",
+      "properties": {}
+    },
+    {
+      "source": "document_软件用户手册_709",
+      "type": "contains_chapter",
+      "target": "chapter_文档概述_3208",
+      "properties": {}
+    },
+    {
+      "source": "document_软件用户手册_709",
+      "type": "contains_chapter",
+      "target": "chapter_引用文件_8861",
+      "properties": {}
+    },
+    {
+      "source": "document_软件用户手册_709",
+      "type": "contains_chapter",
+      "target": "chapter_操作规程_278",
+      "properties": {}
+    },
+    {
+      "source": "chapter_操作规程_278",
+      "type": "contains_subchapter",
+      "target": "chapter_安装与初始化_1350",
+      "properties": {}
+    },
+    {
+      "source": "document_软件用户手册_709",
+      "type": "contains_chapter",
+      "target": "chapter_安装与初始化_1350",
+      "properties": {}
+    },
+    {
+      "source": "chapter_操作规程_278",
+      "type": "contains_subchapter",
+      "target": "chapter_操作说明_1370",
+      "properties": {}
+    },
+    {
+      "source": "document_软件用户手册_709",
+      "type": "contains_chapter",
+      "target": "chapter_操作说明_1370",
+      "properties": {}
+    },
+    {
+      "source": "chapter_操作规程_278",
+      "type": "contains_subchapter",
+      "target": "chapter_错误处理_2386",
+      "properties": {}
+    },
+    {
+      "source": "document_软件用户手册_709",
+      "type": "contains_chapter",
+      "target": "chapter_错误处理_2386",
+      "properties": {}
+    },
+    {
+      "source": "chapter_操作规程_278",
+      "type": "contains_subchapter",
+      "target": "chapter_帮助信息_7649",
+      "properties": {}
+    },
+    {
+      "source": "document_软件用户手册_709",
+      "type": "contains_chapter",
+      "target": "chapter_帮助信息_7649",
+      "properties": {}
+    },
+    {
+      "source": "document_软件用户手册_709",
+      "type": "contains_chapter",
+      "target": "chapter_注_4202",
+      "properties": {}
+    },
+    {
+      "source": "document_软件操作员手册_1530",
+      "type": "contains_chapter",
+      "target": "chapter_范围_8101",
+      "properties": {}
+    },
+    {
+      "source": "document_软件操作员手册_1530",
+      "type": "contains_chapter",
+      "target": "chapter_标识_4355",
+      "properties": {}
+    },
+    {
+      "source": "document_软件操作员手册_1530",
+      "type": "contains_chapter",
+      "target": "chapter_系统概述_9392",
+      "properties": {}
+    },
+    {
+      "source": "document_软件操作员手册_1530",
+      "type": "contains_chapter",
+      "target": "chapter_引用文件_8861",
+      "properties": {}
+    },
+    {
+      "source": "document_软件操作员手册_1530",
+      "type": "contains_chapter",
+      "target": "chapter_操作规程_278",
+      "properties": {}
+    },
+    {
+      "source": "chapter_操作规程_278",
+      "type": "contains_subchapter",
+      "target": "chapter_系统启动与关闭_730",
+      "properties": {}
+    },
+    {
+      "source": "document_软件操作员手册_1530",
+      "type": "contains_chapter",
+      "target": "chapter_系统启动与关闭_730",
+      "properties": {}
+    },
+    {
+      "source": "chapter_操作规程_278",
+      "type": "contains_subchapter",
+      "target": "chapter_操作流程_4973",
+      "properties": {}
+    },
+    {
+      "source": "document_软件操作员手册_1530",
+      "type": "contains_chapter",
+      "target": "chapter_操作流程_4973",
+      "properties": {}
+    },
+    {
+      "source": "chapter_操作规程_278",
+      "type": "contains_subchapter",
+      "target": "chapter_故障处理_6205",
+      "properties": {}
+    },
+    {
+      "source": "document_软件操作员手册_1530",
+      "type": "contains_chapter",
+      "target": "chapter_故障处理_6205",
+      "properties": {}
+    },
+    {
+      "source": "document_软件操作员手册_1530",
+      "type": "contains_chapter",
+      "target": "chapter_注_4202",
+      "properties": {}
+    },
+    {
+      "source": "document_软件编程手册_8073",
+      "type": "contains_chapter",
+      "target": "chapter_范围_8101",
+      "properties": {}
+    },
+    {
+      "source": "document_软件编程手册_8073",
+      "type": "contains_chapter",
+      "target": "chapter_标识_4355",
+      "properties": {}
+    },
+    {
+      "source": "document_软件编程手册_8073",
+      "type": "contains_chapter",
+      "target": "chapter_系统概述_9392",
+      "properties": {}
+    },
+    {
+      "source": "document_软件编程手册_8073",
+      "type": "contains_chapter",
+      "target": "chapter_引用文件_8861",
+      "properties": {}
+    },
+    {
+      "source": "document_软件编程手册_8073",
+      "type": "contains_chapter",
+      "target": "chapter_编程环境_6111",
+      "properties": {}
+    },
+    {
+      "source": "chapter_编程环境_6111",
+      "type": "contains_subchapter",
+      "target": "chapter_开发环境_869",
+      "properties": {}
+    },
+    {
+      "source": "document_软件编程手册_8073",
+      "type": "contains_chapter",
+      "target": "chapter_开发环境_869",
+      "properties": {}
+    },
+    {
+      "source": "chapter_编程环境_6111",
+      "type": "contains_subchapter",
+      "target": "chapter_编程规范_5448",
+      "properties": {}
+    },
+    {
+      "source": "document_软件编程手册_8073",
+      "type": "contains_chapter",
+      "target": "chapter_编程规范_5448",
+      "properties": {}
+    },
+    {
+      "source": "chapter_编程环境_6111",
+      "type": "contains_subchapter",
+      "target": "chapter_编译与构建_2182",
+      "properties": {}
+    },
+    {
+      "source": "document_软件编程手册_8073",
+      "type": "contains_chapter",
+      "target": "chapter_编译与构建_2182",
+      "properties": {}
+    },
+    {
+      "source": "document_软件编程手册_8073",
+      "type": "contains_chapter",
+      "target": "chapter_注_4202",
+      "properties": {}
+    },
+    {
+      "source": "document_软件配置状态报告_2395",
+      "type": "contains_chapter",
+      "target": "chapter_范围_8101",
+      "properties": {}
+    },
+    {
+      "source": "document_软件配置状态报告_2395",
+      "type": "contains_chapter",
+      "target": "chapter_标识_4355",
+      "properties": {}
+    },
+    {
+      "source": "document_软件配置状态报告_2395",
+      "type": "contains_chapter",
+      "target": "chapter_系统概述_9392",
+      "properties": {}
+    },
+    {
+      "source": "document_软件配置状态报告_2395",
+      "type": "contains_chapter",
+      "target": "chapter_引用文件_8861",
+      "properties": {}
+    },
+    {
+      "source": "document_软件配置状态报告_2395",
+      "type": "contains_chapter",
+      "target": "chapter_配置状态_6840",
+      "properties": {}
+    },
+    {
+      "source": "chapter_配置状态_6840",
+      "type": "contains_subchapter",
+      "target": "chapter_配置项清单_9457",
+      "properties": {}
+    },
+    {
+      "source": "document_软件配置状态报告_2395",
+      "type": "contains_chapter",
+      "target": "chapter_配置项清单_9457",
+      "properties": {}
+    },
+    {
+      "source": "chapter_配置状态_6840",
+      "type": "contains_subchapter",
+      "target": "chapter_变更记录_1849",
+      "properties": {}
+    },
+    {
+      "source": "document_软件配置状态报告_2395",
+      "type": "contains_chapter",
+      "target": "chapter_变更记录_1849",
+      "properties": {}
+    },
+    {
+      "source": "chapter_配置状态_6840",
+      "type": "contains_subchapter",
+      "target": "chapter_基线状态_7329",
+      "properties": {}
+    },
+    {
+      "source": "document_软件配置状态报告_2395",
+      "type": "contains_chapter",
+      "target": "chapter_基线状态_7329",
+      "properties": {}
+    },
+    {
+      "source": "document_软件配置状态报告_2395",
+      "type": "contains_chapter",
+      "target": "chapter_注_4202",
+      "properties": {}
+    },
+    {
+      "source": "document_软件移交计划_4180",
+      "type": "contains_chapter",
+      "target": "chapter_范围_8101",
+      "properties": {}
+    },
+    {
+      "source": "document_软件移交计划_4180",
+      "type": "contains_chapter",
+      "target": "chapter_标识_4355",
+      "properties": {}
+    },
+    {
+      "source": "document_软件移交计划_4180",
+      "type": "contains_chapter",
+      "target": "chapter_系统概述_9392",
+      "properties": {}
+    },
+    {
+      "source": "document_软件移交计划_4180",
+      "type": "contains_chapter",
+      "target": "chapter_文档概述_3208",
+      "properties": {}
+    },
+    {
+      "source": "document_软件移交计划_4180",
+      "type": "contains_chapter",
+      "target": "chapter_引用文件_8861",
+      "properties": {}
+    },
+    {
+      "source": "document_软件移交计划_4180",
+      "type": "contains_chapter",
+      "target": "chapter_移交_674",
+      "properties": {}
+    },
+    {
+      "source": "chapter_移交_674",
+      "type": "contains_subchapter",
+      "target": "chapter_移交准备_8102",
+      "properties": {}
+    },
+    {
+      "source": "document_软件移交计划_4180",
+      "type": "contains_chapter",
+      "target": "chapter_移交准备_8102",
+      "properties": {}
+    },
+    {
+      "source": "chapter_移交_674",
+      "type": "contains_subchapter",
+      "target": "chapter_移交内容_7684",
+      "properties": {}
+    },
+    {
+      "source": "document_软件移交计划_4180",
+      "type": "contains_chapter",
+      "target": "chapter_移交内容_7684",
+      "properties": {}
+    },
+    {
+      "source": "chapter_移交_674",
+      "type": "contains_subchapter",
+      "target": "chapter_移交验证_4317",
+      "properties": {}
+    },
+    {
+      "source": "document_软件移交计划_4180",
+      "type": "contains_chapter",
+      "target": "chapter_移交验证_4317",
+      "properties": {}
+    },
+    {
+      "source": "document_软件移交计划_4180",
+      "type": "contains_chapter",
+      "target": "chapter_注_4202",
+      "properties": {}
+    },
+    {
+      "source": "document_软件设计日志_6266",
+      "type": "contains_chapter",
+      "target": "chapter_范围_8101",
+      "properties": {}
+    },
+    {
+      "source": "document_软件设计日志_6266",
+      "type": "contains_chapter",
+      "target": "chapter_标识_4355",
+      "properties": {}
+    },
+    {
+      "source": "document_软件设计日志_6266",
+      "type": "contains_chapter",
+      "target": "chapter_系统概述_9392",
+      "properties": {}
+    },
+    {
+      "source": "document_软件设计日志_6266",
+      "type": "contains_chapter",
+      "target": "chapter_设计日志_3982",
+      "properties": {}
+    },
+    {
+      "source": "chapter_设计日志_3982",
+      "type": "contains_subchapter",
+      "target": "chapter_设计活动记录_351",
+      "properties": {}
+    },
+    {
+      "source": "document_软件设计日志_6266",
+      "type": "contains_chapter",
+      "target": "chapter_设计活动记录_351",
+      "properties": {}
+    },
+    {
+      "source": "chapter_设计日志_3982",
+      "type": "contains_subchapter",
+      "target": "chapter_设计评审记录_2117",
+      "properties": {}
+    },
+    {
+      "source": "document_软件设计日志_6266",
+      "type": "contains_chapter",
+      "target": "chapter_设计评审记录_2117",
+      "properties": {}
+    },
+    {
+      "source": "document_软件设计日志_6266",
+      "type": "contains_chapter",
+      "target": "chapter_注_4202",
+      "properties": {}
+    }
+  ],
+  "stats": {
+    "total_entities": 119,
+    "total_relations": 297,
+    "entity_types": {
+      "document": 19,
+      "chapter": 100
+    },
+    "storage": {
+      "local_json": true,
+      "neo4j": {
+        "enabled": false,
+        "connected": false
+      }
+    }
+  }
+}

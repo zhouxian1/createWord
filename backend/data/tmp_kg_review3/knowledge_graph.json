@@ -1,0 +1,4216 @@
+{
+  "entities": {
+    "document_ff10b3e4d25d": {
+      "type": "document",
+      "name": "软件需求规格说明",
+      "properties": {
+        "code": "SRS",
+        "category": "development",
+        "complexity": "high",
+        "description": "描述软件系统的功能需求、性能需求、接口需求等"
+      }
+    },
+    "chapter_c449681c7eee": {
+      "type": "chapter",
+      "name": "范围",
+      "properties": {
+        "number": "1",
+        "level": 1,
+        "doc_code": "SRS"
+      }
+    },
+    "chapter_ee40d99e7a94": {
+      "type": "chapter",
+      "name": "标识",
+      "properties": {
+        "number": "1.1",
+        "level": 2,
+        "doc_code": "SRS"
+      }
+    },
+    "chapter_e4ba120cf2ed": {
+      "type": "chapter",
+      "name": "系统概述",
+      "properties": {
+        "number": "1.2",
+        "level": 2,
+        "doc_code": "SRS"
+      }
+    },
+    "chapter_4c97ec3a7bdf": {
+      "type": "chapter",
+      "name": "文档概述",
+      "properties": {
+        "number": "1.3",
+        "level": 2,
+        "doc_code": "SRS"
+      }
+    },
+    "chapter_f2c9f18d32db": {
+      "type": "chapter",
+      "name": "引用文件",
+      "properties": {
+        "number": "2",
+        "level": 1,
+        "doc_code": "SRS"
+      }
+    },
+    "chapter_7f103ab22793": {
+      "type": "chapter",
+      "name": "需求",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "SRS"
+      }
+    },
+    "chapter_6d9b11d928ae": {
+      "type": "chapter",
+      "name": "要求状态和方法",
+      "properties": {
+        "number": "3.1",
+        "level": 2,
+        "doc_code": "SRS"
+      }
+    },
+    "chapter_7af689a599f5": {
+      "type": "chapter",
+      "name": "软件需求",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "SRS"
+      }
+    },
+    "chapter_ae96c6f87239": {
+      "type": "chapter",
+      "name": "合格性规定",
+      "properties": {
+        "number": "3.3",
+        "level": 2,
+        "doc_code": "SRS"
+      }
+    },
+    "chapter_a3c589cf90b5": {
+      "type": "chapter",
+      "name": "需求可追踪性",
+      "properties": {
+        "number": "3.4",
+        "level": 2,
+        "doc_code": "SRS"
+      }
+    },
+    "chapter_21091ca8d4a7": {
+      "type": "chapter",
+      "name": "合格性验证",
+      "properties": {
+        "number": "4",
+        "level": 1,
+        "doc_code": "SRS"
+      }
+    },
+    "chapter_be264eefb891": {
+      "type": "chapter",
+      "name": "注",
+      "properties": {
+        "number": "5",
+        "level": 1,
+        "doc_code": "SRS"
+      }
+    },
+    "document_08f39adccc6f": {
+      "type": "document",
+      "name": "软件设计说明",
+      "properties": {
+        "code": "SDD",
+        "category": "development",
+        "complexity": "high",
+        "description": "描述软件系统的体系结构设计和详细设计"
+      }
+    },
+    "chapter_4f70ee8ab548": {
+      "type": "chapter",
+      "name": "范围",
+      "properties": {
+        "number": "1",
+        "level": 1,
+        "doc_code": "SDD"
+      }
+    },
+    "chapter_af01f388062e": {
+      "type": "chapter",
+      "name": "标识",
+      "properties": {
+        "number": "1.1",
+        "level": 2,
+        "doc_code": "SDD"
+      }
+    },
+    "chapter_06e7d4dc5642": {
+      "type": "chapter",
+      "name": "系统概述",
+      "properties": {
+        "number": "1.2",
+        "level": 2,
+        "doc_code": "SDD"
+      }
+    },
+    "chapter_30ab5cc247a1": {
+      "type": "chapter",
+      "name": "文档概述",
+      "properties": {
+        "number": "1.3",
+        "level": 2,
+        "doc_code": "SDD"
+      }
+    },
+    "chapter_91bbb0ca1922": {
+      "type": "chapter",
+      "name": "引用文件",
+      "properties": {
+        "number": "2",
+        "level": 1,
+        "doc_code": "SDD"
+      }
+    },
+    "chapter_527e650e648c": {
+      "type": "chapter",
+      "name": "系统级设计决策",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "SDD"
+      }
+    },
+    "chapter_33bfe94b5d46": {
+      "type": "chapter",
+      "name": "体系结构设计",
+      "properties": {
+        "number": "4",
+        "level": 1,
+        "doc_code": "SDD"
+      }
+    },
+    "chapter_a50b507f8eb5": {
+      "type": "chapter",
+      "name": "体系结构",
+      "properties": {
+        "number": "4.1",
+        "level": 2,
+        "doc_code": "SDD"
+      }
+    },
+    "chapter_0765a14f6cd3": {
+      "type": "chapter",
+      "name": "全局数据结构",
+      "properties": {
+        "number": "4.2",
+        "level": 2,
+        "doc_code": "SDD"
+      }
+    },
+    "chapter_aaa3dbff1b58": {
+      "type": "chapter",
+      "name": "接口设计",
+      "properties": {
+        "number": "4.3",
+        "level": 2,
+        "doc_code": "SDD"
+      }
+    },
+    "chapter_f5a4a5755779": {
+      "type": "chapter",
+      "name": "详细设计",
+      "properties": {
+        "number": "5",
+        "level": 1,
+        "doc_code": "SDD"
+      }
+    },
+    "chapter_5d69e4858d07": {
+      "type": "chapter",
+      "name": "模块详细设计",
+      "properties": {
+        "number": "5.1",
+        "level": 2,
+        "doc_code": "SDD"
+      }
+    },
+    "chapter_fc4ba3bd4953": {
+      "type": "chapter",
+      "name": "需求可追踪性",
+      "properties": {
+        "number": "6",
+        "level": 1,
+        "doc_code": "SDD"
+      }
+    },
+    "chapter_30ba9f669d37": {
+      "type": "chapter",
+      "name": "注",
+      "properties": {
+        "number": "7",
+        "level": 1,
+        "doc_code": "SDD"
+      }
+    },
+    "document_1b6053f0ab61": {
+      "type": "document",
+      "name": "软件开发计划",
+      "properties": {
+        "code": "SVP",
+        "category": "management",
+        "complexity": "high",
+        "description": "描述软件开发活动的计划安排"
+      }
+    },
+    "chapter_3a25f27761ad": {
+      "type": "chapter",
+      "name": "范围",
+      "properties": {
+        "number": "1",
+        "level": 1,
+        "doc_code": "SVP"
+      }
+    },
+    "chapter_3c2cd0972e4f": {
+      "type": "chapter",
+      "name": "标识",
+      "properties": {
+        "number": "1.1",
+        "level": 2,
+        "doc_code": "SVP"
+      }
+    },
+    "chapter_1baa9f776668": {
+      "type": "chapter",
+      "name": "系统概述",
+      "properties": {
+        "number": "1.2",
+        "level": 2,
+        "doc_code": "SVP"
+      }
+    },
+    "chapter_d1095bcfde3c": {
+      "type": "chapter",
+      "name": "文档概述",
+      "properties": {
+        "number": "1.3",
+        "level": 2,
+        "doc_code": "SVP"
+      }
+    },
+    "chapter_42de8f9e37fa": {
+      "type": "chapter",
+      "name": "引用文件",
+      "properties": {
+        "number": "2",
+        "level": 1,
+        "doc_code": "SVP"
+      }
+    },
+    "chapter_5db3e739592d": {
+      "type": "chapter",
+      "name": "软件开发过程",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "SVP"
+      }
+    },
+    "chapter_b9b97bbaf82a": {
+      "type": "chapter",
+      "name": "软件开发模型",
+      "properties": {
+        "number": "3.1",
+        "level": 2,
+        "doc_code": "SVP"
+      }
+    },
+    "chapter_fe2bb06a5e12": {
+      "type": "chapter",
+      "name": "软件开发方法",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "SVP"
+      }
+    },
+    "chapter_535020196400": {
+      "type": "chapter",
+      "name": "软件开发标准",
+      "properties": {
+        "number": "3.3",
+        "level": 2,
+        "doc_code": "SVP"
+      }
+    },
+    "chapter_3593e7667cb6": {
+      "type": "chapter",
+      "name": "软件开发计划",
+      "properties": {
+        "number": "4",
+        "level": 1,
+        "doc_code": "SVP"
+      }
+    },
+    "chapter_20fac559f134": {
+      "type": "chapter",
+      "name": "活动与里程碑",
+      "properties": {
+        "number": "4.1",
+        "level": 2,
+        "doc_code": "SVP"
+      }
+    },
+    "chapter_30c90523e1d7": {
+      "type": "chapter",
+      "name": "进度",
+      "properties": {
+        "number": "4.2",
+        "level": 2,
+        "doc_code": "SVP"
+      }
+    },
+    "chapter_19979794be32": {
+      "type": "chapter",
+      "name": "资源估计",
+      "properties": {
+        "number": "4.3",
+        "level": 2,
+        "doc_code": "SVP"
+      }
+    },
+    "chapter_3e3d20d38e23": {
+      "type": "chapter",
+      "name": "项目管理",
+      "properties": {
+        "number": "5",
+        "level": 1,
+        "doc_code": "SVP"
+      }
+    },
+    "chapter_2a42760a77f7": {
+      "type": "chapter",
+      "name": "组织与职责",
+      "properties": {
+        "number": "5.1",
+        "level": 2,
+        "doc_code": "SVP"
+      }
+    },
+    "chapter_63feb9526bd6": {
+      "type": "chapter",
+      "name": "风险管理",
+      "properties": {
+        "number": "5.2",
+        "level": 2,
+        "doc_code": "SVP"
+      }
+    },
+    "chapter_1a509ba6e71a": {
+      "type": "chapter",
+      "name": "配置管理",
+      "properties": {
+        "number": "5.3",
+        "level": 2,
+        "doc_code": "SVP"
+      }
+    },
+    "chapter_46e1af5106e1": {
+      "type": "chapter",
+      "name": "质量保证",
+      "properties": {
+        "number": "5.4",
+        "level": 2,
+        "doc_code": "SVP"
+      }
+    },
+    "chapter_26220b50667a": {
+      "type": "chapter",
+      "name": "注",
+      "properties": {
+        "number": "6",
+        "level": 1,
+        "doc_code": "SVP"
+      }
+    },
+    "document_a8f9bae51517": {
+      "type": "document",
+      "name": "软件验证与确认计划",
+      "properties": {
+        "code": "SVVP",
+        "category": "verification",
+        "complexity": "high",
+        "description": "描述软件验证与确认活动的计划"
+      }
+    },
+    "chapter_79b634fc93fa": {
+      "type": "chapter",
+      "name": "范围",
+      "properties": {
+        "number": "1",
+        "level": 1,
+        "doc_code": "SVVP"
+      }
+    },
+    "chapter_2f5d9398ca65": {
+      "type": "chapter",
+      "name": "标识",
+      "properties": {
+        "number": "1.1",
+        "level": 2,
+        "doc_code": "SVVP"
+      }
+    },
+    "chapter_acf2c4d4f66f": {
+      "type": "chapter",
+      "name": "系统概述",
+      "properties": {
+        "number": "1.2",
+        "level": 2,
+        "doc_code": "SVVP"
+      }
+    },
+    "chapter_e01c915cb2fc": {
+      "type": "chapter",
+      "name": "文档概述",
+      "properties": {
+        "number": "1.3",
+        "level": 2,
+        "doc_code": "SVVP"
+      }
+    },
+    "chapter_bb9c52dbdfb9": {
+      "type": "chapter",
+      "name": "引用文件",
+      "properties": {
+        "number": "2",
+        "level": 1,
+        "doc_code": "SVVP"
+      }
+    },
+    "chapter_d5b3c85bdebe": {
+      "type": "chapter",
+      "name": "验证与确认",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "SVVP"
+      }
+    },
+    "chapter_d89600202ceb": {
+      "type": "chapter",
+      "name": "组织与职责",
+      "properties": {
+        "number": "3.1",
+        "level": 2,
+        "doc_code": "SVVP"
+      }
+    },
+    "chapter_650b22709a5f": {
+      "type": "chapter",
+      "name": "验证与确认活动",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "SVVP"
+      }
+    },
+    "chapter_8d6338832225": {
+      "type": "chapter",
+      "name": "工具与技术",
+      "properties": {
+        "number": "3.3",
+        "level": 2,
+        "doc_code": "SVVP"
+      }
+    },
+    "chapter_3753127307fc": {
+      "type": "chapter",
+      "name": "记录",
+      "properties": {
+        "number": "3.4",
+        "level": 2,
+        "doc_code": "SVVP"
+      }
+    },
+    "chapter_fdb207b45d0b": {
+      "type": "chapter",
+      "name": "进度",
+      "properties": {
+        "number": "4",
+        "level": 1,
+        "doc_code": "SVVP"
+      }
+    },
+    "chapter_6e6809f11ce8": {
+      "type": "chapter",
+      "name": "注",
+      "properties": {
+        "number": "5",
+        "level": 1,
+        "doc_code": "SVVP"
+      }
+    },
+    "document_061c2e474c9f": {
+      "type": "document",
+      "name": "软件测试报告",
+      "properties": {
+        "code": "STR",
+        "category": "testing",
+        "complexity": "high",
+        "description": "描述软件测试的执行情况和结果"
+      }
+    },
+    "chapter_fd0fc1ee94a9": {
+      "type": "chapter",
+      "name": "范围",
+      "properties": {
+        "number": "1",
+        "level": 1,
+        "doc_code": "STR"
+      }
+    },
+    "chapter_693b189cfc37": {
+      "type": "chapter",
+      "name": "标识",
+      "properties": {
+        "number": "1.1",
+        "level": 2,
+        "doc_code": "STR"
+      }
+    },
+    "chapter_5f12ca639016": {
+      "type": "chapter",
+      "name": "系统概述",
+      "properties": {
+        "number": "1.2",
+        "level": 2,
+        "doc_code": "STR"
+      }
+    },
+    "chapter_d5f2404e0d80": {
+      "type": "chapter",
+      "name": "文档概述",
+      "properties": {
+        "number": "1.3",
+        "level": 2,
+        "doc_code": "STR"
+      }
+    },
+    "chapter_5747fde3933b": {
+      "type": "chapter",
+      "name": "引用文件",
+      "properties": {
+        "number": "2",
+        "level": 1,
+        "doc_code": "STR"
+      }
+    },
+    "chapter_b65115832d59": {
+      "type": "chapter",
+      "name": "测试概述",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "STR"
+      }
+    },
+    "chapter_cec544a58474": {
+      "type": "chapter",
+      "name": "测试环境",
+      "properties": {
+        "number": "3.1",
+        "level": 2,
+        "doc_code": "STR"
+      }
+    },
+    "chapter_8b311b6b9011": {
+      "type": "chapter",
+      "name": "测试结果概述",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "STR"
+      }
+    },
+    "chapter_2ff417fb9ae2": {
+      "type": "chapter",
+      "name": "测试完整性与充分性",
+      "properties": {
+        "number": "3.3",
+        "level": 2,
+        "doc_code": "STR"
+      }
+    },
+    "chapter_8b5d9f1fb98b": {
+      "type": "chapter",
+      "name": "测试结果",
+      "properties": {
+        "number": "4",
+        "level": 1,
+        "doc_code": "STR"
+      }
+    },
+    "chapter_04bf0ffe5315": {
+      "type": "chapter",
+      "name": "测试用例执行结果",
+      "properties": {
+        "number": "4.1",
+        "level": 2,
+        "doc_code": "STR"
+      }
+    },
+    "chapter_9f5df336a0b5": {
+      "type": "chapter",
+      "name": "需求覆盖分析",
+      "properties": {
+        "number": "4.2",
+        "level": 2,
+        "doc_code": "STR"
+      }
+    },
+    "chapter_1caa8fe480c6": {
+      "type": "chapter",
+      "name": "偏差与异常",
+      "properties": {
+        "number": "4.3",
+        "level": 2,
+        "doc_code": "STR"
+      }
+    },
+    "chapter_993c5ded4020": {
+      "type": "chapter",
+      "name": "测试评价",
+      "properties": {
+        "number": "5",
+        "level": 1,
+        "doc_code": "STR"
+      }
+    },
+    "chapter_e4dd4e588896": {
+      "type": "chapter",
+      "name": "测试结论",
+      "properties": {
+        "number": "5.1",
+        "level": 2,
+        "doc_code": "STR"
+      }
+    },
+    "chapter_990de84670a0": {
+      "type": "chapter",
+      "name": "改进建议",
+      "properties": {
+        "number": "5.2",
+        "level": 2,
+        "doc_code": "STR"
+      }
+    },
+    "chapter_61c53ca235b6": {
+      "type": "chapter",
+      "name": "注",
+      "properties": {
+        "number": "6",
+        "level": 1,
+        "doc_code": "STR"
+      }
+    },
+    "document_d84a12222933": {
+      "type": "document",
+      "name": "软件测试计划",
+      "properties": {
+        "code": "STP",
+        "category": "testing",
+        "complexity": "medium",
+        "description": "描述软件测试活动的计划安排"
+      }
+    },
+    "chapter_26edca3cd54d": {
+      "type": "chapter",
+      "name": "范围",
+      "properties": {
+        "number": "1",
+        "level": 1,
+        "doc_code": "STP"
+      }
+    },
+    "chapter_251a587571b7": {
+      "type": "chapter",
+      "name": "标识",
+      "properties": {
+        "number": "1.1",
+        "level": 2,
+        "doc_code": "STP"
+      }
+    },
+    "chapter_6a2da2bb43e1": {
+      "type": "chapter",
+      "name": "系统概述",
+      "properties": {
+        "number": "1.2",
+        "level": 2,
+        "doc_code": "STP"
+      }
+    },
+    "chapter_ca0d7e1f36fc": {
+      "type": "chapter",
+      "name": "文档概述",
+      "properties": {
+        "number": "1.3",
+        "level": 2,
+        "doc_code": "STP"
+      }
+    },
+    "chapter_6e8d2a6af2a8": {
+      "type": "chapter",
+      "name": "引用文件",
+      "properties": {
+        "number": "2",
+        "level": 1,
+        "doc_code": "STP"
+      }
+    },
+    "chapter_4731b3ebdebb": {
+      "type": "chapter",
+      "name": "测试",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "STP"
+      }
+    },
+    "chapter_ef97400a3dc9": {
+      "type": "chapter",
+      "name": "测试环境",
+      "properties": {
+        "number": "3.1",
+        "level": 2,
+        "doc_code": "STP"
+      }
+    },
+    "chapter_7900a48ad968": {
+      "type": "chapter",
+      "name": "测试类型",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "STP"
+      }
+    },
+    "chapter_ecccc17c7d9e": {
+      "type": "chapter",
+      "name": "测试项",
+      "properties": {
+        "number": "3.3",
+        "level": 2,
+        "doc_code": "STP"
+      }
+    },
+    "chapter_809710ecd3dc": {
+      "type": "chapter",
+      "name": "测试进度",
+      "properties": {
+        "number": "3.4",
+        "level": 2,
+        "doc_code": "STP"
+      }
+    },
+    "chapter_6557830c561a": {
+      "type": "chapter",
+      "name": "注",
+      "properties": {
+        "number": "4",
+        "level": 1,
+        "doc_code": "STP"
+      }
+    },
+    "document_20cacf1cd539": {
+      "type": "document",
+      "name": "软件配置管理计划",
+      "properties": {
+        "code": "SCS",
+        "category": "management",
+        "complexity": "medium",
+        "description": "描述软件配置管理的计划安排"
+      }
+    },
+    "chapter_3c6efb73fda4": {
+      "type": "chapter",
+      "name": "范围",
+      "properties": {
+        "number": "1",
+        "level": 1,
+        "doc_code": "SCS"
+      }
+    },
+    "chapter_f3701ac48b6d": {
+      "type": "chapter",
+      "name": "标识",
+      "properties": {
+        "number": "1.1",
+        "level": 2,
+        "doc_code": "SCS"
+      }
+    },
+    "chapter_d94be9e4a51f": {
+      "type": "chapter",
+      "name": "系统概述",
+      "properties": {
+        "number": "1.2",
+        "level": 2,
+        "doc_code": "SCS"
+      }
+    },
+    "chapter_a3b7266465ec": {
+      "type": "chapter",
+      "name": "文档概述",
+      "properties": {
+        "number": "1.3",
+        "level": 2,
+        "doc_code": "SCS"
+      }
+    },
+    "chapter_b191e554898e": {
+      "type": "chapter",
+      "name": "引用文件",
+      "properties": {
+        "number": "2",
+        "level": 1,
+        "doc_code": "SCS"
+      }
+    },
+    "chapter_762d6eed533e": {
+      "type": "chapter",
+      "name": "配置管理",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "SCS"
+      }
+    },
+    "chapter_855de189ceb8": {
+      "type": "chapter",
+      "name": "组织与职责",
+      "properties": {
+        "number": "3.1",
+        "level": 2,
+        "doc_code": "SCS"
+      }
+    },
+    "chapter_675e9a42801b": {
+      "type": "chapter",
+      "name": "配置标识",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "SCS"
+      }
+    },
+    "chapter_e2335bc67648": {
+      "type": "chapter",
+      "name": "配置控制",
+      "properties": {
+        "number": "3.3",
+        "level": 2,
+        "doc_code": "SCS"
+      }
+    },
+    "chapter_5f8e7a2c494c": {
+      "type": "chapter",
+      "name": "配置状态记录",
+      "properties": {
+        "number": "3.4",
+        "level": 2,
+        "doc_code": "SCS"
+      }
+    },
+    "chapter_905f55c0b8f5": {
+      "type": "chapter",
+      "name": "配置审核",
+      "properties": {
+        "number": "3.5",
+        "level": 2,
+        "doc_code": "SCS"
+      }
+    },
+    "chapter_20f7f17c1a95": {
+      "type": "chapter",
+      "name": "注",
+      "properties": {
+        "number": "4",
+        "level": 1,
+        "doc_code": "SCS"
+      }
+    },
+    "document_02b027be3da9": {
+      "type": "document",
+      "name": "软件质量保证计划",
+      "properties": {
+        "code": "SQAP",
+        "category": "management",
+        "complexity": "medium",
+        "description": "描述软件质量保证的计划安排"
+      }
+    },
+    "chapter_f71c13fecc26": {
+      "type": "chapter",
+      "name": "范围",
+      "properties": {
+        "number": "1",
+        "level": 1,
+        "doc_code": "SQAP"
+      }
+    },
+    "chapter_fc3733ba45f7": {
+      "type": "chapter",
+      "name": "标识",
+      "properties": {
+        "number": "1.1",
+        "level": 2,
+        "doc_code": "SQAP"
+      }
+    },
+    "chapter_69708fa429c6": {
+      "type": "chapter",
+      "name": "系统概述",
+      "properties": {
+        "number": "1.2",
+        "level": 2,
+        "doc_code": "SQAP"
+      }
+    },
+    "chapter_cfc533d837ff": {
+      "type": "chapter",
+      "name": "文档概述",
+      "properties": {
+        "number": "1.3",
+        "level": 2,
+        "doc_code": "SQAP"
+      }
+    },
+    "chapter_833132fbfc21": {
+      "type": "chapter",
+      "name": "引用文件",
+      "properties": {
+        "number": "2",
+        "level": 1,
+        "doc_code": "SQAP"
+      }
+    },
+    "chapter_7ff7560be077": {
+      "type": "chapter",
+      "name": "质量保证",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "SQAP"
+      }
+    },
+    "chapter_cac136149de4": {
+      "type": "chapter",
+      "name": "组织与职责",
+      "properties": {
+        "number": "3.1",
+        "level": 2,
+        "doc_code": "SQAP"
+      }
+    },
+    "chapter_b49177695457": {
+      "type": "chapter",
+      "name": "质量保证活动",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "SQAP"
+      }
+    },
+    "chapter_121e657cc26d": {
+      "type": "chapter",
+      "name": "工具与技术",
+      "properties": {
+        "number": "3.3",
+        "level": 2,
+        "doc_code": "SQAP"
+      }
+    },
+    "chapter_2f53bc5e33e6": {
+      "type": "chapter",
+      "name": "记录",
+      "properties": {
+        "number": "3.4",
+        "level": 2,
+        "doc_code": "SQAP"
+      }
+    },
+    "chapter_dfbb407daff4": {
+      "type": "chapter",
+      "name": "注",
+      "properties": {
+        "number": "4",
+        "level": 1,
+        "doc_code": "SQAP"
+      }
+    },
+    "document_3a8532e0d5cb": {
+      "type": "document",
+      "name": "软件开发文件",
+      "properties": {
+        "code": "SDF",
+        "category": "development",
+        "complexity": "medium",
+        "description": "记录软件开发过程中的设计决策和技术细节"
+      }
+    },
+    "chapter_16a4250967c2": {
+      "type": "chapter",
+      "name": "范围",
+      "properties": {
+        "number": "1",
+        "level": 1,
+        "doc_code": "SDF"
+      }
+    },
+    "chapter_8b8d64d1659f": {
+      "type": "chapter",
+      "name": "标识",
+      "properties": {
+        "number": "1.1",
+        "level": 2,
+        "doc_code": "SDF"
+      }
+    },
+    "chapter_8a1b15334b8f": {
+      "type": "chapter",
+      "name": "系统概述",
+      "properties": {
+        "number": "1.2",
+        "level": 2,
+        "doc_code": "SDF"
+      }
+    },
+    "chapter_99087a491d2f": {
+      "type": "chapter",
+      "name": "开发过程记录",
+      "properties": {
+        "number": "2",
+        "level": 1,
+        "doc_code": "SDF"
+      }
+    },
+    "chapter_105eab479c49": {
+      "type": "chapter",
+      "name": "设计决策",
+      "properties": {
+        "number": "2.1",
+        "level": 2,
+        "doc_code": "SDF"
+      }
+    },
+    "chapter_c50725e38176": {
+      "type": "chapter",
+      "name": "技术方案",
+      "properties": {
+        "number": "2.2",
+        "level": 2,
+        "doc_code": "SDF"
+      }
+    },
+    "chapter_a6da9ee2b5c7": {
+      "type": "chapter",
+      "name": "问题与解决",
+      "properties": {
+        "number": "2.3",
+        "level": 2,
+        "doc_code": "SDF"
+      }
+    },
+    "chapter_d114435c82dd": {
+      "type": "chapter",
+      "name": "注",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "SDF"
+      }
+    },
+    "document_253182404a36": {
+      "type": "document",
+      "name": "软件产品规格说明",
+      "properties": {
+        "code": "SPS",
+        "category": "development",
+        "complexity": "high",
+        "description": "描述软件产品的完整规格"
+      }
+    },
+    "chapter_ffdb1be5274e": {
+      "type": "chapter",
+      "name": "范围",
+      "properties": {
+        "number": "1",
+        "level": 1,
+        "doc_code": "SPS"
+      }
+    },
+    "chapter_6bd6b30efd9f": {
+      "type": "chapter",
+      "name": "标识",
+      "properties": {
+        "number": "1.1",
+        "level": 2,
+        "doc_code": "SPS"
+      }
+    },
+    "chapter_7bdd10d3c37a": {
+      "type": "chapter",
+      "name": "系统概述",
+      "properties": {
+        "number": "1.2",
+        "level": 2,
+        "doc_code": "SPS"
+      }
+    },
+    "chapter_61e3940d8223": {
+      "type": "chapter",
+      "name": "文档概述",
+      "properties": {
+        "number": "1.3",
+        "level": 2,
+        "doc_code": "SPS"
+      }
+    },
+    "chapter_eac2ae8d4eb5": {
+      "type": "chapter",
+      "name": "引用文件",
+      "properties": {
+        "number": "2",
+        "level": 1,
+        "doc_code": "SPS"
+      }
+    },
+    "chapter_fdc2a32f9967": {
+      "type": "chapter",
+      "name": "需求规格",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "SPS"
+      }
+    },
+    "chapter_699762ec7dcb": {
+      "type": "chapter",
+      "name": "功能需求",
+      "properties": {
+        "number": "3.1",
+        "level": 2,
+        "doc_code": "SPS"
+      }
+    },
+    "chapter_926309bcdfda": {
+      "type": "chapter",
+      "name": "性能需求",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "SPS"
+      }
+    },
+    "chapter_7c16eeee1f5d": {
+      "type": "chapter",
+      "name": "接口需求",
+      "properties": {
+        "number": "3.3",
+        "level": 2,
+        "doc_code": "SPS"
+      }
+    },
+    "chapter_077c72d41902": {
+      "type": "chapter",
+      "name": "设计规格",
+      "properties": {
+        "number": "4",
+        "level": 1,
+        "doc_code": "SPS"
+      }
+    },
+    "chapter_28a7bd72a2bc": {
+      "type": "chapter",
+      "name": "体系结构设计",
+      "properties": {
+        "number": "4.1",
+        "level": 2,
+        "doc_code": "SPS"
+      }
+    },
+    "chapter_202040438fd2": {
+      "type": "chapter",
+      "name": "详细设计",
+      "properties": {
+        "number": "4.2",
+        "level": 2,
+        "doc_code": "SPS"
+      }
+    },
+    "chapter_5d2b21ca748f": {
+      "type": "chapter",
+      "name": "源代码",
+      "properties": {
+        "number": "5",
+        "level": 1,
+        "doc_code": "SPS"
+      }
+    },
+    "chapter_e908a1308a70": {
+      "type": "chapter",
+      "name": "注",
+      "properties": {
+        "number": "6",
+        "level": 1,
+        "doc_code": "SPS"
+      }
+    },
+    "document_f24ee9114828": {
+      "type": "document",
+      "name": "软件版本说明",
+      "properties": {
+        "code": "SVD",
+        "category": "configuration",
+        "complexity": "medium",
+        "description": "描述软件版本的变更内容"
+      }
+    },
+    "chapter_1dbf05c9ff6d": {
+      "type": "chapter",
+      "name": "范围",
+      "properties": {
+        "number": "1",
+        "level": 1,
+        "doc_code": "SVD"
+      }
+    },
+    "chapter_e112a66dd66b": {
+      "type": "chapter",
+      "name": "标识",
+      "properties": {
+        "number": "1.1",
+        "level": 2,
+        "doc_code": "SVD"
+      }
+    },
+    "chapter_0c8354bf2274": {
+      "type": "chapter",
+      "name": "系统概述",
+      "properties": {
+        "number": "1.2",
+        "level": 2,
+        "doc_code": "SVD"
+      }
+    },
+    "chapter_6963912c3fad": {
+      "type": "chapter",
+      "name": "文档概述",
+      "properties": {
+        "number": "1.3",
+        "level": 2,
+        "doc_code": "SVD"
+      }
+    },
+    "chapter_6270117486dc": {
+      "type": "chapter",
+      "name": "引用文件",
+      "properties": {
+        "number": "2",
+        "level": 1,
+        "doc_code": "SVD"
+      }
+    },
+    "chapter_ecee75b37787": {
+      "type": "chapter",
+      "name": "版本说明",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "SVD"
+      }
+    },
+    "chapter_b2b6aa923419": {
+      "type": "chapter",
+      "name": "版本标识",
+      "properties": {
+        "number": "3.1",
+        "level": 2,
+        "doc_code": "SVD"
+      }
+    },
+    "chapter_ec6e1c6ec42f": {
+      "type": "chapter",
+      "name": "变更内容",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "SVD"
+      }
+    },
+    "chapter_567d5bdbb228": {
+      "type": "chapter",
+      "name": "已知问题",
+      "properties": {
+        "number": "3.3",
+        "level": 2,
+        "doc_code": "SVD"
+      }
+    },
+    "chapter_c92d6ea96b06": {
+      "type": "chapter",
+      "name": "注",
+      "properties": {
+        "number": "4",
+        "level": 1,
+        "doc_code": "SVD"
+      }
+    },
+    "document_598a79ba56cb": {
+      "type": "document",
+      "name": "软件安装计划",
+      "properties": {
+        "code": "SIP",
+        "category": "deployment",
+        "complexity": "medium",
+        "description": "描述软件安装的计划安排"
+      }
+    },
+    "chapter_fec19e7f8d0b": {
+      "type": "chapter",
+      "name": "范围",
+      "properties": {
+        "number": "1",
+        "level": 1,
+        "doc_code": "SIP"
+      }
+    },
+    "chapter_445c92e66a66": {
+      "type": "chapter",
+      "name": "标识",
+      "properties": {
+        "number": "1.1",
+        "level": 2,
+        "doc_code": "SIP"
+      }
+    },
+    "chapter_a8b51d140851": {
+      "type": "chapter",
+      "name": "系统概述",
+      "properties": {
+        "number": "1.2",
+        "level": 2,
+        "doc_code": "SIP"
+      }
+    },
+    "chapter_d03f9a9db138": {
+      "type": "chapter",
+      "name": "文档概述",
+      "properties": {
+        "number": "1.3",
+        "level": 2,
+        "doc_code": "SIP"
+      }
+    },
+    "chapter_bfaf8935d298": {
+      "type": "chapter",
+      "name": "引用文件",
+      "properties": {
+        "number": "2",
+        "level": 1,
+        "doc_code": "SIP"
+      }
+    },
+    "chapter_1f16ab589a6e": {
+      "type": "chapter",
+      "name": "安装",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "SIP"
+      }
+    },
+    "chapter_22fc2de11fa3": {
+      "type": "chapter",
+      "name": "安装环境",
+      "properties": {
+        "number": "3.1",
+        "level": 2,
+        "doc_code": "SIP"
+      }
+    },
+    "chapter_0eefc9ef8eb9": {
+      "type": "chapter",
+      "name": "安装步骤",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "SIP"
+      }
+    },
+    "chapter_6949e0d0035e": {
+      "type": "chapter",
+      "name": "安装验证",
+      "properties": {
+        "number": "3.3",
+        "level": 2,
+        "doc_code": "SIP"
+      }
+    },
+    "chapter_f98bc8ceaccd": {
+      "type": "chapter",
+      "name": "注",
+      "properties": {
+        "number": "4",
+        "level": 1,
+        "doc_code": "SIP"
+      }
+    },
+    "document_490f67eb93b3": {
+      "type": "document",
+      "name": "软件安装说明",
+      "properties": {
+        "code": "SIS",
+        "category": "deployment",
+        "complexity": "medium",
+        "description": "描述软件安装的详细步骤"
+      }
+    },
+    "chapter_cc9b94fc7160": {
+      "type": "chapter",
+      "name": "范围",
+      "properties": {
+        "number": "1",
+        "level": 1,
+        "doc_code": "SIS"
+      }
+    },
+    "chapter_c626821042e5": {
+      "type": "chapter",
+      "name": "标识",
+      "properties": {
+        "number": "1.1",
+        "level": 2,
+        "doc_code": "SIS"
+      }
+    },
+    "chapter_1b061c68c8f5": {
+      "type": "chapter",
+      "name": "系统概述",
+      "properties": {
+        "number": "1.2",
+        "level": 2,
+        "doc_code": "SIS"
+      }
+    },
+    "chapter_944e62203a10": {
+      "type": "chapter",
+      "name": "引用文件",
+      "properties": {
+        "number": "2",
+        "level": 1,
+        "doc_code": "SIS"
+      }
+    },
+    "chapter_3214fb31ff4b": {
+      "type": "chapter",
+      "name": "安装说明",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "SIS"
+      }
+    },
+    "chapter_8c696d57db6e": {
+      "type": "chapter",
+      "name": "安装准备",
+      "properties": {
+        "number": "3.1",
+        "level": 2,
+        "doc_code": "SIS"
+      }
+    },
+    "chapter_96d6bc83141b": {
+      "type": "chapter",
+      "name": "安装步骤",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "SIS"
+      }
+    },
+    "chapter_9dc16130dadf": {
+      "type": "chapter",
+      "name": "安装验证",
+      "properties": {
+        "number": "3.3",
+        "level": 2,
+        "doc_code": "SIS"
+      }
+    },
+    "chapter_249200db0db4": {
+      "type": "chapter",
+      "name": "回退步骤",
+      "properties": {
+        "number": "3.4",
+        "level": 2,
+        "doc_code": "SIS"
+      }
+    },
+    "chapter_b4cb02aae52d": {
+      "type": "chapter",
+      "name": "注",
+      "properties": {
+        "number": "4",
+        "level": 1,
+        "doc_code": "SIS"
+      }
+    },
+    "document_15aa3acb67f9": {
+      "type": "document",
+      "name": "软件用户手册",
+      "properties": {
+        "code": "SUM",
+        "category": "user",
+        "complexity": "high",
+        "description": "描述软件的使用方法"
+      }
+    },
+    "chapter_6316bfa91ee8": {
+      "type": "chapter",
+      "name": "范围",
+      "properties": {
+        "number": "1",
+        "level": 1,
+        "doc_code": "SUM"
+      }
+    },
+    "chapter_fbd710eff268": {
+      "type": "chapter",
+      "name": "标识",
+      "properties": {
+        "number": "1.1",
+        "level": 2,
+        "doc_code": "SUM"
+      }
+    },
+    "chapter_a1d44527810f": {
+      "type": "chapter",
+      "name": "系统概述",
+      "properties": {
+        "number": "1.2",
+        "level": 2,
+        "doc_code": "SUM"
+      }
+    },
+    "chapter_72b2b9364bf7": {
+      "type": "chapter",
+      "name": "文档概述",
+      "properties": {
+        "number": "1.3",
+        "level": 2,
+        "doc_code": "SUM"
+      }
+    },
+    "chapter_5f6372a193a1": {
+      "type": "chapter",
+      "name": "引用文件",
+      "properties": {
+        "number": "2",
+        "level": 1,
+        "doc_code": "SUM"
+      }
+    },
+    "chapter_a8005aafd5a1": {
+      "type": "chapter",
+      "name": "操作规程",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "SUM"
+      }
+    },
+    "chapter_43a56832d48f": {
+      "type": "chapter",
+      "name": "安装与初始化",
+      "properties": {
+        "number": "3.1",
+        "level": 2,
+        "doc_code": "SUM"
+      }
+    },
+    "chapter_fba295790ed1": {
+      "type": "chapter",
+      "name": "操作说明",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "SUM"
+      }
+    },
+    "chapter_5c4378e35ab1": {
+      "type": "chapter",
+      "name": "错误处理",
+      "properties": {
+        "number": "3.3",
+        "level": 2,
+        "doc_code": "SUM"
+      }
+    },
+    "chapter_c0fbdaf0c3a3": {
+      "type": "chapter",
+      "name": "帮助信息",
+      "properties": {
+        "number": "3.4",
+        "level": 2,
+        "doc_code": "SUM"
+      }
+    },
+    "chapter_f6d80070a4ee": {
+      "type": "chapter",
+      "name": "注",
+      "properties": {
+        "number": "4",
+        "level": 1,
+        "doc_code": "SUM"
+      }
+    },
+    "document_afba9f74af1a": {
+      "type": "document",
+      "name": "软件操作员手册",
+      "properties": {
+        "code": "SCOM",
+        "category": "user",
+        "complexity": "medium",
+        "description": "描述软件操作员的操作规程"
+      }
+    },
+    "chapter_66f17b950152": {
+      "type": "chapter",
+      "name": "范围",
+      "properties": {
+        "number": "1",
+        "level": 1,
+        "doc_code": "SCOM"
+      }
+    },
+    "chapter_dd0f98290852": {
+      "type": "chapter",
+      "name": "标识",
+      "properties": {
+        "number": "1.1",
+        "level": 2,
+        "doc_code": "SCOM"
+      }
+    },
+    "chapter_c4185e82d87d": {
+      "type": "chapter",
+      "name": "系统概述",
+      "properties": {
+        "number": "1.2",
+        "level": 2,
+        "doc_code": "SCOM"
+      }
+    },
+    "chapter_cc653a179ddf": {
+      "type": "chapter",
+      "name": "引用文件",
+      "properties": {
+        "number": "2",
+        "level": 1,
+        "doc_code": "SCOM"
+      }
+    },
+    "chapter_6e21fe290162": {
+      "type": "chapter",
+      "name": "操作规程",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "SCOM"
+      }
+    },
+    "chapter_41274a4134b9": {
+      "type": "chapter",
+      "name": "系统启动与关闭",
+      "properties": {
+        "number": "3.1",
+        "level": 2,
+        "doc_code": "SCOM"
+      }
+    },
+    "chapter_5371cac173e6": {
+      "type": "chapter",
+      "name": "操作流程",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "SCOM"
+      }
+    },
+    "chapter_62e4cc04f0c9": {
+      "type": "chapter",
+      "name": "故障处理",
+      "properties": {
+        "number": "3.3",
+        "level": 2,
+        "doc_code": "SCOM"
+      }
+    },
+    "chapter_d79e92834128": {
+      "type": "chapter",
+      "name": "注",
+      "properties": {
+        "number": "4",
+        "level": 1,
+        "doc_code": "SCOM"
+      }
+    },
+    "document_6221c240c444": {
+      "type": "document",
+      "name": "软件编程手册",
+      "properties": {
+        "code": "SPMP",
+        "category": "development",
+        "complexity": "medium",
+        "description": "描述软件编程的规范和方法"
+      }
+    },
+    "chapter_ebb3367f7c12": {
+      "type": "chapter",
+      "name": "范围",
+      "properties": {
+        "number": "1",
+        "level": 1,
+        "doc_code": "SPMP"
+      }
+    },
+    "chapter_6b1afedbcc3e": {
+      "type": "chapter",
+      "name": "标识",
+      "properties": {
+        "number": "1.1",
+        "level": 2,
+        "doc_code": "SPMP"
+      }
+    },
+    "chapter_b36e122e7aec": {
+      "type": "chapter",
+      "name": "系统概述",
+      "properties": {
+        "number": "1.2",
+        "level": 2,
+        "doc_code": "SPMP"
+      }
+    },
+    "chapter_a774e8f871d4": {
+      "type": "chapter",
+      "name": "引用文件",
+      "properties": {
+        "number": "2",
+        "level": 1,
+        "doc_code": "SPMP"
+      }
+    },
+    "chapter_798c4a6faa76": {
+      "type": "chapter",
+      "name": "编程环境",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "SPMP"
+      }
+    },
+    "chapter_8d1f77f49570": {
+      "type": "chapter",
+      "name": "开发环境",
+      "properties": {
+        "number": "3.1",
+        "level": 2,
+        "doc_code": "SPMP"
+      }
+    },
+    "chapter_8d5fc97e9836": {
+      "type": "chapter",
+      "name": "编程规范",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "SPMP"
+      }
+    },
+    "chapter_a7cd82fa58d6": {
+      "type": "chapter",
+      "name": "编译与构建",
+      "properties": {
+        "number": "3.3",
+        "level": 2,
+        "doc_code": "SPMP"
+      }
+    },
+    "chapter_f594187a809c": {
+      "type": "chapter",
+      "name": "注",
+      "properties": {
+        "number": "4",
+        "level": 1,
+        "doc_code": "SPMP"
+      }
+    },
+    "document_1e9bb56dc39e": {
+      "type": "document",
+      "name": "软件配置状态报告",
+      "properties": {
+        "code": "SCSR",
+        "category": "configuration",
+        "complexity": "medium",
+        "description": "描述软件配置的状态报告"
+      }
+    },
+    "chapter_6825b2332997": {
+      "type": "chapter",
+      "name": "范围",
+      "properties": {
+        "number": "1",
+        "level": 1,
+        "doc_code": "SCSR"
+      }
+    },
+    "chapter_1919dd28e8ad": {
+      "type": "chapter",
+      "name": "标识",
+      "properties": {
+        "number": "1.1",
+        "level": 2,
+        "doc_code": "SCSR"
+      }
+    },
+    "chapter_239a41e53bc9": {
+      "type": "chapter",
+      "name": "系统概述",
+      "properties": {
+        "number": "1.2",
+        "level": 2,
+        "doc_code": "SCSR"
+      }
+    },
+    "chapter_8f2fbe8de400": {
+      "type": "chapter",
+      "name": "引用文件",
+      "properties": {
+        "number": "2",
+        "level": 1,
+        "doc_code": "SCSR"
+      }
+    },
+    "chapter_cfe6cad8a141": {
+      "type": "chapter",
+      "name": "配置状态",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "SCSR"
+      }
+    },
+    "chapter_f01b8f34f477": {
+      "type": "chapter",
+      "name": "配置项清单",
+      "properties": {
+        "number": "3.1",
+        "level": 2,
+        "doc_code": "SCSR"
+      }
+    },
+    "chapter_ce3df3538d63": {
+      "type": "chapter",
+      "name": "变更记录",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "SCSR"
+      }
+    },
+    "chapter_0b07f5b97624": {
+      "type": "chapter",
+      "name": "基线状态",
+      "properties": {
+        "number": "3.3",
+        "level": 2,
+        "doc_code": "SCSR"
+      }
+    },
+    "chapter_eefe861eb3da": {
+      "type": "chapter",
+      "name": "注",
+      "properties": {
+        "number": "4",
+        "level": 1,
+        "doc_code": "SCSR"
+      }
+    },
+    "document_86013a908a3c": {
+      "type": "document",
+      "name": "软件移交计划",
+      "properties": {
+        "code": "STRP",
+        "category": "deployment",
+        "complexity": "medium",
+        "description": "描述软件移交的计划安排"
+      }
+    },
+    "chapter_07c935458408": {
+      "type": "chapter",
+      "name": "范围",
+      "properties": {
+        "number": "1",
+        "level": 1,
+        "doc_code": "STRP"
+      }
+    },
+    "chapter_d15ac2475595": {
+      "type": "chapter",
+      "name": "标识",
+      "properties": {
+        "number": "1.1",
+        "level": 2,
+        "doc_code": "STRP"
+      }
+    },
+    "chapter_c8672d514b48": {
+      "type": "chapter",
+      "name": "系统概述",
+      "properties": {
+        "number": "1.2",
+        "level": 2,
+        "doc_code": "STRP"
+      }
+    },
+    "chapter_569832a45878": {
+      "type": "chapter",
+      "name": "文档概述",
+      "properties": {
+        "number": "1.3",
+        "level": 2,
+        "doc_code": "STRP"
+      }
+    },
+    "chapter_7a124e4e1a39": {
+      "type": "chapter",
+      "name": "引用文件",
+      "properties": {
+        "number": "2",
+        "level": 1,
+        "doc_code": "STRP"
+      }
+    },
+    "chapter_98c2ed99cc8e": {
+      "type": "chapter",
+      "name": "移交",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "STRP"
+      }
+    },
+    "chapter_029d8bfd8348": {
+      "type": "chapter",
+      "name": "移交准备",
+      "properties": {
+        "number": "3.1",
+        "level": 2,
+        "doc_code": "STRP"
+      }
+    },
+    "chapter_0f778daf3069": {
+      "type": "chapter",
+      "name": "移交内容",
+      "properties": {
+        "number": "3.2",
+        "level": 2,
+        "doc_code": "STRP"
+      }
+    },
+    "chapter_e44a4647bc93": {
+      "type": "chapter",
+      "name": "移交验证",
+      "properties": {
+        "number": "3.3",
+        "level": 2,
+        "doc_code": "STRP"
+      }
+    },
+    "chapter_13bfc797c2f7": {
+      "type": "chapter",
+      "name": "注",
+      "properties": {
+        "number": "4",
+        "level": 1,
+        "doc_code": "STRP"
+      }
+    },
+    "document_1a72552737e3": {
+      "type": "document",
+      "name": "软件设计日志",
+      "properties": {
+        "code": "SDL",
+        "category": "development",
+        "complexity": "low",
+        "description": "记录软件设计过程中的日志"
+      }
+    },
+    "chapter_a93e282b67dd": {
+      "type": "chapter",
+      "name": "范围",
+      "properties": {
+        "number": "1",
+        "level": 1,
+        "doc_code": "SDL"
+      }
+    },
+    "chapter_619c38e5f7a0": {
+      "type": "chapter",
+      "name": "标识",
+      "properties": {
+        "number": "1.1",
+        "level": 2,
+        "doc_code": "SDL"
+      }
+    },
+    "chapter_61dcf89177fa": {
+      "type": "chapter",
+      "name": "系统概述",
+      "properties": {
+        "number": "1.2",
+        "level": 2,
+        "doc_code": "SDL"
+      }
+    },
+    "chapter_aa226d3854c0": {
+      "type": "chapter",
+      "name": "设计日志",
+      "properties": {
+        "number": "2",
+        "level": 1,
+        "doc_code": "SDL"
+      }
+    },
+    "chapter_8d76ce110918": {
+      "type": "chapter",
+      "name": "设计活动记录",
+      "properties": {
+        "number": "2.1",
+        "level": 2,
+        "doc_code": "SDL"
+      }
+    },
+    "chapter_b6467275b43a": {
+      "type": "chapter",
+      "name": "设计评审记录",
+      "properties": {
+        "number": "2.2",
+        "level": 2,
+        "doc_code": "SDL"
+      }
+    },
+    "chapter_0e394ab39629": {
+      "type": "chapter",
+      "name": "注",
+      "properties": {
+        "number": "3",
+        "level": 1,
+        "doc_code": "SDL"
+      }
+    }
+  },
+  "relations": [
+    {
+      "source": "document_ff10b3e4d25d",
+      "type": "contains_chapter",
+      "target": "chapter_c449681c7eee",
+      "properties": {}
+    },
+    {
+      "source": "chapter_c449681c7eee",
+      "type": "contains_subchapter",
+      "target": "chapter_ee40d99e7a94",
+      "properties": {}
+    },
+    {
+      "source": "document_ff10b3e4d25d",
+      "type": "contains_chapter",
+      "target": "chapter_ee40d99e7a94",
+      "properties": {}
+    },
+    {
+      "source": "chapter_c449681c7eee",
+      "type": "contains_subchapter",
+      "target": "chapter_e4ba120cf2ed",
+      "properties": {}
+    },
+    {
+      "source": "document_ff10b3e4d25d",
+      "type": "contains_chapter",
+      "target": "chapter_e4ba120cf2ed",
+      "properties": {}
+    },
+    {
+      "source": "chapter_c449681c7eee",
+      "type": "contains_subchapter",
+      "target": "chapter_4c97ec3a7bdf",
+      "properties": {}
+    },
+    {
+      "source": "document_ff10b3e4d25d",
+      "type": "contains_chapter",
+      "target": "chapter_4c97ec3a7bdf",
+      "properties": {}
+    },
+    {
+      "source": "document_ff10b3e4d25d",
+      "type": "contains_chapter",
+      "target": "chapter_f2c9f18d32db",
+      "properties": {}
+    },
+    {
+      "source": "document_ff10b3e4d25d",
+      "type": "contains_chapter",
+      "target": "chapter_7f103ab22793",
+      "properties": {}
+    },
+    {
+      "source": "chapter_7f103ab22793",
+      "type": "contains_subchapter",
+      "target": "chapter_6d9b11d928ae",
+      "properties": {}
+    },
+    {
+      "source": "document_ff10b3e4d25d",
+      "type": "contains_chapter",
+      "target": "chapter_6d9b11d928ae",
+      "properties": {}
+    },
+    {
+      "source": "chapter_7f103ab22793",
+      "type": "contains_subchapter",
+      "target": "chapter_7af689a599f5",
+      "properties": {}
+    },
+    {
+      "source": "document_ff10b3e4d25d",
+      "type": "contains_chapter",
+      "target": "chapter_7af689a599f5",
+      "properties": {}
+    },
+    {
+      "source": "chapter_7f103ab22793",
+      "type": "contains_subchapter",
+      "target": "chapter_ae96c6f87239",
+      "properties": {}
+    },
+    {
+      "source": "document_ff10b3e4d25d",
+      "type": "contains_chapter",
+      "target": "chapter_ae96c6f87239",
+      "properties": {}
+    },
+    {
+      "source": "chapter_7f103ab22793",
+      "type": "contains_subchapter",
+      "target": "chapter_a3c589cf90b5",
+      "properties": {}
+    },
+    {
+      "source": "document_ff10b3e4d25d",
+      "type": "contains_chapter",
+      "target": "chapter_a3c589cf90b5",
+      "properties": {}
+    },
+    {
+      "source": "document_ff10b3e4d25d",
+      "type": "contains_chapter",
+      "target": "chapter_21091ca8d4a7",
+      "properties": {}
+    },
+    {
+      "source": "document_ff10b3e4d25d",
+      "type": "contains_chapter",
+      "target": "chapter_be264eefb891",
+      "properties": {}
+    },
+    {
+      "source": "document_08f39adccc6f",
+      "type": "contains_chapter",
+      "target": "chapter_4f70ee8ab548",
+      "properties": {}
+    },
+    {
+      "source": "chapter_4f70ee8ab548",
+      "type": "contains_subchapter",
+      "target": "chapter_af01f388062e",
+      "properties": {}
+    },
+    {
+      "source": "document_08f39adccc6f",
+      "type": "contains_chapter",
+      "target": "chapter_af01f388062e",
+      "properties": {}
+    },
+    {
+      "source": "chapter_4f70ee8ab548",
+      "type": "contains_subchapter",
+      "target": "chapter_06e7d4dc5642",
+      "properties": {}
+    },
+    {
+      "source": "document_08f39adccc6f",
+      "type": "contains_chapter",
+      "target": "chapter_06e7d4dc5642",
+      "properties": {}
+    },
+    {
+      "source": "chapter_4f70ee8ab548",
+      "type": "contains_subchapter",
+      "target": "chapter_30ab5cc247a1",
+      "properties": {}
+    },
+    {
+      "source": "document_08f39adccc6f",
+      "type": "contains_chapter",
+      "target": "chapter_30ab5cc247a1",
+      "properties": {}
+    },
+    {
+      "source": "document_08f39adccc6f",
+      "type": "contains_chapter",
+      "target": "chapter_91bbb0ca1922",
+      "properties": {}
+    },
+    {
+      "source": "document_08f39adccc6f",
+      "type": "contains_chapter",
+      "target": "chapter_527e650e648c",
+      "properties": {}
+    },
+    {
+      "source": "document_08f39adccc6f",
+      "type": "contains_chapter",
+      "target": "chapter_33bfe94b5d46",
+      "properties": {}
+    },
+    {
+      "source": "chapter_33bfe94b5d46",
+      "type": "contains_subchapter",
+      "target": "chapter_a50b507f8eb5",
+      "properties": {}
+    },
+    {
+      "source": "document_08f39adccc6f",
+      "type": "contains_chapter",
+      "target": "chapter_a50b507f8eb5",
+      "properties": {}
+    },
+    {
+      "source": "chapter_33bfe94b5d46",
+      "type": "contains_subchapter",
+      "target": "chapter_0765a14f6cd3",
+      "properties": {}
+    },
+    {
+      "source": "document_08f39adccc6f",
+      "type": "contains_chapter",
+      "target": "chapter_0765a14f6cd3",
+      "properties": {}
+    },
+    {
+      "source": "chapter_33bfe94b5d46",
+      "type": "contains_subchapter",
+      "target": "chapter_aaa3dbff1b58",
+      "properties": {}
+    },
+    {
+      "source": "document_08f39adccc6f",
+      "type": "contains_chapter",
+      "target": "chapter_aaa3dbff1b58",
+      "properties": {}
+    },
+    {
+      "source": "document_08f39adccc6f",
+      "type": "contains_chapter",
+      "target": "chapter_f5a4a5755779",
+      "properties": {}
+    },
+    {
+      "source": "chapter_f5a4a5755779",
+      "type": "contains_subchapter",
+      "target": "chapter_5d69e4858d07",
+      "properties": {}
+    },
+    {
+      "source": "document_08f39adccc6f",
+      "type": "contains_chapter",
+      "target": "chapter_5d69e4858d07",
+      "properties": {}
+    },
+    {
+      "source": "document_08f39adccc6f",
+      "type": "contains_chapter",
+      "target": "chapter_fc4ba3bd4953",
+      "properties": {}
+    },
+    {
+      "source": "document_08f39adccc6f",
+      "type": "contains_chapter",
+      "target": "chapter_30ba9f669d37",
+      "properties": {}
+    },
+    {
+      "source": "document_1b6053f0ab61",
+      "type": "contains_chapter",
+      "target": "chapter_3a25f27761ad",
+      "properties": {}
+    },
+    {
+      "source": "chapter_3a25f27761ad",
+      "type": "contains_subchapter",
+      "target": "chapter_3c2cd0972e4f",
+      "properties": {}
+    },
+    {
+      "source": "document_1b6053f0ab61",
+      "type": "contains_chapter",
+      "target": "chapter_3c2cd0972e4f",
+      "properties": {}
+    },
+    {
+      "source": "chapter_3a25f27761ad",
+      "type": "contains_subchapter",
+      "target": "chapter_1baa9f776668",
+      "properties": {}
+    },
+    {
+      "source": "document_1b6053f0ab61",
+      "type": "contains_chapter",
+      "target": "chapter_1baa9f776668",
+      "properties": {}
+    },
+    {
+      "source": "chapter_3a25f27761ad",
+      "type": "contains_subchapter",
+      "target": "chapter_d1095bcfde3c",
+      "properties": {}
+    },
+    {
+      "source": "document_1b6053f0ab61",
+      "type": "contains_chapter",
+      "target": "chapter_d1095bcfde3c",
+      "properties": {}
+    },
+    {
+      "source": "document_1b6053f0ab61",
+      "type": "contains_chapter",
+      "target": "chapter_42de8f9e37fa",
+      "properties": {}
+    },
+    {
+      "source": "document_1b6053f0ab61",
+      "type": "contains_chapter",
+      "target": "chapter_5db3e739592d",
+      "properties": {}
+    },
+    {
+      "source": "chapter_5db3e739592d",
+      "type": "contains_subchapter",
+      "target": "chapter_b9b97bbaf82a",
+      "properties": {}
+    },
+    {
+      "source": "document_1b6053f0ab61",
+      "type": "contains_chapter",
+      "target": "chapter_b9b97bbaf82a",
+      "properties": {}
+    },
+    {
+      "source": "chapter_5db3e739592d",
+      "type": "contains_subchapter",
+      "target": "chapter_fe2bb06a5e12",
+      "properties": {}
+    },
+    {
+      "source": "document_1b6053f0ab61",
+      "type": "contains_chapter",
+      "target": "chapter_fe2bb06a5e12",
+      "properties": {}
+    },
+    {
+      "source": "chapter_5db3e739592d",
+      "type": "contains_subchapter",
+      "target": "chapter_535020196400",
+      "properties": {}
+    },
+    {
+      "source": "document_1b6053f0ab61",
+      "type": "contains_chapter",
+      "target": "chapter_535020196400",
+      "properties": {}
+    },
+    {
+      "source": "document_1b6053f0ab61",
+      "type": "contains_chapter",
+      "target": "chapter_3593e7667cb6",
+      "properties": {}
+    },
+    {
+      "source": "chapter_3593e7667cb6",
+      "type": "contains_subchapter",
+      "target": "chapter_20fac559f134",
+      "properties": {}
+    },
+    {
+      "source": "document_1b6053f0ab61",
+      "type": "contains_chapter",
+      "target": "chapter_20fac559f134",
+      "properties": {}
+    },
+    {
+      "source": "chapter_3593e7667cb6",
+      "type": "contains_subchapter",
+      "target": "chapter_30c90523e1d7",
+      "properties": {}
+    },
+    {
+      "source": "document_1b6053f0ab61",
+      "type": "contains_chapter",
+      "target": "chapter_30c90523e1d7",
+      "properties": {}
+    },
+    {
+      "source": "chapter_3593e7667cb6",
+      "type": "contains_subchapter",
+      "target": "chapter_19979794be32",
+      "properties": {}
+    },
+    {
+      "source": "document_1b6053f0ab61",
+      "type": "contains_chapter",
+      "target": "chapter_19979794be32",
+      "properties": {}
+    },
+    {
+      "source": "document_1b6053f0ab61",
+      "type": "contains_chapter",
+      "target": "chapter_3e3d20d38e23",
+      "properties": {}
+    },
+    {
+      "source": "chapter_3e3d20d38e23",
+      "type": "contains_subchapter",
+      "target": "chapter_2a42760a77f7",
+      "properties": {}
+    },
+    {
+      "source": "document_1b6053f0ab61",
+      "type": "contains_chapter",
+      "target": "chapter_2a42760a77f7",
+      "properties": {}
+    },
+    {
+      "source": "chapter_3e3d20d38e23",
+      "type": "contains_subchapter",
+      "target": "chapter_63feb9526bd6",
+      "properties": {}
+    },
+    {
+      "source": "document_1b6053f0ab61",
+      "type": "contains_chapter",
+      "target": "chapter_63feb9526bd6",
+      "properties": {}
+    },
+    {
+      "source": "chapter_3e3d20d38e23",
+      "type": "contains_subchapter",
+      "target": "chapter_1a509ba6e71a",
+      "properties": {}
+    },
+    {
+      "source": "document_1b6053f0ab61",
+      "type": "contains_chapter",
+      "target": "chapter_1a509ba6e71a",
+      "properties": {}
+    },
+    {
+      "source": "chapter_3e3d20d38e23",
+      "type": "contains_subchapter",
+      "target": "chapter_46e1af5106e1",
+      "properties": {}
+    },
+    {
+      "source": "document_1b6053f0ab61",
+      "type": "contains_chapter",
+      "target": "chapter_46e1af5106e1",
+      "properties": {}
+    },
+    {
+      "source": "document_1b6053f0ab61",
+      "type": "contains_chapter",
+      "target": "chapter_26220b50667a",
+      "properties": {}
+    },
+    {
+      "source": "document_a8f9bae51517",
+      "type": "contains_chapter",
+      "target": "chapter_79b634fc93fa",
+      "properties": {}
+    },
+    {
+      "source": "chapter_79b634fc93fa",
+      "type": "contains_subchapter",
+      "target": "chapter_2f5d9398ca65",
+      "properties": {}
+    },
+    {
+      "source": "document_a8f9bae51517",
+      "type": "contains_chapter",
+      "target": "chapter_2f5d9398ca65",
+      "properties": {}
+    },
+    {
+      "source": "chapter_79b634fc93fa",
+      "type": "contains_subchapter",
+      "target": "chapter_acf2c4d4f66f",
+      "properties": {}
+    },
+    {
+      "source": "document_a8f9bae51517",
+      "type": "contains_chapter",
+      "target": "chapter_acf2c4d4f66f",
+      "properties": {}
+    },
+    {
+      "source": "chapter_79b634fc93fa",
+      "type": "contains_subchapter",
+      "target": "chapter_e01c915cb2fc",
+      "properties": {}
+    },
+    {
+      "source": "document_a8f9bae51517",
+      "type": "contains_chapter",
+      "target": "chapter_e01c915cb2fc",
+      "properties": {}
+    },
+    {
+      "source": "document_a8f9bae51517",
+      "type": "contains_chapter",
+      "target": "chapter_bb9c52dbdfb9",
+      "properties": {}
+    },
+    {
+      "source": "document_a8f9bae51517",
+      "type": "contains_chapter",
+      "target": "chapter_d5b3c85bdebe",
+      "properties": {}
+    },
+    {
+      "source": "chapter_d5b3c85bdebe",
+      "type": "contains_subchapter",
+      "target": "chapter_d89600202ceb",
+      "properties": {}
+    },
+    {
+      "source": "document_a8f9bae51517",
+      "type": "contains_chapter",
+      "target": "chapter_d89600202ceb",
+      "properties": {}
+    },
+    {
+      "source": "chapter_d5b3c85bdebe",
+      "type": "contains_subchapter",
+      "target": "chapter_650b22709a5f",
+      "properties": {}
+    },
+    {
+      "source": "document_a8f9bae51517",
+      "type": "contains_chapter",
+      "target": "chapter_650b22709a5f",
+      "properties": {}
+    },
+    {
+      "source": "chapter_d5b3c85bdebe",
+      "type": "contains_subchapter",
+      "target": "chapter_8d6338832225",
+      "properties": {}
+    },
+    {
+      "source": "document_a8f9bae51517",
+      "type": "contains_chapter",
+      "target": "chapter_8d6338832225",
+      "properties": {}
+    },
+    {
+      "source": "chapter_d5b3c85bdebe",
+      "type": "contains_subchapter",
+      "target": "chapter_3753127307fc",
+      "properties": {}
+    },
+    {
+      "source": "document_a8f9bae51517",
+      "type": "contains_chapter",
+      "target": "chapter_3753127307fc",
+      "properties": {}
+    },
+    {
+      "source": "document_a8f9bae51517",
+      "type": "contains_chapter",
+      "target": "chapter_fdb207b45d0b",
+      "properties": {}
+    },
+    {
+      "source": "document_a8f9bae51517",
+      "type": "contains_chapter",
+      "target": "chapter_6e6809f11ce8",
+      "properties": {}
+    },
+    {
+      "source": "document_061c2e474c9f",
+      "type": "contains_chapter",
+      "target": "chapter_fd0fc1ee94a9",
+      "properties": {}
+    },
+    {
+      "source": "chapter_fd0fc1ee94a9",
+      "type": "contains_subchapter",
+      "target": "chapter_693b189cfc37",
+      "properties": {}
+    },
+    {
+      "source": "document_061c2e474c9f",
+      "type": "contains_chapter",
+      "target": "chapter_693b189cfc37",
+      "properties": {}
+    },
+    {
+      "source": "chapter_fd0fc1ee94a9",
+      "type": "contains_subchapter",
+      "target": "chapter_5f12ca639016",
+      "properties": {}
+    },
+    {
+      "source": "document_061c2e474c9f",
+      "type": "contains_chapter",
+      "target": "chapter_5f12ca639016",
+      "properties": {}
+    },
+    {
+      "source": "chapter_fd0fc1ee94a9",
+      "type": "contains_subchapter",
+      "target": "chapter_d5f2404e0d80",
+      "properties": {}
+    },
+    {
+      "source": "document_061c2e474c9f",
+      "type": "contains_chapter",
+      "target": "chapter_d5f2404e0d80",
+      "properties": {}
+    },
+    {
+      "source": "document_061c2e474c9f",
+      "type": "contains_chapter",
+      "target": "chapter_5747fde3933b",
+      "properties": {}
+    },
+    {
+      "source": "document_061c2e474c9f",
+      "type": "contains_chapter",
+      "target": "chapter_b65115832d59",
+      "properties": {}
+    },
+    {
+      "source": "chapter_b65115832d59",
+      "type": "contains_subchapter",
+      "target": "chapter_cec544a58474",
+      "properties": {}
+    },
+    {
+      "source": "document_061c2e474c9f",
+      "type": "contains_chapter",
+      "target": "chapter_cec544a58474",
+      "properties": {}
+    },
+    {
+      "source": "chapter_b65115832d59",
+      "type": "contains_subchapter",
+      "target": "chapter_8b311b6b9011",
+      "properties": {}
+    },
+    {
+      "source": "document_061c2e474c9f",
+      "type": "contains_chapter",
+      "target": "chapter_8b311b6b9011",
+      "properties": {}
+    },
+    {
+      "source": "chapter_b65115832d59",
+      "type": "contains_subchapter",
+      "target": "chapter_2ff417fb9ae2",
+      "properties": {}
+    },
+    {
+      "source": "document_061c2e474c9f",
+      "type": "contains_chapter",
+      "target": "chapter_2ff417fb9ae2",
+      "properties": {}
+    },
+    {
+      "source": "document_061c2e474c9f",
+      "type": "contains_chapter",
+      "target": "chapter_8b5d9f1fb98b",
+      "properties": {}
+    },
+    {
+      "source": "chapter_8b5d9f1fb98b",
+      "type": "contains_subchapter",
+      "target": "chapter_04bf0ffe5315",
+      "properties": {}
+    },
+    {
+      "source": "document_061c2e474c9f",
+      "type": "contains_chapter",
+      "target": "chapter_04bf0ffe5315",
+      "properties": {}
+    },
+    {
+      "source": "chapter_8b5d9f1fb98b",
+      "type": "contains_subchapter",
+      "target": "chapter_9f5df336a0b5",
+      "properties": {}
+    },
+    {
+      "source": "document_061c2e474c9f",
+      "type": "contains_chapter",
+      "target": "chapter_9f5df336a0b5",
+      "properties": {}
+    },
+    {
+      "source": "chapter_8b5d9f1fb98b",
+      "type": "contains_subchapter",
+      "target": "chapter_1caa8fe480c6",
+      "properties": {}
+    },
+    {
+      "source": "document_061c2e474c9f",
+      "type": "contains_chapter",
+      "target": "chapter_1caa8fe480c6",
+      "properties": {}
+    },
+    {
+      "source": "document_061c2e474c9f",
+      "type": "contains_chapter",
+      "target": "chapter_993c5ded4020",
+      "properties": {}
+    },
+    {
+      "source": "chapter_993c5ded4020",
+      "type": "contains_subchapter",
+      "target": "chapter_e4dd4e588896",
+      "properties": {}
+    },
+    {
+      "source": "document_061c2e474c9f",
+      "type": "contains_chapter",
+      "target": "chapter_e4dd4e588896",
+      "properties": {}
+    },
+    {
+      "source": "chapter_993c5ded4020",
+      "type": "contains_subchapter",
+      "target": "chapter_990de84670a0",
+      "properties": {}
+    },
+    {
+      "source": "document_061c2e474c9f",
+      "type": "contains_chapter",
+      "target": "chapter_990de84670a0",
+      "properties": {}
+    },
+    {
+      "source": "document_061c2e474c9f",
+      "type": "contains_chapter",
+      "target": "chapter_61c53ca235b6",
+      "properties": {}
+    },
+    {
+      "source": "document_d84a12222933",
+      "type": "contains_chapter",
+      "target": "chapter_26edca3cd54d",
+      "properties": {}
+    },
+    {
+      "source": "chapter_26edca3cd54d",
+      "type": "contains_subchapter",
+      "target": "chapter_251a587571b7",
+      "properties": {}
+    },
+    {
+      "source": "document_d84a12222933",
+      "type": "contains_chapter",
+      "target": "chapter_251a587571b7",
+      "properties": {}
+    },
+    {
+      "source": "chapter_26edca3cd54d",
+      "type": "contains_subchapter",
+      "target": "chapter_6a2da2bb43e1",
+      "properties": {}
+    },
+    {
+      "source": "document_d84a12222933",
+      "type": "contains_chapter",
+      "target": "chapter_6a2da2bb43e1",
+      "properties": {}
+    },
+    {
+      "source": "chapter_26edca3cd54d",
+      "type": "contains_subchapter",
+      "target": "chapter_ca0d7e1f36fc",
+      "properties": {}
+    },
+    {
+      "source": "document_d84a12222933",
+      "type": "contains_chapter",
+      "target": "chapter_ca0d7e1f36fc",
+      "properties": {}
+    },
+    {
+      "source": "document_d84a12222933",
+      "type": "contains_chapter",
+      "target": "chapter_6e8d2a6af2a8",
+      "properties": {}
+    },
+    {
+      "source": "document_d84a12222933",
+      "type": "contains_chapter",
+      "target": "chapter_4731b3ebdebb",
+      "properties": {}
+    },
+    {
+      "source": "chapter_4731b3ebdebb",
+      "type": "contains_subchapter",
+      "target": "chapter_ef97400a3dc9",
+      "properties": {}
+    },
+    {
+      "source": "document_d84a12222933",
+      "type": "contains_chapter",
+      "target": "chapter_ef97400a3dc9",
+      "properties": {}
+    },
+    {
+      "source": "chapter_4731b3ebdebb",
+      "type": "contains_subchapter",
+      "target": "chapter_7900a48ad968",
+      "properties": {}
+    },
+    {
+      "source": "document_d84a12222933",
+      "type": "contains_chapter",
+      "target": "chapter_7900a48ad968",
+      "properties": {}
+    },
+    {
+      "source": "chapter_4731b3ebdebb",
+      "type": "contains_subchapter",
+      "target": "chapter_ecccc17c7d9e",
+      "properties": {}
+    },
+    {
+      "source": "document_d84a12222933",
+      "type": "contains_chapter",
+      "target": "chapter_ecccc17c7d9e",
+      "properties": {}
+    },
+    {
+      "source": "chapter_4731b3ebdebb",
+      "type": "contains_subchapter",
+      "target": "chapter_809710ecd3dc",
+      "properties": {}
+    },
+    {
+      "source": "document_d84a12222933",
+      "type": "contains_chapter",
+      "target": "chapter_809710ecd3dc",
+      "properties": {}
+    },
+    {
+      "source": "document_d84a12222933",
+      "type": "contains_chapter",
+      "target": "chapter_6557830c561a",
+      "properties": {}
+    },
+    {
+      "source": "document_20cacf1cd539",
+      "type": "contains_chapter",
+      "target": "chapter_3c6efb73fda4",
+      "properties": {}
+    },
+    {
+      "source": "chapter_3c6efb73fda4",
+      "type": "contains_subchapter",
+      "target": "chapter_f3701ac48b6d",
+      "properties": {}
+    },
+    {
+      "source": "document_20cacf1cd539",
+      "type": "contains_chapter",
+      "target": "chapter_f3701ac48b6d",
+      "properties": {}
+    },
+    {
+      "source": "chapter_3c6efb73fda4",
+      "type": "contains_subchapter",
+      "target": "chapter_d94be9e4a51f",
+      "properties": {}
+    },
+    {
+      "source": "document_20cacf1cd539",
+      "type": "contains_chapter",
+      "target": "chapter_d94be9e4a51f",
+      "properties": {}
+    },
+    {
+      "source": "chapter_3c6efb73fda4",
+      "type": "contains_subchapter",
+      "target": "chapter_a3b7266465ec",
+      "properties": {}
+    },
+    {
+      "source": "document_20cacf1cd539",
+      "type": "contains_chapter",
+      "target": "chapter_a3b7266465ec",
+      "properties": {}
+    },
+    {
+      "source": "document_20cacf1cd539",
+      "type": "contains_chapter",
+      "target": "chapter_b191e554898e",
+      "properties": {}
+    },
+    {
+      "source": "document_20cacf1cd539",
+      "type": "contains_chapter",
+      "target": "chapter_762d6eed533e",
+      "properties": {}
+    },
+    {
+      "source": "chapter_762d6eed533e",
+      "type": "contains_subchapter",
+      "target": "chapter_855de189ceb8",
+      "properties": {}
+    },
+    {
+      "source": "document_20cacf1cd539",
+      "type": "contains_chapter",
+      "target": "chapter_855de189ceb8",
+      "properties": {}
+    },
+    {
+      "source": "chapter_762d6eed533e",
+      "type": "contains_subchapter",
+      "target": "chapter_675e9a42801b",
+      "properties": {}
+    },
+    {
+      "source": "document_20cacf1cd539",
+      "type": "contains_chapter",
+      "target": "chapter_675e9a42801b",
+      "properties": {}
+    },
+    {
+      "source": "chapter_762d6eed533e",
+      "type": "contains_subchapter",
+      "target": "chapter_e2335bc67648",
+      "properties": {}
+    },
+    {
+      "source": "document_20cacf1cd539",
+      "type": "contains_chapter",
+      "target": "chapter_e2335bc67648",
+      "properties": {}
+    },
+    {
+      "source": "chapter_762d6eed533e",
+      "type": "contains_subchapter",
+      "target": "chapter_5f8e7a2c494c",
+      "properties": {}
+    },
+    {
+      "source": "document_20cacf1cd539",
+      "type": "contains_chapter",
+      "target": "chapter_5f8e7a2c494c",
+      "properties": {}
+    },
+    {
+      "source": "chapter_762d6eed533e",
+      "type": "contains_subchapter",
+      "target": "chapter_905f55c0b8f5",
+      "properties": {}
+    },
+    {
+      "source": "document_20cacf1cd539",
+      "type": "contains_chapter",
+      "target": "chapter_905f55c0b8f5",
+      "properties": {}
+    },
+    {
+      "source": "document_20cacf1cd539",
+      "type": "contains_chapter",
+      "target": "chapter_20f7f17c1a95",
+      "properties": {}
+    },
+    {
+      "source": "document_02b027be3da9",
+      "type": "contains_chapter",
+      "target": "chapter_f71c13fecc26",
+      "properties": {}
+    },
+    {
+      "source": "chapter_f71c13fecc26",
+      "type": "contains_subchapter",
+      "target": "chapter_fc3733ba45f7",
+      "properties": {}
+    },
+    {
+      "source": "document_02b027be3da9",
+      "type": "contains_chapter",
+      "target": "chapter_fc3733ba45f7",
+      "properties": {}
+    },
+    {
+      "source": "chapter_f71c13fecc26",
+      "type": "contains_subchapter",
+      "target": "chapter_69708fa429c6",
+      "properties": {}
+    },
+    {
+      "source": "document_02b027be3da9",
+      "type": "contains_chapter",
+      "target": "chapter_69708fa429c6",
+      "properties": {}
+    },
+    {
+      "source": "chapter_f71c13fecc26",
+      "type": "contains_subchapter",
+      "target": "chapter_cfc533d837ff",
+      "properties": {}
+    },
+    {
+      "source": "document_02b027be3da9",
+      "type": "contains_chapter",
+      "target": "chapter_cfc533d837ff",
+      "properties": {}
+    },
+    {
+      "source": "document_02b027be3da9",
+      "type": "contains_chapter",
+      "target": "chapter_833132fbfc21",
+      "properties": {}
+    },
+    {
+      "source": "document_02b027be3da9",
+      "type": "contains_chapter",
+      "target": "chapter_7ff7560be077",
+      "properties": {}
+    },
+    {
+      "source": "chapter_7ff7560be077",
+      "type": "contains_subchapter",
+      "target": "chapter_cac136149de4",
+      "properties": {}
+    },
+    {
+      "source": "document_02b027be3da9",
+      "type": "contains_chapter",
+      "target": "chapter_cac136149de4",
+      "properties": {}
+    },
+    {
+      "source": "chapter_7ff7560be077",
+      "type": "contains_subchapter",
+      "target": "chapter_b49177695457",
+      "properties": {}
+    },
+    {
+      "source": "document_02b027be3da9",
+      "type": "contains_chapter",
+      "target": "chapter_b49177695457",
+      "properties": {}
+    },
+    {
+      "source": "chapter_7ff7560be077",
+      "type": "contains_subchapter",
+      "target": "chapter_121e657cc26d",
+      "properties": {}
+    },
+    {
+      "source": "document_02b027be3da9",
+      "type": "contains_chapter",
+      "target": "chapter_121e657cc26d",
+      "properties": {}
+    },
+    {
+      "source": "chapter_7ff7560be077",
+      "type": "contains_subchapter",
+      "target": "chapter_2f53bc5e33e6",
+      "properties": {}
+    },
+    {
+      "source": "document_02b027be3da9",
+      "type": "contains_chapter",
+      "target": "chapter_2f53bc5e33e6",
+      "properties": {}
+    },
+    {
+      "source": "document_02b027be3da9",
+      "type": "contains_chapter",
+      "target": "chapter_dfbb407daff4",
+      "properties": {}
+    },
+    {
+      "source": "document_3a8532e0d5cb",
+      "type": "contains_chapter",
+      "target": "chapter_16a4250967c2",
+      "properties": {}
+    },
+    {
+      "source": "chapter_16a4250967c2",
+      "type": "contains_subchapter",
+      "target": "chapter_8b8d64d1659f",
+      "properties": {}
+    },
+    {
+      "source": "document_3a8532e0d5cb",
+      "type": "contains_chapter",
+      "target": "chapter_8b8d64d1659f",
+      "properties": {}
+    },
+    {
+      "source": "chapter_16a4250967c2",
+      "type": "contains_subchapter",
+      "target": "chapter_8a1b15334b8f",
+      "properties": {}
+    },
+    {
+      "source": "document_3a8532e0d5cb",
+      "type": "contains_chapter",
+      "target": "chapter_8a1b15334b8f",
+      "properties": {}
+    },
+    {
+      "source": "document_3a8532e0d5cb",
+      "type": "contains_chapter",
+      "target": "chapter_99087a491d2f",
+      "properties": {}
+    },
+    {
+      "source": "chapter_99087a491d2f",
+      "type": "contains_subchapter",
+      "target": "chapter_105eab479c49",
+      "properties": {}
+    },
+    {
+      "source": "document_3a8532e0d5cb",
+      "type": "contains_chapter",
+      "target": "chapter_105eab479c49",
+      "properties": {}
+    },
+    {
+      "source": "chapter_99087a491d2f",
+      "type": "contains_subchapter",
+      "target": "chapter_c50725e38176",
+      "properties": {}
+    },
+    {
+      "source": "document_3a8532e0d5cb",
+      "type": "contains_chapter",
+      "target": "chapter_c50725e38176",
+      "properties": {}
+    },
+    {
+      "source": "chapter_99087a491d2f",
+      "type": "contains_subchapter",
+      "target": "chapter_a6da9ee2b5c7",
+      "properties": {}
+    },
+    {
+      "source": "document_3a8532e0d5cb",
+      "type": "contains_chapter",
+      "target": "chapter_a6da9ee2b5c7",
+      "properties": {}
+    },
+    {
+      "source": "document_3a8532e0d5cb",
+      "type": "contains_chapter",
+      "target": "chapter_d114435c82dd",
+      "properties": {}
+    },
+    {
+      "source": "document_253182404a36",
+      "type": "contains_chapter",
+      "target": "chapter_ffdb1be5274e",
+      "properties": {}
+    },
+    {
+      "source": "chapter_ffdb1be5274e",
+      "type": "contains_subchapter",
+      "target": "chapter_6bd6b30efd9f",
+      "properties": {}
+    },
+    {
+      "source": "document_253182404a36",
+      "type": "contains_chapter",
+      "target": "chapter_6bd6b30efd9f",
+      "properties": {}
+    },
+    {
+      "source": "chapter_ffdb1be5274e",
+      "type": "contains_subchapter",
+      "target": "chapter_7bdd10d3c37a",
+      "properties": {}
+    },
+    {
+      "source": "document_253182404a36",
+      "type": "contains_chapter",
+      "target": "chapter_7bdd10d3c37a",
+      "properties": {}
+    },
+    {
+      "source": "chapter_ffdb1be5274e",
+      "type": "contains_subchapter",
+      "target": "chapter_61e3940d8223",
+      "properties": {}
+    },
+    {
+      "source": "document_253182404a36",
+      "type": "contains_chapter",
+      "target": "chapter_61e3940d8223",
+      "properties": {}
+    },
+    {
+      "source": "document_253182404a36",
+      "type": "contains_chapter",
+      "target": "chapter_eac2ae8d4eb5",
+      "properties": {}
+    },
+    {
+      "source": "document_253182404a36",
+      "type": "contains_chapter",
+      "target": "chapter_fdc2a32f9967",
+      "properties": {}
+    },
+    {
+      "source": "chapter_fdc2a32f9967",
+      "type": "contains_subchapter",
+      "target": "chapter_699762ec7dcb",
+      "properties": {}
+    },
+    {
+      "source": "document_253182404a36",
+      "type": "contains_chapter",
+      "target": "chapter_699762ec7dcb",
+      "properties": {}
+    },
+    {
+      "source": "chapter_fdc2a32f9967",
+      "type": "contains_subchapter",
+      "target": "chapter_926309bcdfda",
+      "properties": {}
+    },
+    {
+      "source": "document_253182404a36",
+      "type": "contains_chapter",
+      "target": "chapter_926309bcdfda",
+      "properties": {}
+    },
+    {
+      "source": "chapter_fdc2a32f9967",
+      "type": "contains_subchapter",
+      "target": "chapter_7c16eeee1f5d",
+      "properties": {}
+    },
+    {
+      "source": "document_253182404a36",
+      "type": "contains_chapter",
+      "target": "chapter_7c16eeee1f5d",
+      "properties": {}
+    },
+    {
+      "source": "document_253182404a36",
+      "type": "contains_chapter",
+      "target": "chapter_077c72d41902",
+      "properties": {}
+    },
+    {
+      "source": "chapter_077c72d41902",
+      "type": "contains_subchapter",
+      "target": "chapter_28a7bd72a2bc",
+      "properties": {}
+    },
+    {
+      "source": "document_253182404a36",
+      "type": "contains_chapter",
+      "target": "chapter_28a7bd72a2bc",
+      "properties": {}
+    },
+    {
+      "source": "chapter_077c72d41902",
+      "type": "contains_subchapter",
+      "target": "chapter_202040438fd2",
+      "properties": {}
+    },
+    {
+      "source": "document_253182404a36",
+      "type": "contains_chapter",
+      "target": "chapter_202040438fd2",
+      "properties": {}
+    },
+    {
+      "source": "document_253182404a36",
+      "type": "contains_chapter",
+      "target": "chapter_5d2b21ca748f",
+      "properties": {}
+    },
+    {
+      "source": "document_253182404a36",
+      "type": "contains_chapter",
+      "target": "chapter_e908a1308a70",
+      "properties": {}
+    },
+    {
+      "source": "document_f24ee9114828",
+      "type": "contains_chapter",
+      "target": "chapter_1dbf05c9ff6d",
+      "properties": {}
+    },
+    {
+      "source": "chapter_1dbf05c9ff6d",
+      "type": "contains_subchapter",
+      "target": "chapter_e112a66dd66b",
+      "properties": {}
+    },
+    {
+      "source": "document_f24ee9114828",
+      "type": "contains_chapter",
+      "target": "chapter_e112a66dd66b",
+      "properties": {}
+    },
+    {
+      "source": "chapter_1dbf05c9ff6d",
+      "type": "contains_subchapter",
+      "target": "chapter_0c8354bf2274",
+      "properties": {}
+    },
+    {
+      "source": "document_f24ee9114828",
+      "type": "contains_chapter",
+      "target": "chapter_0c8354bf2274",
+      "properties": {}
+    },
+    {
+      "source": "chapter_1dbf05c9ff6d",
+      "type": "contains_subchapter",
+      "target": "chapter_6963912c3fad",
+      "properties": {}
+    },
+    {
+      "source": "document_f24ee9114828",
+      "type": "contains_chapter",
+      "target": "chapter_6963912c3fad",
+      "properties": {}
+    },
+    {
+      "source": "document_f24ee9114828",
+      "type": "contains_chapter",
+      "target": "chapter_6270117486dc",
+      "properties": {}
+    },
+    {
+      "source": "document_f24ee9114828",
+      "type": "contains_chapter",
+      "target": "chapter_ecee75b37787",
+      "properties": {}
+    },
+    {
+      "source": "chapter_ecee75b37787",
+      "type": "contains_subchapter",
+      "target": "chapter_b2b6aa923419",
+      "properties": {}
+    },
+    {
+      "source": "document_f24ee9114828",
+      "type": "contains_chapter",
+      "target": "chapter_b2b6aa923419",
+      "properties": {}
+    },
+    {
+      "source": "chapter_ecee75b37787",
+      "type": "contains_subchapter",
+      "target": "chapter_ec6e1c6ec42f",
+      "properties": {}
+    },
+    {
+      "source": "document_f24ee9114828",
+      "type": "contains_chapter",
+      "target": "chapter_ec6e1c6ec42f",
+      "properties": {}
+    },
+    {
+      "source": "chapter_ecee75b37787",
+      "type": "contains_subchapter",
+      "target": "chapter_567d5bdbb228",
+      "properties": {}
+    },
+    {
+      "source": "document_f24ee9114828",
+      "type": "contains_chapter",
+      "target": "chapter_567d5bdbb228",
+      "properties": {}
+    },
+    {
+      "source": "document_f24ee9114828",
+      "type": "contains_chapter",
+      "target": "chapter_c92d6ea96b06",
+      "properties": {}
+    },
+    {
+      "source": "document_598a79ba56cb",
+      "type": "contains_chapter",
+      "target": "chapter_fec19e7f8d0b",
+      "properties": {}
+    },
+    {
+      "source": "chapter_fec19e7f8d0b",
+      "type": "contains_subchapter",
+      "target": "chapter_445c92e66a66",
+      "properties": {}
+    },
+    {
+      "source": "document_598a79ba56cb",
+      "type": "contains_chapter",
+      "target": "chapter_445c92e66a66",
+      "properties": {}
+    },
+    {
+      "source": "chapter_fec19e7f8d0b",
+      "type": "contains_subchapter",
+      "target": "chapter_a8b51d140851",
+      "properties": {}
+    },
+    {
+      "source": "document_598a79ba56cb",
+      "type": "contains_chapter",
+      "target": "chapter_a8b51d140851",
+      "properties": {}
+    },
+    {
+      "source": "chapter_fec19e7f8d0b",
+      "type": "contains_subchapter",
+      "target": "chapter_d03f9a9db138",
+      "properties": {}
+    },
+    {
+      "source": "document_598a79ba56cb",
+      "type": "contains_chapter",
+      "target": "chapter_d03f9a9db138",
+      "properties": {}
+    },
+    {
+      "source": "document_598a79ba56cb",
+      "type": "contains_chapter",
+      "target": "chapter_bfaf8935d298",
+      "properties": {}
+    },
+    {
+      "source": "document_598a79ba56cb",
+      "type": "contains_chapter",
+      "target": "chapter_1f16ab589a6e",
+      "properties": {}
+    },
+    {
+      "source": "chapter_1f16ab589a6e",
+      "type": "contains_subchapter",
+      "target": "chapter_22fc2de11fa3",
+      "properties": {}
+    },
+    {
+      "source": "document_598a79ba56cb",
+      "type": "contains_chapter",
+      "target": "chapter_22fc2de11fa3",
+      "properties": {}
+    },
+    {
+      "source": "chapter_1f16ab589a6e",
+      "type": "contains_subchapter",
+      "target": "chapter_0eefc9ef8eb9",
+      "properties": {}
+    },
+    {
+      "source": "document_598a79ba56cb",
+      "type": "contains_chapter",
+      "target": "chapter_0eefc9ef8eb9",
+      "properties": {}
+    },
+    {
+      "source": "chapter_1f16ab589a6e",
+      "type": "contains_subchapter",
+      "target": "chapter_6949e0d0035e",
+      "properties": {}
+    },
+    {
+      "source": "document_598a79ba56cb",
+      "type": "contains_chapter",
+      "target": "chapter_6949e0d0035e",
+      "properties": {}
+    },
+    {
+      "source": "document_598a79ba56cb",
+      "type": "contains_chapter",
+      "target": "chapter_f98bc8ceaccd",
+      "properties": {}
+    },
+    {
+      "source": "document_490f67eb93b3",
+      "type": "contains_chapter",
+      "target": "chapter_cc9b94fc7160",
+      "properties": {}
+    },
+    {
+      "source": "chapter_cc9b94fc7160",
+      "type": "contains_subchapter",
+      "target": "chapter_c626821042e5",
+      "properties": {}
+    },
+    {
+      "source": "document_490f67eb93b3",
+      "type": "contains_chapter",
+      "target": "chapter_c626821042e5",
+      "properties": {}
+    },
+    {
+      "source": "chapter_cc9b94fc7160",
+      "type": "contains_subchapter",
+      "target": "chapter_1b061c68c8f5",
+      "properties": {}
+    },
+    {
+      "source": "document_490f67eb93b3",
+      "type": "contains_chapter",
+      "target": "chapter_1b061c68c8f5",
+      "properties": {}
+    },
+    {
+      "source": "document_490f67eb93b3",
+      "type": "contains_chapter",
+      "target": "chapter_944e62203a10",
+      "properties": {}
+    },
+    {
+      "source": "document_490f67eb93b3",
+      "type": "contains_chapter",
+      "target": "chapter_3214fb31ff4b",
+      "properties": {}
+    },
+    {
+      "source": "chapter_3214fb31ff4b",
+      "type": "contains_subchapter",
+      "target": "chapter_8c696d57db6e",
+      "properties": {}
+    },
+    {
+      "source": "document_490f67eb93b3",
+      "type": "contains_chapter",
+      "target": "chapter_8c696d57db6e",
+      "properties": {}
+    },
+    {
+      "source": "chapter_3214fb31ff4b",
+      "type": "contains_subchapter",
+      "target": "chapter_96d6bc83141b",
+      "properties": {}
+    },
+    {
+      "source": "document_490f67eb93b3",
+      "type": "contains_chapter",
+      "target": "chapter_96d6bc83141b",
+      "properties": {}
+    },
+    {
+      "source": "chapter_3214fb31ff4b",
+      "type": "contains_subchapter",
+      "target": "chapter_9dc16130dadf",
+      "properties": {}
+    },
+    {
+      "source": "document_490f67eb93b3",
+      "type": "contains_chapter",
+      "target": "chapter_9dc16130dadf",
+      "properties": {}
+    },
+    {
+      "source": "chapter_3214fb31ff4b",
+      "type": "contains_subchapter",
+      "target": "chapter_249200db0db4",
+      "properties": {}
+    },
+    {
+      "source": "document_490f67eb93b3",
+      "type": "contains_chapter",
+      "target": "chapter_249200db0db4",
+      "properties": {}
+    },
+    {
+      "source": "document_490f67eb93b3",
+      "type": "contains_chapter",
+      "target": "chapter_b4cb02aae52d",
+      "properties": {}
+    },
+    {
+      "source": "document_15aa3acb67f9",
+      "type": "contains_chapter",
+      "target": "chapter_6316bfa91ee8",
+      "properties": {}
+    },
+    {
+      "source": "chapter_6316bfa91ee8",
+      "type": "contains_subchapter",
+      "target": "chapter_fbd710eff268",
+      "properties": {}
+    },
+    {
+      "source": "document_15aa3acb67f9",
+      "type": "contains_chapter",
+      "target": "chapter_fbd710eff268",
+      "properties": {}
+    },
+    {
+      "source": "chapter_6316bfa91ee8",
+      "type": "contains_subchapter",
+      "target": "chapter_a1d44527810f",
+      "properties": {}
+    },
+    {
+      "source": "document_15aa3acb67f9",
+      "type": "contains_chapter",
+      "target": "chapter_a1d44527810f",
+      "properties": {}
+    },
+    {
+      "source": "chapter_6316bfa91ee8",
+      "type": "contains_subchapter",
+      "target": "chapter_72b2b9364bf7",
+      "properties": {}
+    },
+    {
+      "source": "document_15aa3acb67f9",
+      "type": "contains_chapter",
+      "target": "chapter_72b2b9364bf7",
+      "properties": {}
+    },
+    {
+      "source": "document_15aa3acb67f9",
+      "type": "contains_chapter",
+      "target": "chapter_5f6372a193a1",
+      "properties": {}
+    },
+    {
+      "source": "document_15aa3acb67f9",
+      "type": "contains_chapter",
+      "target": "chapter_a8005aafd5a1",
+      "properties": {}
+    },
+    {
+      "source": "chapter_a8005aafd5a1",
+      "type": "contains_subchapter",
+      "target": "chapter_43a56832d48f",
+      "properties": {}
+    },
+    {
+      "source": "document_15aa3acb67f9",
+      "type": "contains_chapter",
+      "target": "chapter_43a56832d48f",
+      "properties": {}
+    },
+    {
+      "source": "chapter_a8005aafd5a1",
+      "type": "contains_subchapter",
+      "target": "chapter_fba295790ed1",
+      "properties": {}
+    },
+    {
+      "source": "document_15aa3acb67f9",
+      "type": "contains_chapter",
+      "target": "chapter_fba295790ed1",
+      "properties": {}
+    },
+    {
+      "source": "chapter_a8005aafd5a1",
+      "type": "contains_subchapter",
+      "target": "chapter_5c4378e35ab1",
+      "properties": {}
+    },
+    {
+      "source": "document_15aa3acb67f9",
+      "type": "contains_chapter",
+      "target": "chapter_5c4378e35ab1",
+      "properties": {}
+    },
+    {
+      "source": "chapter_a8005aafd5a1",
+      "type": "contains_subchapter",
+      "target": "chapter_c0fbdaf0c3a3",
+      "properties": {}
+    },
+    {
+      "source": "document_15aa3acb67f9",
+      "type": "contains_chapter",
+      "target": "chapter_c0fbdaf0c3a3",
+      "properties": {}
+    },
+    {
+      "source": "document_15aa3acb67f9",
+      "type": "contains_chapter",
+      "target": "chapter_f6d80070a4ee",
+      "properties": {}
+    },
+    {
+      "source": "document_afba9f74af1a",
+      "type": "contains_chapter",
+      "target": "chapter_66f17b950152",
+      "properties": {}
+    },
+    {
+      "source": "chapter_66f17b950152",
+      "type": "contains_subchapter",
+      "target": "chapter_dd0f98290852",
+      "properties": {}
+    },
+    {
+      "source": "document_afba9f74af1a",
+      "type": "contains_chapter",
+      "target": "chapter_dd0f98290852",
+      "properties": {}
+    },
+    {
+      "source": "chapter_66f17b950152",
+      "type": "contains_subchapter",
+      "target": "chapter_c4185e82d87d",
+      "properties": {}
+    },
+    {
+      "source": "document_afba9f74af1a",
+      "type": "contains_chapter",
+      "target": "chapter_c4185e82d87d",
+      "properties": {}
+    },
+    {
+      "source": "document_afba9f74af1a",
+      "type": "contains_chapter",
+      "target": "chapter_cc653a179ddf",
+      "properties": {}
+    },
+    {
+      "source": "document_afba9f74af1a",
+      "type": "contains_chapter",
+      "target": "chapter_6e21fe290162",
+      "properties": {}
+    },
+    {
+      "source": "chapter_6e21fe290162",
+      "type": "contains_subchapter",
+      "target": "chapter_41274a4134b9",
+      "properties": {}
+    },
+    {
+      "source": "document_afba9f74af1a",
+      "type": "contains_chapter",
+      "target": "chapter_41274a4134b9",
+      "properties": {}
+    },
+    {
+      "source": "chapter_6e21fe290162",
+      "type": "contains_subchapter",
+      "target": "chapter_5371cac173e6",
+      "properties": {}
+    },
+    {
+      "source": "document_afba9f74af1a",
+      "type": "contains_chapter",
+      "target": "chapter_5371cac173e6",
+      "properties": {}
+    },
+    {
+      "source": "chapter_6e21fe290162",
+      "type": "contains_subchapter",
+      "target": "chapter_62e4cc04f0c9",
+      "properties": {}
+    },
+    {
+      "source": "document_afba9f74af1a",
+      "type": "contains_chapter",
+      "target": "chapter_62e4cc04f0c9",
+      "properties": {}
+    },
+    {
+      "source": "document_afba9f74af1a",
+      "type": "contains_chapter",
+      "target": "chapter_d79e92834128",
+      "properties": {}
+    },
+    {
+      "source": "document_6221c240c444",
+      "type": "contains_chapter",
+      "target": "chapter_ebb3367f7c12",
+      "properties": {}
+    },
+    {
+      "source": "chapter_ebb3367f7c12",
+      "type": "contains_subchapter",
+      "target": "chapter_6b1afedbcc3e",
+      "properties": {}
+    },
+    {
+      "source": "document_6221c240c444",
+      "type": "contains_chapter",
+      "target": "chapter_6b1afedbcc3e",
+      "properties": {}
+    },
+    {
+      "source": "chapter_ebb3367f7c12",
+      "type": "contains_subchapter",
+      "target": "chapter_b36e122e7aec",
+      "properties": {}
+    },
+    {
+      "source": "document_6221c240c444",
+      "type": "contains_chapter",
+      "target": "chapter_b36e122e7aec",
+      "properties": {}
+    },
+    {
+      "source": "document_6221c240c444",
+      "type": "contains_chapter",
+      "target": "chapter_a774e8f871d4",
+      "properties": {}
+    },
+    {
+      "source": "document_6221c240c444",
+      "type": "contains_chapter",
+      "target": "chapter_798c4a6faa76",
+      "properties": {}
+    },
+    {
+      "source": "chapter_798c4a6faa76",
+      "type": "contains_subchapter",
+      "target": "chapter_8d1f77f49570",
+      "properties": {}
+    },
+    {
+      "source": "document_6221c240c444",
+      "type": "contains_chapter",
+      "target": "chapter_8d1f77f49570",
+      "properties": {}
+    },
+    {
+      "source": "chapter_798c4a6faa76",
+      "type": "contains_subchapter",
+      "target": "chapter_8d5fc97e9836",
+      "properties": {}
+    },
+    {
+      "source": "document_6221c240c444",
+      "type": "contains_chapter",
+      "target": "chapter_8d5fc97e9836",
+      "properties": {}
+    },
+    {
+      "source": "chapter_798c4a6faa76",
+      "type": "contains_subchapter",
+      "target": "chapter_a7cd82fa58d6",
+      "properties": {}
+    },
+    {
+      "source": "document_6221c240c444",
+      "type": "contains_chapter",
+      "target": "chapter_a7cd82fa58d6",
+      "properties": {}
+    },
+    {
+      "source": "document_6221c240c444",
+      "type": "contains_chapter",
+      "target": "chapter_f594187a809c",
+      "properties": {}
+    },
+    {
+      "source": "document_1e9bb56dc39e",
+      "type": "contains_chapter",
+      "target": "chapter_6825b2332997",
+      "properties": {}
+    },
+    {
+      "source": "chapter_6825b2332997",
+      "type": "contains_subchapter",
+      "target": "chapter_1919dd28e8ad",
+      "properties": {}
+    },
+    {
+      "source": "document_1e9bb56dc39e",
+      "type": "contains_chapter",
+      "target": "chapter_1919dd28e8ad",
+      "properties": {}
+    },
+    {
+      "source": "chapter_6825b2332997",
+      "type": "contains_subchapter",
+      "target": "chapter_239a41e53bc9",
+      "properties": {}
+    },
+    {
+      "source": "document_1e9bb56dc39e",
+      "type": "contains_chapter",
+      "target": "chapter_239a41e53bc9",
+      "properties": {}
+    },
+    {
+      "source": "document_1e9bb56dc39e",
+      "type": "contains_chapter",
+      "target": "chapter_8f2fbe8de400",
+      "properties": {}
+    },
+    {
+      "source": "document_1e9bb56dc39e",
+      "type": "contains_chapter",
+      "target": "chapter_cfe6cad8a141",
+      "properties": {}
+    },
+    {
+      "source": "chapter_cfe6cad8a141",
+      "type": "contains_subchapter",
+      "target": "chapter_f01b8f34f477",
+      "properties": {}
+    },
+    {
+      "source": "document_1e9bb56dc39e",
+      "type": "contains_chapter",
+      "target": "chapter_f01b8f34f477",
+      "properties": {}
+    },
+    {
+      "source": "chapter_cfe6cad8a141",
+      "type": "contains_subchapter",
+      "target": "chapter_ce3df3538d63",
+      "properties": {}
+    },
+    {
+      "source": "document_1e9bb56dc39e",
+      "type": "contains_chapter",
+      "target": "chapter_ce3df3538d63",
+      "properties": {}
+    },
+    {
+      "source": "chapter_cfe6cad8a141",
+      "type": "contains_subchapter",
+      "target": "chapter_0b07f5b97624",
+      "properties": {}
+    },
+    {
+      "source": "document_1e9bb56dc39e",
+      "type": "contains_chapter",
+      "target": "chapter_0b07f5b97624",
+      "properties": {}
+    },
+    {
+      "source": "document_1e9bb56dc39e",
+      "type": "contains_chapter",
+      "target": "chapter_eefe861eb3da",
+      "properties": {}
+    },
+    {
+      "source": "document_86013a908a3c",
+      "type": "contains_chapter",
+      "target": "chapter_07c935458408",
+      "properties": {}
+    },
+    {
+      "source": "chapter_07c935458408",
+      "type": "contains_subchapter",
+      "target": "chapter_d15ac2475595",
+      "properties": {}
+    },
+    {
+      "source": "document_86013a908a3c",
+      "type": "contains_chapter",
+      "target": "chapter_d15ac2475595",
+      "properties": {}
+    },
+    {
+      "source": "chapter_07c935458408",
+      "type": "contains_subchapter",
+      "target": "chapter_c8672d514b48",
+      "properties": {}
+    },
+    {
+      "source": "document_86013a908a3c",
+      "type": "contains_chapter",
+      "target": "chapter_c8672d514b48",
+      "properties": {}
+    },
+    {
+      "source": "chapter_07c935458408",
+      "type": "contains_subchapter",
+      "target": "chapter_569832a45878",
+      "properties": {}
+    },
+    {
+      "source": "document_86013a908a3c",
+      "type": "contains_chapter",
+      "target": "chapter_569832a45878",
+      "properties": {}
+    },
+    {
+      "source": "document_86013a908a3c",
+      "type": "contains_chapter",
+      "target": "chapter_7a124e4e1a39",
+      "properties": {}
+    },
+    {
+      "source": "document_86013a908a3c",
+      "type": "contains_chapter",
+      "target": "chapter_98c2ed99cc8e",
+      "properties": {}
+    },
+    {
+      "source": "chapter_98c2ed99cc8e",
+      "type": "contains_subchapter",
+      "target": "chapter_029d8bfd8348",
+      "properties": {}
+    },
+    {
+      "source": "document_86013a908a3c",
+      "type": "contains_chapter",
+      "target": "chapter_029d8bfd8348",
+      "properties": {}
+    },
+    {
+      "source": "chapter_98c2ed99cc8e",
+      "type": "contains_subchapter",
+      "target": "chapter_0f778daf3069",
+      "properties": {}
+    },
+    {
+      "source": "document_86013a908a3c",
+      "type": "contains_chapter",
+      "target": "chapter_0f778daf3069",
+      "properties": {}
+    },
+    {
+      "source": "chapter_98c2ed99cc8e",
+      "type": "contains_subchapter",
+      "target": "chapter_e44a4647bc93",
+      "properties": {}
+    },
+    {
+      "source": "document_86013a908a3c",
+      "type": "contains_chapter",
+      "target": "chapter_e44a4647bc93",
+      "properties": {}
+    },
+    {
+      "source": "document_86013a908a3c",
+      "type": "contains_chapter",
+      "target": "chapter_13bfc797c2f7",
+      "properties": {}
+    },
+    {
+      "source": "document_1a72552737e3",
+      "type": "contains_chapter",
+      "target": "chapter_a93e282b67dd",
+      "properties": {}
+    },
+    {
+      "source": "chapter_a93e282b67dd",
+      "type": "contains_subchapter",
+      "target": "chapter_619c38e5f7a0",
+      "properties": {}
+    },
+    {
+      "source": "document_1a72552737e3",
+      "type": "contains_chapter",
+      "target": "chapter_619c38e5f7a0",
+      "properties": {}
+    },
+    {
+      "source": "chapter_a93e282b67dd",
+      "type": "contains_subchapter",
+      "target": "chapter_61dcf89177fa",
+      "properties": {}
+    },
+    {
+      "source": "document_1a72552737e3",
+      "type": "contains_chapter",
+      "target": "chapter_61dcf89177fa",
+      "properties": {}
+    },
+    {
+      "source": "document_1a72552737e3",
+      "type": "contains_chapter",
+      "target": "chapter_aa226d3854c0",
+      "properties": {}
+    },
+    {
+      "source": "chapter_aa226d3854c0",
+      "type": "contains_subchapter",
+      "target": "chapter_8d76ce110918",
+      "properties": {}
+    },
+    {
+      "source": "document_1a72552737e3",
+      "type": "contains_chapter",
+      "target": "chapter_8d76ce110918",
+      "properties": {}
+    },
+    {
+      "source": "chapter_aa226d3854c0",
+      "type": "contains_subchapter",
+      "target": "chapter_b6467275b43a",
+      "properties": {}
+    },
+    {
+      "source": "document_1a72552737e3",
+      "type": "contains_chapter",
+      "target": "chapter_b6467275b43a",
+      "properties": {}
+    },
+    {
+      "source": "document_1a72552737e3",
+      "type": "contains_chapter",
+      "target": "chapter_0e394ab39629",
+      "properties": {}
+    }
+  ],
+  "stats": {
+    "total_entities": 234,
+    "total_relations": 345,
+    "entity_types": {
+      "document": 19,
+      "chapter": 215
+    },
+    "storage": {
+      "local_json": true,
+      "neo4j": {
+        "enabled": false,
+        "connected": false
+      }
+    }
+  }
+}

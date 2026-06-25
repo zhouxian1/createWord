@@ -1,0 +1,30 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# 系统依赖
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    libpq-dev \
+    wget \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Python依赖
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+# 应用代码
+COPY . .
+
+# 创建数据目录
+RUN mkdir -p /app/data/uploads /app/data/vector_db /app/data/inverted_index
+
+# 环境变量
+ENV FLASK_ENV=production
+ENV PYTHONUNBUFFERED=1
+
+EXPOSE 5000
+
+# 使用gunicorn启动
+CMD ["gunicorn", "--bind", "0.0.0.0:5000", "--workers", "4", "--timeout", "120", "--access-logfile", "-", "run:app"]
