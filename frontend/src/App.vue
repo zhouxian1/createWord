@@ -1,8 +1,7 @@
 <template>
   <div class="app-shell">
-    <div class="bg-orb orb-a"></div>
-    <div class="bg-orb orb-b"></div>
-    <div class="bg-grid"></div>
+    <div class="bg-glow glow-a"></div>
+    <div class="bg-glow glow-b"></div>
     <router-view />
   </div>
 </template>
@@ -27,38 +26,26 @@ html, body, #app {
   min-height: 100%;
 }
 
-.bg-orb {
+.bg-glow {
   position: fixed;
-  width: 420px;
-  height: 420px;
+  width: 360px;
+  height: 360px;
   border-radius: 50%;
-  filter: blur(90px);
+  filter: blur(110px);
   z-index: 0;
   pointer-events: none;
-  opacity: 0.35;
+  opacity: 0.12;
 }
 
-.orb-a {
-  top: -120px;
-  left: -120px;
-  background: rgba(63, 166, 255, 0.45);
+.glow-a {
+  top: -100px;
+  left: -80px;
+  background: rgba(89, 184, 255, 0.5);
 }
 
-.orb-b {
-  right: -140px;
-  bottom: -140px;
-  background: rgba(154, 124, 255, 0.3);
-}
-
-.bg-grid {
-  position: fixed;
-  inset: 0;
-  background-image:
-    linear-gradient(rgba(89, 184, 255, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(89, 184, 255, 0.03) 1px, transparent 1px);
-  background-size: 44px 44px;
-  mask-image: linear-gradient(180deg, rgba(255, 255, 255, 0.32), transparent 78%);
-  pointer-events: none;
-  z-index: 0;
+.glow-b {
+  right: -120px;
+  bottom: -100px;
+  background: rgba(159, 134, 255, 0.42);
 }
 </style>
