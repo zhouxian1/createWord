@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+<title id="title">系统工作台预览占位图</title>
+<desc id="desc">用于 README 的系统工作台截图占位图，可替换为真实截图。</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#07111f"/>
+    <stop offset="100%" stop-color="#0d1f38"/>
+  </linearGradient>
+  <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#10294d"/>
+    <stop offset="100%" stop-color="#0a1830"/>
+  </linearGradient>
+</defs>
+<rect width="1280" height="720" fill="url(#bg)"/>
+<circle cx="180" cy="120" r="160" fill="#59b8ff" fill-opacity="0.12"/>
+<circle cx="1120" cy="620" r="180" fill="#6df7c1" fill-opacity="0.08"/>
+<rect x="44" y="40" width="1192" height="640" rx="24" fill="#081529" stroke="#2b6cb0" stroke-opacity="0.55"/>
+<rect x="44" y="40" width="240" height="640" rx="24" fill="#09172c" stroke="#234d84" stroke-opacity="0.35"/>
+<rect x="320" y="76" width="240" height="56" rx="14" fill="#132d53"/>
+<rect x="580" y="76" width="180" height="56" rx="14" fill="#132d53"/>
+<rect x="780" y="76" width="180" height="56" rx="14" fill="#132d53"/>
+<rect x="980" y="76" width="180" height="56" rx="14" fill="#193965"/>
+<rect x="320" y="172" width="410" height="180" rx="18" fill="url(#card)" stroke="#3e7cd1" stroke-opacity="0.45"/>
+<rect x="750" y="172" width="410" height="180" rx="18" fill="url(#card)" stroke="#3e7cd1" stroke-opacity="0.45"/>
+<rect x="320" y="384" width="260" height="220" rx="18" fill="url(#card)" stroke="#3e7cd1" stroke-opacity="0.45"/>
+<rect x="610" y="384" width="260" height="220" rx="18" fill="url(#card)" stroke="#3e7cd1" stroke-opacity="0.45"/>
+<rect x="900" y="384" width="260" height="220" rx="18" fill="url(#card)" stroke="#3e7cd1" stroke-opacity="0.45"/>
+<text x="92" y="110" fill="#eef6ff" font-size="28" font-family="Segoe UI, Arial, sans-serif" font-weight="700">438C 文档生成与知识图谱系统</text>
+<text x="92" y="156" fill="#8eb3dc" font-size="18" font-family="Segoe UI, Arial, sans-serif">README 展示占位图 - 工作台页面</text>
+<text x="350" y="234" fill="#eef6ff" font-size="24" font-family="Segoe UI, Arial, sans-serif" font-weight="700">工作台总览</text>
+<text x="350" y="272" fill="#94aeca" font-size="16" font-family="Segoe UI, Arial, sans-serif">项目数量、知识库状态、生成任务、验证结果</text>
+<text x="780" y="234" fill="#eef6ff" font-size="24" font-family="Segoe UI, Arial, sans-serif" font-weight="700">核心指标卡片</text>
+<text x="780" y="272" fill="#94aeca" font-size="16" font-family="Segoe UI, Arial, sans-serif">可替换为真实系统首页截图</text>
+<text x="350" y="462" fill="#eef6ff" font-size="20" font-family="Segoe UI, Arial, sans-serif" font-weight="700">项目管理</text>
+<text x="640" y="462" fill="#eef6ff" font-size="20" font-family="Segoe UI, Arial, sans-serif" font-weight="700">文档生成</text>
+<text x="930" y="462" fill="#eef6ff" font-size="20" font-family="Segoe UI, Arial, sans-serif" font-weight="700">质量验证</text>
+<text x="350" y="498" fill="#94aeca" font-size="15" font-family="Segoe UI, Arial, sans-serif">支持项目归属与上下文管理</text>
+<text x="640" y="498" fill="#94aeca" font-size="15" font-family="Segoe UI, Arial, sans-serif">支持章节生成与整篇生成</text>
+<text x="930" y="498" fill="#94aeca" font-size="15" font-family="Segoe UI, Arial, sans-serif">支持规则校验与结果输出</text>
+</svg>
