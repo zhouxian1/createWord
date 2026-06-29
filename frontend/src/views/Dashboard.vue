@@ -1,11 +1,11 @@
 <template>
   <div class="dashboard cyber-page circuit-bg">
-    <!-- Hero -->
     <div class="hero holo-panel">
       <div class="hero-content">
-        <div>
-          <div class="cyber-badge">INTELLIGENT DOCUMENT PLATFORM</div>
-          <h2 class="glitch-title" style="margin-top: 12px; font-size: 26px;">438C 文档智能生成平台</h2>
+        <div class="hero-copy">
+          <div class="cyber-badge">438C DOCUMENT WORKSPACE</div>
+          <h2 class="glitch-title">438C 文档智能生成平台</h2>
+          <p class="hero-desc">围绕项目、知识库、标准模板、质量验证和合稿输出，形成可追踪的文档工程工作台。</p>
         </div>
         <div class="hero-metrics">
           <div class="hero-metric">
@@ -20,12 +20,11 @@
       </div>
     </div>
 
-    <!-- Stat Cards -->
     <el-row :gutter="16">
-      <el-col :span="6" v-for="(card, idx) in statCards" :key="card.title">
+      <el-col :xs="24" :sm="12" :lg="6" v-for="(card, idx) in statCards" :key="card.title">
         <div class="stat-card holo-panel" :class="'stat-card--' + idx">
           <div class="stat-icon">
-            <el-icon :size="26"><component :is="card.icon" /></el-icon>
+            <el-icon :size="24"><component :is="card.icon" /></el-icon>
           </div>
           <div class="stat-info">
             <div class="stat-value">{{ card.value }}</div>
@@ -35,19 +34,18 @@
       </el-col>
     </el-row>
 
-    <!-- Quick Actions + Recent Docs -->
-    <el-row :gutter="16" style="margin-top: 16px">
-      <el-col :span="16">
-        <div class="holo-panel" style="padding: 20px;">
+    <el-row :gutter="16">
+      <el-col :xs="24" :lg="16">
+        <div class="holo-panel panel-card">
           <div class="panel-header">
             <span class="panel-title">快速操作</span>
             <div class="neon-divider"></div>
           </div>
           <el-row :gutter="12">
-            <el-col :span="6" v-for="action in quickActions" :key="action.title">
+            <el-col :xs="12" :sm="6" v-for="action in quickActions" :key="action.title">
               <div class="quick-action" @click="$router.push(action.path)">
                 <div class="action-icon" :style="{ '--action-color': action.color }">
-                  <el-icon :size="28"><component :is="action.icon" /></el-icon>
+                  <el-icon :size="26"><component :is="action.icon" /></el-icon>
                 </div>
                 <div class="action-title">{{ action.title }}</div>
                 <div class="action-desc">{{ action.desc }}</div>
@@ -56,8 +54,8 @@
           </el-row>
         </div>
       </el-col>
-      <el-col :span="8">
-        <div class="holo-panel" style="padding: 20px;">
+      <el-col :xs="24" :lg="8">
+        <div class="holo-panel panel-card">
           <div class="panel-header">
             <span class="panel-title">最近文档</span>
             <div class="neon-divider"></div>
@@ -72,12 +70,11 @@
       </el-col>
     </el-row>
 
-    <!-- Categories -->
-    <el-row :gutter="16" style="margin-top: 16px">
+    <el-row :gutter="16">
       <el-col :span="24">
-        <div class="holo-panel" style="padding: 20px;">
+        <div class="holo-panel panel-card">
           <div class="panel-header">
-            <span class="panel-title">438C文档类型概览</span>
+            <span class="panel-title">438C 文档类型概览</span>
             <div class="neon-divider"></div>
           </div>
           <div class="doc-type-grid">
@@ -95,24 +92,22 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import { generationApi, standard438cApi } from '@/api'
-import { useAppStore } from '@/store'
 
-const store = useAppStore()
 const recentDocs = ref([])
 const categories = ref([])
 
 const statCards = ref([
-  { title: '项目数', value: 0, icon: 'Folder', color: '#00f0ff' },
-  { title: '知识库', value: 0, icon: 'Collection', color: '#39ff14' },
-  { title: '已生成文档', value: 0, icon: 'Document', color: '#ff2d95' },
-  { title: '验证通过', value: 0, icon: 'CircleCheck', color: '#b44dff' }
+  { title: '项目数', value: 0, icon: 'Folder', color: '#1b75d0' },
+  { title: '知识库', value: 0, icon: 'Collection', color: '#238a63' },
+  { title: '已生成文档', value: 0, icon: 'Document', color: '#b9914b' },
+  { title: '验证通过', value: 0, icon: 'CircleCheck', color: '#bd4b72' }
 ])
 
 const quickActions = [
-  { title: '创建项目', desc: '新建文档项目', icon: 'FolderAdd', color: '#00f0ff', path: '/projects' },
-  { title: '知识库', desc: '管理知识资源', icon: 'Upload', color: '#39ff14', path: '/knowledge' },
-  { title: '生成文档', desc: '一键生成438C文档', icon: 'EditPen', color: '#ff2d95', path: '/generation' },
-  { title: '智能问答', desc: '基于知识库问答', icon: 'ChatDotRound', color: '#b44dff', path: '/qa' }
+  { title: '创建项目', desc: '新建文档项目', icon: 'FolderAdd', color: '#1b75d0', path: '/projects' },
+  { title: '知识入库', desc: '管理知识资源', icon: 'Upload', color: '#238a63', path: '/knowledge' },
+  { title: '生成文档', desc: '生成 438C 文档', icon: 'EditPen', color: '#b9914b', path: '/generation' },
+  { title: '智能问答', desc: '基于知识库问答', icon: 'ChatDotRound', color: '#bd4b72', path: '/qa' }
 ]
 
 const statusType = (status) => {
@@ -135,7 +130,7 @@ onMounted(async () => {
     categories.value = catRes.items || []
     statCards.value[2].value = docRes.total || 0
   } catch (e) {
-    // 忽略
+    // 首页指标允许后端未就绪时降级为空态。
   }
 })
 </script>
@@ -147,213 +142,240 @@ onMounted(async () => {
   gap: 16px;
 }
 
-/* ── Hero ── */
 .hero {
-  padding: 28px 32px;
+  padding: 30px 34px;
 }
 
 .hero-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 24px;
+  gap: 28px;
+}
+
+.hero-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.hero-desc {
+  max-width: 720px;
+  margin: 0;
+  color: var(--cp-text-dim);
+  font-size: 14px;
+  line-height: 1.8;
 }
 
 .hero-metrics {
   display: flex;
   gap: 12px;
+  flex-shrink: 0;
 }
 
 .hero-metric {
-  min-width: 110px;
-  padding: 14px 18px;
-  border-radius: 4px;
-  background: rgba(0, 240, 255, 0.04);
-  border: 1px solid rgba(0, 240, 255, 0.15);
+  min-width: 116px;
+  padding: 16px 18px;
+  border-radius: 8px;
+  background: #f8fafc;
+  border: 1px solid rgba(45, 61, 82, 0.1);
   text-align: center;
 }
 
 .metric-label {
   display: block;
-  font-size: 11px;
-  color: var(--cp-text-dim);
-  font-family: 'Share Tech Mono', var(--cp-font);
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
   margin-bottom: 6px;
+  color: var(--cp-text-dim);
+  font-size: 12px;
+  font-weight: 700;
 }
 
 .hero-metric strong {
+  color: var(--cp-text-bright);
   font-size: 28px;
-  color: var(--cp-cyan);
-  text-shadow: 0 0 12px rgba(0, 240, 255, 0.4);
-  font-family: 'Orbitron', var(--cp-font);
+  font-weight: 800;
 }
 
-/* ── Stat Cards ── */
 .stat-card {
-  padding: 20px;
+  min-height: 104px;
+  padding: 22px;
   display: flex;
   align-items: center;
   gap: 16px;
-  animation: float-y 6s ease-in-out infinite;
 }
 
-.stat-card--0 { animation-delay: 0s; }
-.stat-card--1 { animation-delay: 0.8s; }
-.stat-card--2 { animation-delay: 1.6s; }
-.stat-card--3 { animation-delay: 2.4s; }
-
-.stat-card--0 .stat-icon { background: rgba(0, 240, 255, 0.12); color: var(--cp-cyan); box-shadow: 0 0 16px rgba(0, 240, 255, 0.2); }
-.stat-card--1 .stat-icon { background: rgba(57, 255, 20, 0.12); color: var(--cp-green); box-shadow: 0 0 16px rgba(57, 255, 20, 0.2); }
-.stat-card--2 .stat-icon { background: rgba(255, 45, 149, 0.12); color: var(--cp-magenta); box-shadow: 0 0 16px rgba(255, 45, 149, 0.2); }
-.stat-card--3 .stat-icon { background: rgba(180, 77, 255, 0.12); color: var(--cp-purple); box-shadow: 0 0 16px rgba(180, 77, 255, 0.2); }
+.stat-card--0 .stat-icon { background: rgba(27, 117, 208, 0.1); color: #1b75d0; }
+.stat-card--1 .stat-icon { background: rgba(35, 138, 99, 0.1); color: #238a63; }
+.stat-card--2 .stat-icon { background: rgba(185, 145, 75, 0.12); color: #9d7636; }
+.stat-card--3 .stat-icon { background: rgba(189, 75, 114, 0.1); color: #bd4b72; }
 
 .stat-icon {
   width: 52px;
   height: 52px;
-  border-radius: 4px;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgba(0, 240, 255, 0.15);
+  border: 1px solid rgba(45, 61, 82, 0.08);
 }
 
 .stat-value {
-  font-size: 26px;
-  font-weight: 700;
   color: var(--cp-text-bright);
-  font-family: 'Orbitron', var(--cp-font);
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1;
 }
 
 .stat-title {
-  font-size: 12px;
+  margin-top: 8px;
   color: var(--cp-text-dim);
-  font-family: 'Share Tech Mono', var(--cp-font);
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  margin-top: 2px;
+  font-size: 13px;
+  font-weight: 700;
 }
 
-/* ── Panel Header ── */
+.panel-card {
+  padding: 22px;
+}
+
 .panel-header {
   margin-bottom: 16px;
 }
 
 .panel-title {
-  font-family: 'Orbitron', var(--cp-font);
-  font-size: 13px;
-  font-weight: 700;
-  color: var(--cp-cyan);
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  text-shadow: 0 0 8px rgba(0, 240, 255, 0.3);
+  color: var(--cp-text-bright);
+  font-size: 15px;
+  font-weight: 800;
 }
 
-/* ── Quick Actions ── */
 .quick-action {
-  text-align: center;
-  padding: 20px 10px;
+  min-height: 132px;
+  padding: 22px 12px;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 8px;
   border: 1px solid transparent;
-  transition: all 0.2s;
+  text-align: center;
+  transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease, box-shadow 0.18s ease;
 }
 
 .quick-action:hover {
-  background: rgba(0, 240, 255, 0.04);
-  border-color: var(--cp-border);
-  box-shadow: 0 0 12px rgba(0, 240, 255, 0.1);
+  background: #f8fafc;
+  border-color: rgba(45, 61, 82, 0.12);
+  box-shadow: 0 10px 26px rgba(22, 31, 44, 0.08);
+  transform: translateY(-2px);
 }
 
 .action-icon {
   width: 52px;
   height: 52px;
-  border-radius: 4px;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto 10px;
-  background: rgba(0, 240, 255, 0.06);
-  border: 1px solid rgba(0, 240, 255, 0.15);
+  margin: 0 auto 12px;
+  background: rgba(45, 61, 82, 0.05);
+  border: 1px solid rgba(45, 61, 82, 0.08);
   color: var(--action-color, var(--cp-cyan));
-  box-shadow: 0 0 12px rgba(0, 240, 255, 0.1);
 }
 
 .action-title {
-  font-weight: 600;
   color: var(--cp-text);
-  font-family: 'Rajdhani', var(--cp-font-ui);
-  letter-spacing: 0.04em;
+  font-weight: 800;
 }
 
 .action-desc {
-  font-size: 11px;
+  margin-top: 6px;
   color: var(--cp-text-dim);
-  margin-top: 4px;
-  font-family: 'Share Tech Mono', var(--cp-font);
+  font-size: 12px;
+  line-height: 1.5;
 }
 
-/* ── Recent Docs ── */
 .recent-doc-item {
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 10px 0;
-  border-bottom: 1px solid rgba(0, 240, 255, 0.06);
-  cursor: pointer;
-  transition: all 0.2s;
+  gap: 10px;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(45, 61, 82, 0.08);
   color: var(--cp-text);
+  cursor: pointer;
+  transition: color 0.18s ease, transform 0.18s ease;
 }
 
 .recent-doc-item:hover {
   color: var(--cp-cyan);
-  text-shadow: 0 0 8px rgba(0, 240, 255, 0.3);
+  transform: translateX(2px);
 }
 
 .doc-name {
   flex: 1;
+  min-width: 0;
+  overflow: hidden;
   font-size: 13px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .empty-text {
+  padding: 22px;
   color: var(--cp-text-dim);
   text-align: center;
-  padding: 20px;
-  font-family: 'Share Tech Mono', var(--cp-font);
 }
 
-/* ── Doc Type Grid ── */
 .doc-type-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
 }
 
 .doc-type-item {
-  padding: 14px;
-  background: rgba(0, 240, 255, 0.03);
-  border-radius: 4px;
-  text-align: center;
-  border: 1px solid rgba(0, 240, 255, 0.08);
-  transition: all 0.2s;
+  min-height: 88px;
+  padding: 16px;
+  background: #f8fafc;
+  border: 1px solid rgba(45, 61, 82, 0.08);
+  border-radius: 8px;
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
 }
 
 .doc-type-item:hover {
-  border-color: var(--cp-border);
-  box-shadow: 0 0 12px rgba(0, 240, 255, 0.1);
+  border-color: rgba(27, 117, 208, 0.22);
+  box-shadow: 0 10px 24px rgba(22, 31, 44, 0.08);
+  transform: translateY(-2px);
 }
 
 .cat-name {
-  font-weight: 600;
   color: var(--cp-text);
-  font-family: 'Rajdhani', var(--cp-font-ui);
+  font-weight: 800;
 }
 
 .cat-count {
-  font-size: 11px;
+  margin-top: 8px;
   color: var(--cp-text-dim);
-  font-family: 'Share Tech Mono', var(--cp-font);
-  margin-top: 4px;
+  font-size: 12px;
+}
+
+@media (max-width: 960px) {
+  .hero-content {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .hero-metrics {
+    width: 100%;
+  }
+
+  .hero-metric {
+    flex: 1;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero,
+  .panel-card,
+  .stat-card {
+    padding: 18px;
+  }
+
+  .hero-metrics {
+    flex-direction: column;
+  }
 }
 </style>

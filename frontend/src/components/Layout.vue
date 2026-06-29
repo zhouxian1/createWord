@@ -133,38 +133,39 @@ const onProjectChange = (id) => {
   height: 100vh;
   position: relative;
   z-index: 1;
+  background: transparent;
 }
 
 .layout-aside {
-  background: linear-gradient(180deg, rgba(8, 17, 29, 0.96), rgba(10, 20, 33, 0.98));
+  background: linear-gradient(180deg, #111821 0%, #182231 48%, #101720 100%);
   transition: width 0.3s;
   overflow: hidden;
-  border-right: 1px solid rgba(115, 147, 191, 0.12);
-  backdrop-filter: blur(14px);
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 16px 0 44px rgba(18, 24, 32, 0.14);
   position: relative;
 }
 
 .logo {
-  min-height: 78px;
+  min-height: 82px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   color: #fff;
   gap: 12px;
   padding: 18px 18px 16px;
-  border-bottom: 1px solid rgba(115, 147, 191, 0.12);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .logo-mark {
-  width: 42px;
-  height: 42px;
-  border-radius: 14px;
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, rgba(89, 184, 255, 0.18), rgba(89, 184, 255, 0.06));
-  color: var(--cp-cyan);
-  border: 1px solid rgba(89, 184, 255, 0.24);
+  background: linear-gradient(135deg, rgba(185, 145, 75, 0.28), rgba(255, 255, 255, 0.06));
+  color: #f4d38a;
+  border: 1px solid rgba(185, 145, 75, 0.36);
 }
 
 .logo-copy {
@@ -177,18 +178,18 @@ const onProjectChange = (id) => {
   white-space: nowrap;
   font-size: 16px;
   font-weight: 700;
-  color: var(--cp-text-bright);
+  color: #ffffff;
 }
 
 .logo-subtitle {
   font-size: 12px;
-  color: var(--cp-text-dim);
+  color: rgba(255, 255, 255, 0.58);
   line-height: 1.4;
 }
 
 .project-select {
   padding: 14px 12px 10px;
-  border-bottom: 1px solid rgba(115, 147, 191, 0.12);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .project-select :deep(.el-select) {
@@ -199,11 +200,12 @@ const onProjectChange = (id) => {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid rgba(115, 147, 191, 0.1);
-  background: rgba(8, 17, 29, 0.56);
-  padding: 0 28px;
-  backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(45, 61, 82, 0.1);
+  background: rgba(255, 255, 255, 0.82);
+  padding: 0 30px;
+  backdrop-filter: blur(16px);
   position: relative;
+  z-index: 2;
 }
 
 .header-left {
@@ -233,20 +235,38 @@ const onProjectChange = (id) => {
 .collapse-btn {
   cursor: pointer;
   font-size: 20px;
-  color: var(--cp-text-dim);
+  color: var(--cp-slate);
   transition: color 0.2s ease;
 }
 
 .collapse-btn:hover {
-  color: var(--cp-text-bright);
+  color: var(--cp-cyan);
 }
 
 .layout-main {
-  padding: 24px 28px 28px;
+  padding: 26px 30px 30px;
   overflow-y: auto;
 }
 
 .el-menu {
   border-right: none;
+}
+
+@media (max-width: 960px) {
+  .layout-aside {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 5;
+  }
+
+  .layout-header {
+    padding: 0 18px;
+  }
+
+  .layout-main {
+    padding: 18px;
+  }
 }
 </style>

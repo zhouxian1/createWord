@@ -1,18 +1,50 @@
-FROM python:3.11-slim
+# ══════════════════════════════════════════════
+#  构建阶段 — 编译C扩展
+# ══════════════════════════════════════════════
+FROM python:3.11-alpine AS builder
+
+WORKDIR /build
+
+# 构建依赖（psycopg2源码编译需要postgresql-dev）
+RUN apk add --no-cache \
+    build-base \
+    postgresql-dev \
+    musl-dev \
+    libffi-dev \
+    jpeg-dev \
+    zlib-dev \
+    cmake
+
+# 创建虚拟环境
+RUN python -m venv /opt/venv
+ENV PATH="/opt/venv/bin:$PATH"
+
+# 安装Python依赖
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt \
+    -i https://pypi.tuna.tsinghua.edu.cn/simple \
+    --trusted-host pypi.tuna.tsinghua.edu.cn
+
+# ══════════════════════════════════════════════
+#  运行阶段 — 仅包含运行时依赖
+# ══════════════════════════════════════════════
+FROM python:3.11-alpine
 
 WORKDIR /app
 
-# 系统依赖
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    build-essential \
-    libpq-dev \
+# 运行时系统依赖（libpq: psycopg2, libjpeg/libz: Pillow, libffi: cffi）
+RUN apk add --no-cache \
+    libpq \
+    libjpeg \
+    zlib \
+    libffi \
     wget \
     curl \
-    && rm -rf /var/lib/apt/lists/*
+    tesseract-ocr
 
-# Python依赖
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+# 从构建阶段复制虚拟环境
+COPY --from=builder /opt/venv /opt/venv
+ENV PATH="/opt/venv/bin:$PATH"
 
 # 应用代码
 COPY . .
@@ -26,5 +58,7 @@ ENV PYTHONUNBUFFERED=1
 
 EXPOSE 5000
 
-# 使用gunicorn启动
+HEALTHCHECK --interval=30s --timeout=5s --retries=3 \
+    CMD wget -qO- http://localhost:5000/api/health || exit 1
+
 CMD ["gunicorn", "--bind", "0.0.0.0:5000", "--workers", "4", "--timeout", "120", "--access-logfile", "-", "run:app"]
