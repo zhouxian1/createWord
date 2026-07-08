@@ -3,6 +3,7 @@ import os
 import json
 import logging
 from typing import Dict, Optional
+import requests
 
 logger = logging.getLogger(__name__)
 
@@ -11,11 +12,22 @@ class LLMService:
     """LLM服务 - 封装国产大语言模型调用，兼容OpenAI API格式"""
 
     def __init__(self, api_base=None, api_key=None, model=None, provider=None):
-        self.api_base = api_base or os.environ.get('LLM_API_BASE',
-                                                    'https://dashscope.aliyuncs.com/compatible-mode/v1')
-        self.api_key = api_key or os.environ.get('LLM_API_KEY', '') or os.environ.get('DASHSCOPE_API_KEY', '')
-        self.model = model or os.environ.get('LLM_MODEL', 'qwen-plus')
-        self.provider = provider or os.environ.get('LLM_PROVIDER', 'qwen')
+        self.provider = provider or os.environ.get('LLM_PROVIDER', 'ollama')
+        if self.provider == 'ollama':
+            self.api_base = api_base or os.environ.get('OLLAMA_API_BASE', 'http://192.168.31.245:11434')
+            self.api_key = ''
+            self.model = model or os.environ.get('OLLAMA_MODEL', 'qwen2.5:7b')
+        else:
+            self.api_base = api_base or os.environ.get('LLM_API_BASE',
+                                                        'https://dashscope.aliyuncs.com/compatible-mode/v1')
+            self.api_key = api_key or os.environ.get('LLM_API_KEY', '') or os.environ.get('DASHSCOPE_API_KEY', '')
+            self.model = model or os.environ.get('LLM_MODEL', 'qwen-plus')
+
+    def _get_ollama_generate_url(self):
+        api_base = self.api_base.rstrip('/')
+        if api_base.endswith('/api/generate'):
+            return api_base
+        return f"{api_base}/api/generate"
 
     def _get_client(self):
         """获取OpenAI兼容客户端"""
@@ -26,6 +38,9 @@ class LLMService:
                  temperature: float = 0.7, max_tokens: int = 4000) -> Dict:
         """调用LLM生成内容（兼容OpenAI API格式，支持千问/ChatGLM/DeepSeek等）"""
         try:
+            if self.provider == 'ollama':
+                return self._generate_ollama(system_prompt, user_prompt, temperature, max_tokens)
+
             client = self._get_client()
 
             # 根据不同提供商调整参数
@@ -76,6 +91,35 @@ class LLMService:
         except Exception as e:
             logger.error(f"LLM调用失败[{self.provider}/{self.model}]: {str(e)}")
             return {'content': '', 'status': 'error', 'error': str(e)}
+
+    def _generate_ollama(self, system_prompt: str, user_prompt: str,
+                         temperature: float = 0.7, max_tokens: int = 4000) -> Dict:
+        prompt = f"{system_prompt.strip()}\n\n{user_prompt.strip()}".strip()
+        payload = {
+            'model': self.model,
+            'prompt': prompt,
+            'stream': False,
+            'options': {
+                'temperature': temperature,
+                'num_predict': max_tokens,
+            }
+        }
+
+        response = requests.post(self._get_ollama_generate_url(), json=payload, timeout=300)
+        response.raise_for_status()
+        data = response.json()
+
+        return {
+            'content': data.get('response', ''),
+            'model': data.get('model', self.model),
+            'usage': {
+                'prompt_tokens': data.get('prompt_eval_count', 0),
+                'completion_tokens': data.get('eval_count', 0),
+                'total_tokens': data.get('prompt_eval_count', 0) + data.get('eval_count', 0)
+            },
+            'provider': self.provider,
+            'status': 'success'
+        }
 
     def generate_with_context(self, system_prompt: str, user_prompt: str,
                               context: str = '', temperature: float = 0.7) -> Dict:
@@ -217,15 +261,27 @@ class LocalLLMService(LLMService):
         super().__init__(api_base=api_base, api_key='not-needed', model=model, provider='local')
 
 
+class OllamaService(LLMService):
+    """Ollama local model service."""
+
+    def __init__(self, model=None, host=None, port=None, api_base=None, **kwargs):
+        host = host or os.environ.get('LOCAL_LLM_HOST', '192.168.31.245')
+        port = port or os.environ.get('LOCAL_LLM_PORT', '11434')
+        model = model or os.environ.get('OLLAMA_MODEL', 'qwen2.5:7b')
+        api_base = api_base or os.environ.get('OLLAMA_API_BASE', f"http://{host}:{port}")
+        super().__init__(api_base=api_base, api_key='', model=model, provider='ollama')
+
+
 def create_llm_service(provider=None, **kwargs) -> LLMService:
     """工厂方法 - 根据配置创建对应的LLM服务"""
-    provider = provider or os.environ.get('LLM_PROVIDER', 'qwen')
+    provider = provider or 'ollama'
 
     services = {
         'qwen': QwenService,
         'deepseek': DeepSeekService,
         'chatglm': ChatGLMService,
         'local': LocalLLMService,
+        'ollama': OllamaService,
     }
 
     service_class = services.get(provider, LLMService)

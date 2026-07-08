@@ -55,18 +55,18 @@ class BaseConfig:
     #   - ChatGLM: 通过本地vLLM部署
     #   - Baichuan: 通过本地vLLM部署
     #   - DeepSeek: 通过官方API或本地部署
-    LLM_API_BASE = os.environ.get('LLM_API_BASE', 'https://dashscope.aliyuncs.com/compatible-mode/v1')
+    LLM_API_BASE = os.environ.get('LLM_API_BASE', 'http://192.168.31.245:11434')
     LLM_API_KEY = os.environ.get('LLM_API_KEY', '')
-    LLM_MODEL = os.environ.get('LLM_MODEL', 'qwen-plus')
-    LLM_PROVIDER = os.environ.get('LLM_PROVIDER', 'qwen')  # qwen / chatglm / deepseek / local
+    LLM_MODEL = os.environ.get('LLM_MODEL', 'qwen2.5:7b')
+    LLM_PROVIDER = os.environ.get('LLM_PROVIDER', 'ollama')  # qwen / chatglm / deepseek / local / ollama
 
     # 千问(DashScope)配置
     DASHSCOPE_API_KEY = os.environ.get('DASHSCOPE_API_KEY', '')
 
     # 本地模型部署配置 (vLLM/Ollama)
-    LOCAL_LLM_HOST = os.environ.get('LOCAL_LLM_HOST', 'localhost')
-    LOCAL_LLM_PORT = os.environ.get('LOCAL_LLM_PORT', '8000')
-    LOCAL_LLM_MODEL = os.environ.get('LOCAL_LLM_MODEL', 'Qwen2.5-14B-Instruct')
+    LOCAL_LLM_HOST = os.environ.get('LOCAL_LLM_HOST', '192.168.31.245')
+    LOCAL_LLM_PORT = os.environ.get('LOCAL_LLM_PORT', '11434')
+    LOCAL_LLM_MODEL = os.environ.get('LOCAL_LLM_MODEL', 'qwen2.5:7b')
 
     # 438C配置
     STANDARD_438C_RULES_PATH = os.path.join(basedir, 'app', 'config', '438c_rules')

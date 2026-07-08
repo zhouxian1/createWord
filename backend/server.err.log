@@ -1,0 +1,24 @@
+MinIO端口 localhost:9000 不可达，回退到本地文件存储
+[2026-07-08 12:20:20,458] WARNING in __init__: MinIO不可用，使用本地文件存储
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://198.18.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [08/Jul/2026 12:20:41] "GET /api/project/projects HTTP/1.1" 200 -
+[2026-07-08 12:20:42,069] INFO in knowledge_graph: 知识图谱加载完成: 119个实体, 297条关系
+127.0.0.1 - - [08/Jul/2026 12:23:05] "POST /api/question/ask-438c HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jul/2026 12:25:47] "GET /api/438c/categories HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jul/2026 12:25:47] "GET /api/project/projects HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jul/2026 12:25:47] "GET /api/generation/documents HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jul/2026 12:25:59] "GET /api/438c/categories HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jul/2026 12:25:59] "GET /api/project/projects HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jul/2026 12:25:59] "GET /api/generation/documents HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jul/2026 12:26:02] "GET /api/knowledge/bases?project_id=1 HTTP/1.1" 200 -
+[2026-07-08 12:26:12,489] INFO in knowledge_graph: 知识图谱加载完成: 119个实体, 297条关系
+[2026-07-08 12:26:14,456] INFO in semantic_indexer: ChromaDB嵌入式模式初始化成功
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+Loading model cost 0.946 seconds.
+Prefix dict has been built successfully.
+127.0.0.1 - - [08/Jul/2026 12:26:58] "POST /api/question/ask HTTP/1.1" 200 -

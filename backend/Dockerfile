@@ -1,23 +1,30 @@
 # ══════════════════════════════════════════════
-#  构建阶段 — 编译C扩展
+#  构建阶段
 # ══════════════════════════════════════════════
-FROM python:3.11-alpine AS builder
+FROM python:3.11-slim-bookworm AS builder
 
 WORKDIR /build
 
-# 构建依赖（psycopg2源码编译需要postgresql-dev）
-RUN apk add --no-cache \
-    build-base \
-    postgresql-dev \
-    musl-dev \
-    libffi-dev \
-    jpeg-dev \
-    zlib-dev \
-    cmake
+# 换阿里云APT源 + 删除有问题的docker-clean脚本
+RUN set -e; \
+    rm -f /etc/apt/sources.list.d/debian.sources; \
+    echo 'deb [trusted=yes] http://mirrors.aliyun.com/debian bookworm main' > /etc/apt/sources.list; \
+    echo 'deb [trusted=yes] http://mirrors.aliyun.com/debian bookworm-updates main' >> /etc/apt/sources.list; \
+    echo 'deb [trusted=yes] http://mirrors.aliyun.com/debian-security bookworm-security main' >> /etc/apt/sources.list; \
+    rm -f /etc/apt/apt.conf.d/docker-clean
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    libpq-dev \
+    && rm -rf /var/lib/apt/lists/*
 
 # 创建虚拟环境
 RUN python -m venv /opt/venv
 ENV PATH="/opt/venv/bin:$PATH"
+
+# 限制编译并发，降低内存峰值
+ENV MAX_JOBS=1
+ENV CMAKE_BUILD_PARALLEL_LEVEL=1
 
 # 安装Python依赖
 COPY requirements.txt .
@@ -26,21 +33,27 @@ RUN pip install --no-cache-dir -r requirements.txt \
     --trusted-host pypi.tuna.tsinghua.edu.cn
 
 # ══════════════════════════════════════════════
-#  运行阶段 — 仅包含运行时依赖
+#  运行阶段
 # ══════════════════════════════════════════════
-FROM python:3.11-alpine
+FROM python:3.11-slim-bookworm
 
 WORKDIR /app
 
-# 运行时系统依赖（libpq: psycopg2, libjpeg/libz: Pillow, libffi: cffi）
-RUN apk add --no-cache \
-    libpq \
-    libjpeg \
-    zlib \
-    libffi \
+# 换阿里云APT源
+RUN set -e; \
+    rm -f /etc/apt/sources.list.d/debian.sources; \
+    echo 'deb [trusted=yes] http://mirrors.aliyun.com/debian bookworm main' > /etc/apt/sources.list; \
+    echo 'deb [trusted=yes] http://mirrors.aliyun.com/debian bookworm-updates main' >> /etc/apt/sources.list; \
+    echo 'deb [trusted=yes] http://mirrors.aliyun.com/debian-security bookworm-security main' >> /etc/apt/sources.list; \
+    rm -f /etc/apt/apt.conf.d/docker-clean
+
+# 运行时系统依赖
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    libpq5 \
     wget \
     curl \
-    tesseract-ocr
+    tesseract-ocr \
+    && rm -rf /var/lib/apt/lists/*
 
 # 从构建阶段复制虚拟环境
 COPY --from=builder /opt/venv /opt/venv

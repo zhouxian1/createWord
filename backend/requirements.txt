@@ -20,11 +20,7 @@ lxml>=4.9.3
 chardet==5.2.0
 markdown==3.5.1
 
-# 代码解析（Alpine需源码编译，放宽版本）
-tree-sitter>=0.20.4
-tree-sitter-languages>=1.10.1
-
-# 向量/Embedding（放宽版本确保musllinux轮子可用）
+# 向量/Embedding
 sentence-transformers>=2.2.2
 faiss-cpu>=1.7.4
 numpy>=1.26.2
@@ -52,5 +48,5 @@ minio==7.2.3
 # Neo4j图数据库
 neo4j==5.23.1
 
-# PostgreSQL驱动（Alpine用psycopg2源码编译，不用binary）
-psycopg2==2.9.9
+# PostgreSQL驱动
+psycopg2-binary==2.9.9

@@ -3,7 +3,7 @@ import json
 import logging
 from typing import Dict, List
 
-from app.services.llm_service import LLMService
+from app.services.llm_service import LLMService, create_llm_service
 from app.services.semantic_indexer import SemanticIndexer
 
 logger = logging.getLogger(__name__)
@@ -13,7 +13,7 @@ class QuestionAnsweringService:
     """智能问答服务 - 基于知识库的语义检索与LLM生成，支持答案溯源定位"""
 
     def __init__(self, llm_service: LLMService = None, indexer: SemanticIndexer = None):
-        self.llm = llm_service or LLMService()
+        self.llm = llm_service or create_llm_service()
         self.indexer = indexer or SemanticIndexer()
 
     def answer(self, question: str, knowledge_base_id: int = None,
@@ -76,9 +76,18 @@ class QuestionAnsweringService:
 
         # 构建438C知识上下文
         context_parts = []
-        for code, doc_info in STANDARD_438C_DOCUMENTS.items():
+        question_upper = question.upper()
+        matched_docs = [
+            (code, doc_info)
+            for code, doc_info in STANDARD_438C_DOCUMENTS.items()
+            if code.upper() in question_upper or doc_info.get('name', '') in question
+        ]
+        if not matched_docs:
+            matched_docs = list(STANDARD_438C_DOCUMENTS.items())[:8]
+
+        for code, doc_info in matched_docs:
             chapters_desc = []
-            for ch in doc_info.get('chapters', []):
+            for ch in doc_info.get('chapters', [])[:6]:
                 ch_desc = f"  {ch['number']} {ch['title']}"
                 if ch.get('elements'):
                     ch_desc += f" (要素: {', '.join(ch['elements'])})"
@@ -99,7 +108,8 @@ class QuestionAnsweringService:
 
         context = '\n\n'.join(context_parts)
 
-        result = self.llm.generate_with_context(system_prompt, question, context)
+        user_prompt = f"参考以下438C摘要回答问题：\n---\n{context}\n---\n\n问题：{question}"
+        result = self.llm.generate(system_prompt, user_prompt, temperature=0.3, max_tokens=512)
 
         return {
             'question': question,

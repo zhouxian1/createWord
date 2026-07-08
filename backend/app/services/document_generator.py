@@ -8,7 +8,7 @@ from typing import Dict, List, Optional
 
 from app import db
 from app.models.models import Document, DocumentChapter, GenerationTask, Project
-from app.services.llm_service import LLMService
+from app.services.llm_service import LLMService, create_llm_service
 from app.services.semantic_indexer import SemanticIndexer
 from app.config.standard_documents import STANDARD_438C_DOCUMENTS
 
@@ -19,7 +19,7 @@ class DocumentGenerator:
     """438C文档生成器"""
 
     def __init__(self, llm_service: LLMService = None, indexer: SemanticIndexer = None):
-        self.llm = llm_service or LLMService()
+        self.llm = llm_service or create_llm_service()
         self.indexer = indexer or SemanticIndexer()
 
     def create_document(self, project_id: int, doc_type: str, generation_mode: str = 'full') -> Document:
